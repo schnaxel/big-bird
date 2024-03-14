@@ -1,0 +1,94 @@
+$font-size-root: 16px;
+$body-font-size: $font-size-root;
+
+//COLORS
+$color-primary: #000000;
+$color-secondary: #61788c;
+$color-secondary-lighter: #85a9c7;
+$color-tertiary: #e6b64e;
+$color-tertiary-darker: #e6994c;
+
+$color-sand: #d5a990;
+
+
+$primary: $color-primary;
+$secondary: $color-secondary;
+$secondary-lighter: $color-secondary-lighter;
+$tertiary: $color-tertiary;
+$tertiary-darker: $color-tertiary-darker;
+$sand: $color-sand;
+
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "secondary-lighter": $secondary-lighter,
+  "tertiary": $tertiary,
+  "tertiary-darker": $tertiary-darker,
+  "sand": $sand,
+);
+
+// TYPOGRAPHY
+$h1-font-size: 3rem;
+$h2-font-size: 2rem;
+$h3-font-size: 1.75rem;
+$h4-font-size: 1.5rem;
+$h5-font-size: 1rem;
+$h6-font-size: .875rem;
+
+$font-sizes: (
+    1: $h1-font-size!important,
+    2: $h2-font-size,
+    3: $h3-font-size,
+    4: $h4-font-size,
+    5: $h5-font-size,
+    6: $h6-font-size,
+);
+
+// GRID
+/*$grid-breakpoints: (
+  "xs": 0,
+  "sm": 576px,
+  "md": 768px,
+  "lg": 992px,
+  "xl": 1200px,
+  "xxl": 1400px,
+  "xxxl": 1600px,
+  "xxxxl": 1800px,
+  "xxxxxl": 1919px,
+);
+
+$container-max-widths: (
+  "sm": 540px,
+  "md": 720px,
+  "lg": 960px,
+  "xl": 1140px,
+  "xxl": 1320px,
+  "xxxl": 1500px,
+  "xxxxl": 1640px,
+  "xxxxxl": 1840px,
+);*/
+
+// SCROLLBAR
+@mixin custom-scroll-bar() {
+  &::-webkit-scrollbar {
+    border-radius: 10px;
+    height: 10px;
+    width: 8px;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: $primary;
+    border-radius: 10px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: $secondary;
+    border-radius: 10px;
+  }
+}
+
+// BUTTONS
+$btn-border-radius: 0;
+
+// TABLE
+$table-color: $primary;
+$table-bg: $tertiary;
