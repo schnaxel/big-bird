@@ -167,10 +167,10 @@ export function Header() {
                     <div className="row">
                         <div className="col-12">
                             <div className="text-center pt-4">
-                                <h1 className={'fw-bold fs-2 mb-3'}>{headerTexts[pageKey].title}</h1>
-                                <h2 className={'fw-normal fs-3'}>{headerTexts[pageKey].subtitle}</h2>
+                                <h1 className={'fw-bold fs-2 mb-3'}>{headerTexts[pageKey]?.title}</h1>
+                                <h2 className={'fw-normal fs-3'}>{headerTexts[pageKey]?.subtitle}</h2>
                                 <div className={'py-4'}>
-                                    {headerTexts[pageKey].paragraphs.map((paragraph, index) => (
+                                    {headerTexts[pageKey]?.paragraphs.map((paragraph, index) => (
                                         <p key={index} className={'m-0'}>{paragraph}</p>
                                     ))}
                                 </div>

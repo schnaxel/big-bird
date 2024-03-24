@@ -20,7 +20,7 @@ export function Navigation() {
             {/* Navigation Desktop */}
             <nav className={"navbar navbar-expand user-select-none p-0 d-none d-lg-flex"}>
                 <div className={'container py-3 align-items-center justify-content-start'}>
-                    <Link href={'/'} className={'navbar-brand'}>
+                    <Link href={'/'} scroll={false} className={'navbar-brand'}>
                         <img src="/images/logo.jpg" alt="Logo Big Birds" height={'100px'}
                              className={"d-inline-block align-text-top"} draggable={"false"}/>
                     </Link>
@@ -28,6 +28,7 @@ export function Navigation() {
                         {navigationItems.map(({href, label}, index) => (
                             <li key={index} className={'nav-item'}>
                                 <Link href={href}
+                                      scroll={false}
                                       className={`nav-link text-nowrap fs-4 text-primary p-0 m-2 ${pathname === href ? 'text-black fw-medium border-bottom border-3 border-black' : ''}`}>
                                     {label}
                                 </Link>
@@ -40,7 +41,7 @@ export function Navigation() {
             {/* Navigation Mobil */}
             <nav className="navbar d-lg-none user-select-none">
                 <div className="container">
-                    <Link href={'/'} className={'navbar-brand'}>
+                    <Link href={'/'} scroll={false} className={'navbar-brand'}>
                         <img src="/images/logo.jpg" alt="Logo Big Birds" height={'100px'}
                              className={"d-inline-block align-text-top"} draggable={"false"}/>
                     </Link>
