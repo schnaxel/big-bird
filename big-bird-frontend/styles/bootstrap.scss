@@ -33,13 +33,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .fs-5 {
   font-size: $h5-font-size!important;
-  font-style: normal;
-  letter-spacing: .5rem;
 }
 .fs-6 {
   font-size: $h6-font-size!important;
-  font-style: normal;
-  letter-spacing: .15rem;
 }
 
 a {
@@ -57,6 +53,14 @@ a {
   &:focus {
     outline: none;
     box-shadow: none;
+  }
+}
+
+.offcanvas-header {
+  background-color: $gray-100;
+  cursor: pointer;
+  &:hover {
+    background-color: $gray-200;
   }
 }
 
