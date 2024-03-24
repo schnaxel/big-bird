@@ -62,7 +62,7 @@ export function Header() {
     const images = headerImages[pageKey] || [];
 
     return (
-        pathname !== '/impressum' && pathname !== '/datenschutz' && (
+        pathname !== '/impressum/' && pathname !== '/datenschutz/' && (
             <section>
                 <div className={'container'}>
                     <div className="col-12">

@@ -49,8 +49,8 @@ const Footer: React.FC = () => {
                     <div className="col-12">
                         <div className="d-flex justify-content-center pt-5 gap-4">
                             <Link href={'/'}>Kontakt</Link>
-                            <Link href={'/impressum'}>Impressum</Link>
-                            <Link href={'/datenschutz'}>Datenschutz</Link>
+                            <Link href={'/impressum/'}>Impressum</Link>
+                            <Link href={'/datenschutz/'}>Datenschutz</Link>
                         </div>
                     </div>
                 </div>
