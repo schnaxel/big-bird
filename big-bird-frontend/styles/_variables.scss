@@ -2,30 +2,16 @@ $font-size-root: 16px;
 $body-font-size: $font-size-root;
 
 //COLORS
-$color-primary: #000000;
-$color-secondary: #61788c;
-$color-secondary-lighter: #85a9c7;
-$color-tertiary: #e6b64e;
-$color-tertiary-darker: #e6994c;
-
-$color-sand: #d5a990;
-
+$color-primary: #2B3136;
+$color-secondary: #FFFFFF;
 
 $primary: $color-primary;
 $secondary: $color-secondary;
-$secondary-lighter: $color-secondary-lighter;
-$tertiary: $color-tertiary;
-$tertiary-darker: $color-tertiary-darker;
-$sand: $color-sand;
 
 
 $theme-colors: (
   "primary": $primary,
   "secondary": $secondary,
-  "secondary-lighter": $secondary-lighter,
-  "tertiary": $tertiary,
-  "tertiary-darker": $tertiary-darker,
-  "sand": $sand,
 );
 
 // TYPOGRAPHY
@@ -91,4 +77,4 @@ $btn-border-radius: 0;
 
 // TABLE
 $table-color: $primary;
-$table-bg: $tertiary;
+$table-bg: $secondary;

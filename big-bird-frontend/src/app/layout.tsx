@@ -1,22 +1,15 @@
 import "@/styles/bootstrap.scss";
 import type { Metadata } from 'next'
-import {Open_Sans, Playfair_Display} from 'next/font/google'
+import {Poppins} from 'next/font/google'
 import {NavigationDesktop} from "@/src/components/NavigationDesktop/NavigationDesktop";
 import Footer from "@/src/components/Footer/Footer";
 import Script from "next/script";
 
-const playfairDisplay = Playfair_Display({
-  weight: '400',
-  style: ['normal', 'italic'],
-  subsets: ['latin'],
-  variable: '--font-playfairDisplay',
-  display: 'swap',
-})
-const openSans = Open_Sans({
+const poppins = Poppins({
   weight: ['400', '700'],
   style: ['normal', 'italic'],
   subsets: ['latin'],
-  variable: '--font-openSans',
+  variable: '--font-poppins',
   display: 'swap',
 })
 
@@ -31,8 +24,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="de" className={`${playfairDisplay.variable} ${openSans.variable} h-100`}>
-    <body className={`${openSans.className} h-100`}>
+    <html lang="de" className={`${poppins.variable} h-100`}>
+    <body className={`${poppins.className} h-100`}>
       <NavigationDesktop/>
       {children}
       <Footer/>

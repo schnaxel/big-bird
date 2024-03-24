@@ -1,12 +1,11 @@
 'use client'
 import Link from 'next/link'
-import Image from "next/image";
 
 export function NavigationDesktop() {
     return (
             <nav className="navbar container-fluid d-none d-md-flex py-3 px-4 user-select-none">
                 <Link href={'/'} className={'navbar-brand'}>
-                    <Image src="/images/logo.png" alt="Big-Bird" width="75" height="75" className="d-inline-block align-text-top" draggable={"false"}/>
+                    <img src="/images/logo.jpg" alt="Big-Bird" height={'100px'} className="d-inline-block align-text-top" draggable={"false"}/>
                 </Link>
                 <div className={'text-center'}>
                     <Link href={'/'}>

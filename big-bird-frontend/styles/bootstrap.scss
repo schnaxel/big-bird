@@ -8,14 +8,14 @@
 // Eigene Styles
 body {
   font-size: $body-font-size;
-  font-family: var(--font-openSans);
+  font-family: var(--font-poppins);
   @include custom-scroll-bar;
   height: 100vh;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-playfairDisplay);
-  font-style: italic;
+  font-family: var(--poppins);
+  font-weight: bold;
 }
 
 .fs-1 {
