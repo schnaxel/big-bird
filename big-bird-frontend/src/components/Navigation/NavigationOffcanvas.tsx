@@ -22,6 +22,7 @@ function OffCanvasMenu(props: { navigationItems: { href: string, label: string }
                         {props.navigationItems.map(({href, label}, index) => (
                             <li key={index} className={'nav-item'}>
                                 <Link href={href}
+                                      onClick={handleToggle}
                                       className={`nav-link text-nowrap fs-4 border-bottom text-primary ${props.pathname === href ? 'text-black fw-medium border-2 border-black' : ''}`}>
                                     {label}
                                 </Link>
