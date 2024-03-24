@@ -42,34 +42,33 @@ a {
   text-decoration: none;
 }
 
-.hoverLink{
-  &:hover {
-    text-decoration: underline;
+
+// ElfsightWidget
+.eui-widget-title {
+  display: none!important;
+}
+
+// splide-slider
+.splide__slide {
+  height: 400px;
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 }
 
-
-.navbar-toggler {
-  &:focus {
-    outline: none;
-    box-shadow: none;
+.splide__arrow {
+  background-color: $primary;
+  border-radius: 0;
+  svg {
+    fill: $secondary;
   }
 }
-
-.offcanvas-header {
-  background-color: $gray-100;
-  cursor: pointer;
-  &:hover {
-    background-color: $gray-200;
-  }
+.splide__arrow--prev {
+  left: 0;
 }
-
-.carousel-caption {
-  padding: 0;
-
-  p {
-    margin: 0;
-    background: rgb(255, 251, 240, .5);
-    color: $primary;
-  }
+.splide__arrow--next {
+  right: 0;
 }
