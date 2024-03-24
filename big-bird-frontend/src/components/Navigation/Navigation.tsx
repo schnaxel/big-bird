@@ -7,13 +7,13 @@ export function Navigation() {
     const pathname = usePathname()
     const navigationItems = [
         {href: '/', label: 'Home'},
-        {href: '/farm', label: 'Farm'},
-        {href: '/cafe', label: 'Café'},
-        {href: '/shop', label: 'Shop'},
-        {href: '/alter-stall', label: 'Alter Stall'},
-        {href: '/straussenfleisch', label: 'Straußenfleisch'},
-        {href: '/feiern', label: 'Feiern'},
-        {href: '/ferienwohnungen', label: 'Ferienwohnungen'}
+        {href: '/farm/', label: 'Farm'},
+        {href: '/cafe/', label: 'Café'},
+        {href: '/shop/', label: 'Shop'},
+        {href: '/alter-stall/', label: 'Alter Stall'},
+        {href: '/straussenfleisch/', label: 'Straußenfleisch'},
+        {href: '/feiern/', label: 'Feiern'},
+        {href: '/ferienwohnungen/', label: 'Ferienwohnungen'}
     ]
     return (
         <>

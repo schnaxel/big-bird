@@ -58,7 +58,7 @@ export function Header() {
         ],
     }
 
-    const pageKey = pathname!== '/' ? pathname === '/alter-stall' ? 'alterStall' : pathname.split('/')[1] : 'home';
+    const pageKey = pathname!== '/' ? pathname === '/alter-stall/' ? 'alterStall' : pathname.split('/')[1] : 'home';
     const images = headerImages[pageKey] || [];
 
     return (
