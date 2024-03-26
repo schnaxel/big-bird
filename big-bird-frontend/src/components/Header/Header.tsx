@@ -68,20 +68,21 @@ export function Header() {
     const headerTexts: HeaderTexts = {
         home: {
             title: 'Willkommen auf Big Birds Farm',
-            subtitle: 'Unsere Farm bietet Ihnen viele Möglichkeiten',
+            subtitle: 'Öffnungszeiten: zurzeit haben wir geschlossen',
             paragraphs: [
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien egestas',
-                'vulputate. Nullam nec nunc nec nunc ultricies ultricies. Nullam nec nunc nec nunc ultricies ultricies.',
-                'Nullam nec nunc nec nunc ultricies ultricies. Nullam nec nunc nec nunc ultricies ultricies.'
+                'Unsere Strauße könnt ihr nur bei Führungen sehen – ab 13.30 Uhr und 15.30 Uhr. ',
+                'Der Spielplatz, Ziegen & Gänse stehen euch gerne zur Verfügung. Größere Gruppen bitte vorher anmelden info@big-birds.de. ',
+                'Bei Regen finden die Führungen nur begrenzt bzw. gar nicht statt.'
             ]
         },
         farm: {
-            title: 'Willkommen auf der Farm',
-            subtitle: 'Entdecken Sie unsere vielfältige Farm',
+            title: 'Die Big Birds Farm',
+            subtitle: 'Strauße hautnah erleben',
             paragraphs: [
-                'Herzlich willkommen auf unserer wunderschönen Farm. Hier finden Sie alles, was das Herz begehrt.',
-                'Genießen Sie die Natur und erleben Sie unvergessliche Momente mit Ihrer Familie.',
-                'Wir freuen uns darauf, Sie bei uns begrüßen zu dürfen!'
+                'Der ehemalige Kastanienhof aus dem Jahr 1847, in Fahrdorf an der Schlei, wurde in den letzten Jahren in die Big Birds Farm verwandelt.',
+                'Die Big Birds Farm umfasst Gehege, Weiden und Wiesen zwischen Haithabu und Fahrdorf, entlang der Schlei,',
+                'auf denen unsere Tiere draußen weiden. Direkt auf dem Hof an der B76 findet Ihr unsere',
+                'Straußengehege, in denen ihr unsere Tiere während unserer Führungen beobachten und fotografieren könnt.',
             ]
         },
         cafe: {
@@ -104,29 +105,29 @@ export function Header() {
         },
         alterStall: {
             title: 'Willkommen im alten Stall',
-            subtitle: 'Tauchen Sie ein in die Geschichte',
+            subtitle: 'Handgefertigte Möbel und Dekorationsideen aus ursprünglichen Materialien.',
             paragraphs: [
-                'Besuchen Sie unseren alten Stall und entdecken Sie die faszinierende Geschichte unseres Anwesens.',
-                'Hier können Sie antike Gegenstände und Relikte vergangener Zeiten bestaunen und mehr über die Traditionen unserer Region erfahren.',
-                'Erleben Sie eine Zeitreise in die Vergangenheit und lassen Sie sich von der Magie vergangener Epochen verzaubern.'
+                'Besucht unseren alten Stall und entdeckt einzigartige Möbel.',
+                'Unsere Möbel erhalten durch die Verarbeitung von Altholz ihren einzigartigen, rustikalen Charakter.',
+                '– für Möbel mit Geschichte.'
             ]
         },
         straussenfleisch: {
-            title: 'Willkommen bei Straußenfleisch',
+            title: 'Straußenfleisch von der Big Birds Farm',
             subtitle: 'Entdecken Sie die Delikatesse aus der Savanne',
             paragraphs: [
-                'Treten Sie ein in die Welt des exquisiten Straußenfleischs und erleben Sie einen Gaumenschmaus der besonderen Art.',
-                'Unsere hochwertigen Produkte werden nach traditionellen Methoden hergestellt und versprechen ein unvergleichliches Geschmackserlebnis.',
-                'Entdecken Sie die Vielfalt der Straußenküche und lassen Sie sich von unseren köstlichen Spezialitäten verwöhnen.'
+                'Unsere hochwertigen Produkte werden nach traditionellen Methoden hergestellt und versprechen',
+                'ein unvergleichliches Geschmackserlebnis. Ob Filet, Steak, Brautwurst oder andere Spezialitäten',
+                '- probiere die Vielfalt der Straußenküche!'
             ]
         },
         feiern: {
-            title: 'Willkommen bei Feiern',
-            subtitle: 'Feiern Sie besondere Anlässe bei uns',
+            title: 'Feiern auf der Straußenfarm',
+            subtitle: 'Ein besonderer Ort für besondere Anlässe',
             paragraphs: [
-                'Planen Sie eine unvergessliche Feier und lassen Sie sich von unserem erfahrenen Team unterstützen.',
-                'Ob Hochzeit, Geburtstag oder Firmenfeier - wir bieten Ihnen die perfekte Location für jeden Anlass.',
-                'Genießen Sie einen unvergesslichen Tag mit Ihren Liebsten und lassen Sie sich von unserer Gastfreundschaft verwöhnen.'
+                'Unsere Farm bietet eine gemütliche und einzigartige Atmosphäre für dein Fest,',
+                'ob Hochzeit, Geburtstag, Weihnachtsessen, Konfirmation, Firmenevent, lockere Party oder stilvolle Feier',
+                '– wir beraten Dich gerne und erstellen dir ein individuelles Angebot. '
             ]
         },
         ferienwohnungen: {
