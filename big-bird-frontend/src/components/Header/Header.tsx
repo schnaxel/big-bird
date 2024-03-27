@@ -96,12 +96,14 @@ export function Header() {
             ]
         },
         shop: {
-            title: 'Willkommen im Shop',
-            subtitle: 'Entdecken Sie unser breites Sortiment',
+            title: 'Big Birds Shop',
+            subtitle: 'Integriert in das Big Birds Café ist der Big Birds Shop, unser Hofladen in dem Sie Produkte aus eigener Produktion sowie ausgewählte zugekaufte Produkte finden.',
             paragraphs: [
-                'Herzlich willkommen in unserem Shop, wo Sie eine große Auswahl an hochwertigen Produkten finden.',
-                'Von frischem Obst und Gemüse bis hin zu handgefertigten Produkten - bei uns werden Sie fündig.',
-                'Wir stehen Ihnen gerne mit Rat und Tat zur Seite. Schauen Sie sich um und lassen Sie sich inspirieren!'
+                'Vom Fleisch unserer Strauße, auf das bereits Hildegard von Bingen schwor, und das Fleisch unserer Highland – bzw. Gallowayrinder, ',
+                'über Straußenei-Nudeln und Straußeneierlikör, bis zu pikanten Saucen ist das kulinarische Angebot groß.',
+                'Durch die Nähe zu Skandinavien bekommst Du bei uns ausgewählte Lebensmittel und Geschenkideen aus Dänemark und Schweden, wie zum ',
+                'Beispiel schwedische Blaubeermarmelade. Du wirst außerdem Produkte rund um das ',
+                'Thema Strauß finden, von Straußeneiern, über Federn und Staubwedeln.'
             ]
         },
         alterStall: {
