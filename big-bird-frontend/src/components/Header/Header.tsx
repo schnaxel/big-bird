@@ -117,10 +117,10 @@ export function Header() {
         },
         straussenfleisch: {
             title: 'Straußenfleisch von der Big Birds Farm',
-            subtitle: 'Entdecken Sie die Delikatesse aus der Savanne',
+            subtitle: 'Entdecke die Delikatesse aus der Savanne',
             paragraphs: [
-                'Unsere hochwertigen Produkte werden nach traditionellen Methoden hergestellt und versprechen',
-                'ein unvergleichliches Geschmackserlebnis. Ob Filet, Steak, Brautwurst oder andere Spezialitäten',
+                'Bei uns findet ihr Filet, Steak, Braten, Wurst und Burger Patties. Alle Straußenfleischprodukte gibt ',
+                'es bei uns auf der Farm oder können per Kühlpaket an euch versendet werden.',
                 '- probiere die Vielfalt der Straußenküche!'
             ]
         },
