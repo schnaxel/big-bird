@@ -1,7 +1,7 @@
-export default function Shop() {
+import ContactSection from "@/src/components/ContactSection/ContactSection";
+
+export default function Ferienwohnungen() {
   return (
-    <div className={'container'}>
-      <h1 className={''}>Ferienwohnungen</h1>
-    </div>
+        <ContactSection subjects={['sub1', 'sub2', 'sub3']} pageName={'Ferienwohnung'}/>
   )
 }

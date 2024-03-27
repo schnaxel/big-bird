@@ -1,7 +1,7 @@
 export default function Feiern() {
   return (
     <div className={'container'}>
-      <h1 className={''}>Farm</h1>
+      <h1 className={''}>Bla</h1>
     </div>
   )
 }
