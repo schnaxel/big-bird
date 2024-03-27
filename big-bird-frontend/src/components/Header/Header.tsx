@@ -86,12 +86,13 @@ export function Header() {
             ]
         },
         cafe: {
-            title: 'Willkommen im Café',
-            subtitle: 'Genießen Sie köstliche Speisen und Getränke',
+            title: 'Big Birds Café',
+            subtitle: 'Das Big Birds Café hat das Ziel euch den besten Kaffee mit handgemachten Torten & Kuchen zu servieren.',
             paragraphs: [
-                'Treten Sie ein in unser gemütliches Café und lassen Sie sich von unserer vielfältigen Auswahl an Speisen und Getränken verzaubern.',
-                'Unsere freundlichen Mitarbeiter freuen sich darauf, Ihnen eine unvergessliche kulinarische Erfahrung zu bieten.',
-                'Entspannen Sie sich und genießen Sie den Moment!'
+                'Fair gehandelter und lokal gerösteter Kaffee bezogen über eine Kieler Manufaktur.',
+                'Kulinarisch verwöhnen wir euch mit selbstgemachten Torten, Kuchen, Muffins und weiteren Leckereien von',
+                'Tante Dani. Unser wechselndes Angebot könnt ihr natürlich jederzeit bei Instagram einsehen.',
+                'Selbstverständlich bieten wir euch unsere Kostbarkeiten zum Teil auch vegan und laktosefrei an.'
             ]
         },
         shop: {
