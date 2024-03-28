@@ -17,11 +17,15 @@ export default function Cafe() {
               <li>feinste Schokoladengetränke</li>
             </ul>
           </div>
-          <div className="mt-3">
+          <div className="mt-3 d-none d-lg-block">
             <h3>Jahreszeiten-Specials</h3>
             <p>Ob Cool Mint Ice Tea oder einer weihnachtlichen Chai Latte - wir haben auch immer etwas Besonderes im Angebot</p>
           </div>
         </div>
+      </div>
+      <div className="mt-3 d-block d-lg-none text-center">
+        <h3>Jahreszeiten-Specials</h3>
+        <p>Ob Cool Mint Ice Tea oder einer weihnachtlichen Chai Latte - wir haben auch immer etwas Besonderes im Angebot</p>
       </div>
       <div className="text-center my-4">
         <p>Als Milchalternative haben wir laktosefreie Hafermilch.</p>

@@ -14,10 +14,10 @@ export default function Datenschutz() {
         </div>
       </div>
       <div className="row my-5 text-center">
-        <div className="col-md-6 col-12">
+        <div className="col-lg-6 col-12">
           <img src="/images/placeholder/farm-shop.jpg" className="img-fluid"></img>
         </div>
-        <div className="col-md-6 col-12 row justify-content-md-center my-md-auto mt-5">
+        <div className="col-lg-6 col-12 row justify-content-md-center my-lg-auto mt-5">
           <h2>Eine Auswahl aus dem Sortiment</h2>
           <div className="mt-4 text-start col-12 col-md-10">
             <ul>
@@ -75,6 +75,50 @@ export default function Datenschutz() {
           <h4>
             <a href="mailto:info@big-birds.de" target="_blank">info@big-birds.de</a>
           </h4>
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
+          <img
+            src="/images/placeholder/farm2.jpg"
+            className="w-100 shadow-1-strong rounded mb-4"
+            alt=""
+          />
+
+          <img
+            src="/images/placeholder/farm2.jpg"
+            className="w-100 shadow-1-strong rounded mb-4"
+            alt=""
+          />
+        </div>
+
+        <div className="col-lg-4 mb-4 mb-lg-0">
+          <img
+            src="/images/placeholder/farm2.jpg"
+            className="w-100 shadow-1-strong rounded mb-4"
+            alt=""
+          />
+
+          <img
+            src="/images/placeholder/farm2.jpg"
+            className="w-100 shadow-1-strong rounded mb-4"
+            alt=""
+          />
+        </div>
+
+        <div className="col-lg-4 mb-4 mb-lg-0">
+          <img
+            src="/images/placeholder/farm2.jpg"
+            className="w-100 shadow-1-strong rounded mb-4"
+            alt=""
+          />
+
+          <img
+            src="/images/placeholder/farm2.jpg"
+            className="w-100 shadow-1-strong rounded mb-4"
+            alt=""
+          />
         </div>
       </div>
     </div>
