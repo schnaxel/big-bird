@@ -112,7 +112,7 @@ export default function Ferienwohnungen() {
                 <div className="container">
                     <div className="row pb-4">
                         <div className="col-12">
-                            <h2 className={'fw-medium text-center'}>
+                            <h2 className={'fw-medium text-center mb-0'}>
                                 {activeFewo === 'fewo1' ? detailsFewo1.name : detailsFewo2.name}
                             </h2>
                         </div>
