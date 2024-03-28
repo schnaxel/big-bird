@@ -71,8 +71,7 @@ export function Header() {
             subtitle: 'Öffnungszeiten: zurzeit haben wir geschlossen',
             paragraphs: [
                 'Unsere Strauße könnt ihr nur bei Führungen sehen – ab 13.30 Uhr und 15.30 Uhr. ',
-                'Der Spielplatz, Ziegen & Gänse stehen euch gerne zur Verfügung. Größere Gruppen bitte vorher anmelden info@big-birds.de. ',
-                'Bei Regen finden die Führungen nur begrenzt bzw. gar nicht statt.'
+                'Der Spielplatz, Ziegen & Gänse stehen euch gerne zur Verfügung. Größere Gruppen bitte vorher anmelden',
             ]
         },
         farm: {
