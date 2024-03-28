@@ -2,7 +2,7 @@
 import React from 'react';
 import {useForm, ValidationError} from '@formspree/react';
 
-const ContactForm: React.FC<{ pageName: string; subjects: string[] }> = ({ pageName, subjects }) => {
+const ContactForm: React.FC<{ pageName: string, subjects: string[], activeFewo?: string }> = ({ pageName, subjects, activeFewo }) => {
     const [state, handleSubmit] = useForm("xeqyrajw");
     if (state.succeeded) {
         return (
@@ -30,7 +30,6 @@ const ContactForm: React.FC<{ pageName: string; subjects: string[] }> = ({ pageN
             </div>
         );
     }
-    console.log(state);
 
     return (
         <form onSubmit={handleSubmit} className={''} id={'contact'}>
@@ -40,7 +39,7 @@ const ContactForm: React.FC<{ pageName: string; subjects: string[] }> = ({ pageN
                         id="page"
                         type="hidden"
                         name="Seite"
-                        value={pageName}
+                        value={pageName + (activeFewo ? ' - ' + activeFewo : '')}
                         required={true}
                     />
                     <input

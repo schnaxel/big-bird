@@ -2,7 +2,7 @@ import React from 'react';
 import Link from "next/link";
 import ContactForm from "@/src/components/ContactSection/CantactForm";
 
-const ContactSection: React.FC<{ pageName: string; subjects: string[] }> = ({ pageName, subjects }) => {
+const ContactSection: React.FC<{ pageName: string, subjects: string[], activeFewo?: string }> = ({ pageName, subjects, activeFewo }) => {
 
     return (
         <section className={'py-5'}>
@@ -39,7 +39,7 @@ const ContactSection: React.FC<{ pageName: string; subjects: string[] }> = ({ pa
                         </div>
                     </div>
                     <div className="col-12 col-lg-6 px-4 ps-lg-3 align-content-end justify-content-center">
-                        <ContactForm pageName={pageName} subjects={subjects}/>
+                        <ContactForm pageName={pageName} subjects={subjects} activeFewo={activeFewo}/>
                     </div>
                 </div>
             </div>
