@@ -54,7 +54,7 @@ export default function Ferienwohnungen() {
     }
 
     const detailsFewo2 = {
-        name: 'Ferienwohnung 2',
+        name: 'Ferienwohnung Lova',
         apartmentSize: '60',
         rooms: '5',
         persons: '5',
