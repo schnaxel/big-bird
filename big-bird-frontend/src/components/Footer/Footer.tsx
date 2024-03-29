@@ -1,43 +1,61 @@
+'use client'
 import React from 'react';
+import {ElfsightWidget} from "react-elfsight-widget";
 import Link from "next/link";
 
-const contact = {
-    name: 'Max Mustermann',
-    street: 'Musterstraße 123',
-    city: '12345 Musterstadt',
-    email: 'max@mustermann.com'
-}
 
 const Footer: React.FC = () => {
     return (
-            <footer>
-                <div  className={'container py-5'}>
-                    <div className={'row'}>
-                        <div className="col-4">
-                            <h3 className={'mb-4'}>Kontakt</h3>
-                            <p className={''}>
-                                {contact.name}
-                            </p>
-                            <p>
-                                {contact.street}
-                            </p>
-                            <p>
-                                {contact.city}
-                            </p>
-                            <p className={'mb-5'}>
-                                <a href={'mailto:' + contact.email} className={'hoverLink'}>{contact.email}</a>
-                            </p>
-                            <Link href={'/impressum'} className={'me-2'}>Impressum</Link>
-                            <span>|</span>
-                            <Link href={'/datenschutz'} className={'ms-2'}>Datenschutz</Link>
+        <footer>
+            <div className={'container py-5'}>
+                <div className={'row'}>
+                    <div className="col-12">
+                        <h3 className={'text-center fw-medium mb-4'} >
+                            <Link href={'https://www.instagram.com/bigbirdsfarm'} rel="noopener" target="_blank">
+                                #bigbirds
+                            </Link>
+                        </h3>
+                        <ElfsightWidget widgetId={"28c5f280-cfed-4ebf-8486-2cabcf09b089"} lazy className={'pb-5'}/>
+                        <hr className={'m-0'}/>
+                    </div>
+                </div>
+                <div className={'row'}>
+                    <div className="col-12">
+                        <div className={'py-5 d-flex flex-column align-items-center'}>
+                            <p className={'fs-4 mb-4'}>follow us</p>
+                            <div className="d-flex justify-content-center">
+                                <div className="px-3">
+                                    <Link href="https://www.facebook.com/mocfor" rel="noopener" target="_blank">
+                                        <i className="bi bi-facebook fs-2 text-black"></i>
+                                    </Link>
+                                </div>
+                                <div className="px-3">
+                                    <Link href="https://www.instagram.com/bigbirdsfarm" rel="noopener" target="_blank">
+                                        <i className="bi bi-instagram fs-2 text-black"></i>
+                                    </Link>
+                                </div>
+                                <div className="px-3">
+                                    <Link href="https://www.youtube.com/channel/UCXrHqywSfUoacvzpduod_8g" rel="noopener"
+                                          target="_blank">
+                                        <i className="bi bi-youtube fs-2 text-black"></i>
+                                    </Link>
+                                </div>
+                            </div>
                         </div>
-                        <div className="col-8">
-                            <h3 className={'mb-4'}>Über uns</h3>
-                            <p>Fashion axe mukbang neutral milk hotel, occupy post-ironic polaroid whatever. Readymade adaptogen salvia hot chicken cray literally pitchfork truffaut slow-carb raw denim +1. Hammock typewriter small batch man braid. Portland whatever yuccie yes plz iceland. Jawn tbh snackwave tonx 3 wolf moon, activated charcoal whatever gorpcore tilde selfies twee farm-to-table four dollar toast. Roof party bodega boys chia unicorn try-hard hashtag flannel af. Slow-carb street art plaid everyday carry cloud bread mukbang fit, hell of trust fund. (SEO-Text)</p>
+                        <hr className={'m-0'}/>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-12">
+                        <div className="d-flex justify-content-center pt-5 gap-4">
+                            <Link href={'/'}>Kontakt</Link>
+                            <Link href={'/impressum/'}>Impressum</Link>
+                            <Link href={'/datenschutz/'}>Datenschutz</Link>
                         </div>
                     </div>
                 </div>
-            </footer>
+            </div>
+        </footer>
     );
 };
 
