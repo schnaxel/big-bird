@@ -68,65 +68,68 @@ export function Header() {
     const headerTexts: HeaderTexts = {
         home: {
             title: 'Willkommen auf Big Birds Farm',
-            subtitle: 'Unsere Farm bietet Ihnen viele Möglichkeiten',
+            subtitle: 'Öffnungszeiten: zurzeit haben wir geschlossen',
             paragraphs: [
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien egestas',
-                'vulputate. Nullam nec nunc nec nunc ultricies ultricies. Nullam nec nunc nec nunc ultricies ultricies.',
-                'Nullam nec nunc nec nunc ultricies ultricies. Nullam nec nunc nec nunc ultricies ultricies.'
+                'Unsere Strauße könnt ihr nur bei Führungen sehen – ab 13.30 Uhr und 15.30 Uhr. ',
+                'Der Spielplatz, Ziegen & Gänse stehen euch gerne zur Verfügung. Größere Gruppen bitte vorher anmelden',
             ]
         },
         farm: {
-            title: 'Willkommen auf der Farm',
-            subtitle: 'Entdecken Sie unsere vielfältige Farm',
+            title: 'Die Big Birds Farm',
+            subtitle: 'Strauße hautnah erleben',
             paragraphs: [
-                'Herzlich willkommen auf unserer wunderschönen Farm. Hier finden Sie alles, was das Herz begehrt.',
-                'Genießen Sie die Natur und erleben Sie unvergessliche Momente mit Ihrer Familie.',
-                'Wir freuen uns darauf, Sie bei uns begrüßen zu dürfen!'
+                'Der ehemalige Kastanienhof aus dem Jahr 1847, in Fahrdorf an der Schlei, wurde in den letzten Jahren in die Big Birds Farm verwandelt.',
+                'Die Big Birds Farm umfasst Gehege, Weiden und Wiesen zwischen Haithabu und Fahrdorf, entlang der Schlei,',
+                'auf denen unsere Tiere draußen weiden. Direkt auf dem Hof an der B76 findet Ihr unsere',
+                'Straußengehege, in denen ihr unsere Tiere während unserer Führungen beobachten und fotografieren könnt.',
             ]
         },
         cafe: {
-            title: 'Willkommen im Café',
-            subtitle: 'Genießen Sie köstliche Speisen und Getränke',
+            title: 'Big Birds Café',
+            subtitle: 'Das Big Birds Café hat das Ziel euch den besten Kaffee mit handgemachten Torten & Kuchen zu servieren.',
             paragraphs: [
-                'Treten Sie ein in unser gemütliches Café und lassen Sie sich von unserer vielfältigen Auswahl an Speisen und Getränken verzaubern.',
-                'Unsere freundlichen Mitarbeiter freuen sich darauf, Ihnen eine unvergessliche kulinarische Erfahrung zu bieten.',
-                'Entspannen Sie sich und genießen Sie den Moment!'
+                'Fair gehandelter und lokal gerösteter Kaffee bezogen über eine Kieler Manufaktur.',
+                'Kulinarisch verwöhnen wir euch mit selbstgemachten Torten, Kuchen, Muffins und weiteren Leckereien von',
+                'Tante Dani. Unser wechselndes Angebot könnt ihr natürlich jederzeit bei Instagram einsehen.',
+                'Selbstverständlich bieten wir euch unsere Kostbarkeiten zum Teil auch vegan und laktosefrei an.'
             ]
         },
         shop: {
-            title: 'Willkommen im Shop',
-            subtitle: 'Entdecken Sie unser breites Sortiment',
+            title: 'Big Birds Shop',
+            subtitle: 'Integriert in das Big Birds Café ist der Big Birds Shop, unser Hofladen in dem Sie Produkte aus eigener Produktion sowie ausgewählte zugekaufte Produkte finden.',
             paragraphs: [
-                'Herzlich willkommen in unserem Shop, wo Sie eine große Auswahl an hochwertigen Produkten finden.',
-                'Von frischem Obst und Gemüse bis hin zu handgefertigten Produkten - bei uns werden Sie fündig.',
-                'Wir stehen Ihnen gerne mit Rat und Tat zur Seite. Schauen Sie sich um und lassen Sie sich inspirieren!'
+                'Vom Fleisch unserer Strauße, auf das bereits Hildegard von Bingen schwor, und das Fleisch unserer Highland – bzw. Gallowayrinder, ',
+                'über Straußenei-Nudeln und Straußeneierlikör, bis zu pikanten Saucen ist das kulinarische Angebot groß.',
+                'Durch die Nähe zu Skandinavien bekommst Du bei uns ausgewählte Lebensmittel und Geschenkideen aus Dänemark und Schweden, wie zum ',
+                'Beispiel schwedische Blaubeermarmelade. Du wirst außerdem Produkte rund um das ',
+                'Thema Strauß finden, von Straußeneiern, über Federn und Staubwedeln.'
             ]
         },
         alterStall: {
             title: 'Willkommen im alten Stall',
-            subtitle: 'Tauchen Sie ein in die Geschichte',
+            subtitle: 'Handgefertigte Möbel und Dekorationsideen aus ursprünglichen Materialien.',
             paragraphs: [
-                'Besuchen Sie unseren alten Stall und entdecken Sie die faszinierende Geschichte unseres Anwesens.',
-                'Hier können Sie antike Gegenstände und Relikte vergangener Zeiten bestaunen und mehr über die Traditionen unserer Region erfahren.',
-                'Erleben Sie eine Zeitreise in die Vergangenheit und lassen Sie sich von der Magie vergangener Epochen verzaubern.'
+                'Besucht unseren alten Stall und entdeckt einzigartige Möbel.',
+                'Unsere Möbel erhalten durch die Verarbeitung von Altholz ihren einzigartigen, rustikalen Charakter.',
+                '– für Möbel mit Geschichte.'
             ]
         },
         straussenfleisch: {
-            title: 'Willkommen bei Straußenfleisch',
-            subtitle: 'Entdecken Sie die Delikatesse aus der Savanne',
+            title: 'Straußenfleisch von der Big Birds Farm',
+            subtitle: 'Entdecke die Delikatesse aus der Savanne',
             paragraphs: [
-                'Treten Sie ein in die Welt des exquisiten Straußenfleischs und erleben Sie einen Gaumenschmaus der besonderen Art.',
-                'Unsere hochwertigen Produkte werden nach traditionellen Methoden hergestellt und versprechen ein unvergleichliches Geschmackserlebnis.',
-                'Entdecken Sie die Vielfalt der Straußenküche und lassen Sie sich von unseren köstlichen Spezialitäten verwöhnen.'
+                'Bei uns findet ihr Filet, Steak, Braten, Wurst und Burger Patties. Alle Straußenfleischprodukte gibt ',
+                'es bei uns auf der Farm oder können per Kühlpaket an euch versendet werden.',
+                '- probiere die Vielfalt der Straußenküche!'
             ]
         },
         feiern: {
-            title: 'Willkommen bei Feiern',
-            subtitle: 'Feiern Sie besondere Anlässe bei uns',
+            title: 'Feiern auf der Straußenfarm',
+            subtitle: 'Ein besonderer Ort für besondere Anlässe',
             paragraphs: [
-                'Planen Sie eine unvergessliche Feier und lassen Sie sich von unserem erfahrenen Team unterstützen.',
-                'Ob Hochzeit, Geburtstag oder Firmenfeier - wir bieten Ihnen die perfekte Location für jeden Anlass.',
-                'Genießen Sie einen unvergesslichen Tag mit Ihren Liebsten und lassen Sie sich von unserer Gastfreundschaft verwöhnen.'
+                'Unsere Farm bietet eine gemütliche und einzigartige Atmosphäre für dein Fest,',
+                'ob Hochzeit, Geburtstag, Weihnachtsessen, Konfirmation, Firmenevent, lockere Party oder stilvolle Feier',
+                '– wir beraten Dich gerne und erstellen dir ein individuelles Angebot. '
             ]
         },
         ferienwohnungen: {
