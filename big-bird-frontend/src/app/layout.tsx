@@ -33,7 +33,7 @@ export default function RootLayout({
 }) {
     return (
         <html lang="de" className={`${poppins.variable} ${amatic.variable} $ h-100`}>
-            <body className={`h-100`}>
+            <body className={`h-100 bg-repeat`}>
                 <Navigation />
                 <Header />
                 {children}
