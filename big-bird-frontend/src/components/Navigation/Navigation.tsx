@@ -21,7 +21,7 @@ export function Navigation() {
             <nav className={"navbar navbar-expand user-select-none p-0 d-none d-lg-flex"}>
                 <div className={'container py-3 align-items-center justify-content-start'}>
                     <Link href={'/'} scroll={false} className={'navbar-brand'}>
-                        <img src="/images/logo.jpg" alt="Logo Big Birds" height={'100px'}
+                        <img src="/images/bigbirds_logo.png" alt="Logo Big Birds" height={'89px'}
                              className={"d-inline-block align-text-top"} draggable={"false"}/>
                     </Link>
                     <ul className="navbar-nav">
@@ -42,7 +42,7 @@ export function Navigation() {
             <nav className="navbar d-lg-none user-select-none">
                 <div className="container">
                     <Link href={'/'} scroll={false} className={'navbar-brand'}>
-                        <img src="/images/logo.jpg" alt="Logo Big Birds" height={'100px'}
+                        <img src="/images/bigbirds_logo.png" alt="Logo Big Birds" height={'89px'}
                              className={"d-inline-block align-text-top"} draggable={"false"}/>
                     </Link>
                     <NavigationOffcanvas navigationItems={navigationItems} pathname={pathname}/>
