@@ -19,70 +19,108 @@ export default function Home() {
                             mehr zur Farm
                         </Link>
                     </div>
-                    <div className="row d-flex align-items-center">
-                        <div className="col-md-2 text-center mb-4 text-md-end">
-                            <img src="/images/placeholder/hunde.png" alt={''} className="img-fluid"></img>
+                    <div className="row d-flex align-items-center py-4 bg-black text-secondary">
+                        <div className="col-md-2">
+                                <i className="bi bi-exclamation-circle fs-6"></i>
                         </div>
-                        <div className="col-md-9">
+                        <div className="col-md-10">
                             <p className="mb-0">
                                 Leider ist das Mitführen von Hunden nicht mehr erlaubt und denkt bitte an die
                                 Temperaturen, der Hund im Auto ist nicht die Lösung.
-                                Wir bitten um euer Verständnis.
                             </p>
+                            <p className="mb-0">Wir bitten um euer Verständnis.</p>
                         </div>
                     </div>
                 </div>
 
-                <div className="row my-5 text-center">
-                    <div className="col-md-6 col-12">
-                        <img src="/images/placeholder/farm2.jpg" alt={''} className="img-fluid"></img>
+                <div className="row text-center mt-5">
+                    <div className="col-4">
+                        <Link href="/shop/">
+                            <div className="d-grid gap-3 mx-4 bg-white">
+                                <img src="/images/placeholder/farm-shop.jpg" alt={''} className="img-fluid"></img>
+                                <h2>Shop</h2>
+                            </div>
+                        </Link>
                     </div>
-                    <div className="col-md-6 col-12 my-md-auto my-5">
-                        <h2>Straußenfleisch</h2>
-                        <div className="mt-4">
-                            <p>Ihr möchtet <a href="/straussenfleisch">Straußenfleisch</a> kaufen? Bei uns findet ihr
-                                Filet, Steak, Braten, Wurst und Burger Patties. Alle Straußenfleischprodukte gibt es bei
-                                uns auf der Farm oder können per Kühlpaket an euch versendet werden.</p>
-                        </div>
+
+                    <div className="col-4">
+                        <Link href="/cafe/">
+                            <div className="d-grid gap-3 mx-4 bg-white">
+                                <img src="/images/placeholder/farm-shop.jpg" alt={''} className="img-fluid"></img>
+                                <h2>Café</h2>
+                            </div>
+                        </Link>
+                    </div>
+
+                    <div className="col-4">
+                        <Link href="/straussenfleisch/">
+                            <div className="d-grid gap-3 mx-4 bg-white">
+                                <img src="/images/placeholder/farm2.jpg" alt={''} className="img-fluid"></img>
+                                <h2>Straußenfleisch</h2>
+                            </div>
+                        </Link>
+                    </div>
+                </div>
+                
+                <div className="row text-center mt-4">
+                    <div className="col-4">
+                        <Link href="/alter-stall/">
+                            <div className="d-grid gap-3 mx-4 bg-white">
+                                <img src="/images/placeholder/farm3.jpg" alt={''} className="img-fluid"></img>
+                                <h2>Alter Stall</h2>
+                            </div>
+                        </Link>
+                    </div>
+
+                    <div className="col-4">
+                        <Link href="/feiern/">
+                            <div className="d-grid gap-3 mx-4 bg-white">
+                                <img src="/images/placeholder/feiern1.jpg" alt={''} className="img-fluid"></img>
+                                <h2>Shop und Café</h2>
+                            </div>
+                        </Link>
+                    </div>
+
+                    <div className="col-4">
+                        <Link href="/ferienwohnungen/">
+                            <div className="d-grid gap-3 mx-4 bg-white">
+
+                                <img src="/images/placeholder/fewo.jpg" alt={''} className="img-fluid"></img>
+                                <h2>Ferienwohnungen</h2>
+                            </div>
+                        </Link>
                     </div>
                 </div>
 
-                <div className="row mt-5 text-center">
-                    <div className="col-md-6 col-12 my-md-auto my-5 order-2 order-md-1">
-                        <h2>Shop und Café</h2>
-                        <div className="mt-4">
-                            <p>
-                                Im <a href="/shop">Hofladen</a> und <a href="/cafe">Café</a> gibt es immer etwas zu
-                                entdecken. Bioprodukte, Skandinavische
-                                Deko, Schönes und Praktisches für die Küche, Wohnung und euren Garten, alles Rund um die
-                                Strauße,
-                                Weine & Spirituosen.
-                            </p>
-                            <p>
-                                Kulinarisch verwöhnen wir euch mit selbstgemachten Torten, Kuchen, Muffins und weiteren
-                                Leckereien von Tante Dani und bestem Kaffee.
-                            </p>
-                        </div>
+                <div className="my-5">
+                    <hr />
+                </div>
+
+                <div className="row">
+                    <div className="col-4 align-self-center text-center">
+                        <img src="/images/bigbirds_logo.png" alt={''} className="img-fluid"></img>
                     </div>
-                    <div className="col-md-6 col-12 order-1 order-md-2">
-                        <img src="/images/placeholder/farm-shop.jpg" alt={''} className="img-fluid"></img>
+                    <div className="col-8">
+                        <p>
+                            Ihr möchtet <a href="/straussenfleisch">Straußenfleisch</a> kaufen? Bei uns findet ihr
+                            Filet, Steak, Braten, Wurst und Burger Patties. Alle Straußenfleischprodukte gibt es bei
+                            uns auf der Farm oder können per Kühlpaket an euch versendet werden.
+                        </p>
+                        <p>
+                            Im <a href="/shop">Hofladen</a> und <a href="/cafe">Café</a> gibt es immer etwas zu
+                            entdecken. Bioprodukte, Skandinavische
+                            Deko, Schönes und Praktisches für die Küche, Wohnung und euren Garten, alles Rund um die
+                            Strauße,
+                            Weine & Spirituosen. Im <a href="/alter-stall">„Alten Stall“</a> findet ihr handgemachte Möbel und
+                            Dekorationsartikel.
+                        </p>
+                        <p>
+                            Kulinarisch verwöhnen wir euch mit selbstgemachten Torten, Kuchen, Muffins und weiteren
+                            Leckereien von Tante Dani und bestem Kaffee.
+                        </p>
                     </div>
                 </div>
 
-                <div className="row mt-5 text-center">
-                    <div className="col-md-6 col-12">
-                        <img src="/images/placeholder/farm2.jpg" alt={''} className="img-fluid"></img>
-                    </div>
-                    <div className="col-md-6 col-12 my-md-auto my-5">
-                        <h2>Alter Stall</h2>
-                        <div className="mt-4">
-                            <p>
-                                Im <a href="/alter-stall">„Alten Stall“</a> findet ihr handgemachte Möbel und
-                                Dekorationsartikel.
-                            </p>
-                        </div>
-                    </div>
-                </div>
             </div>
             <ContactSection pageName={'Home'} subjects={['sub1', 'sub2', 'sub3']}/>
         </>
