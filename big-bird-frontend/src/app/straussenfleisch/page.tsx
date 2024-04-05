@@ -1,13 +1,14 @@
 import ContactSection from "@/src/components/ContactSection/ContactSection";
+import Link from "next/link";
 
 export default function Straussenfleisch() {
     return (
         <>
 
             <div className={'container text-center'}>
-                <button type="button" className="btn border border-black fw-bold bg-white">
-                    <a href="https://mocfor.com">zum Straußenfleisch Shop</a>
-                </button>
+                <Link href="https://mocfor.com" className="btn btn-outline-primary">
+                    zum Straußenfleisch Shop
+                </Link>
                 <div className="text-center my-5">
                     <p>
                         Unser Straußenfleisch schmeckt nicht nur sehr gut, sondern ist auch gesund!
@@ -71,9 +72,9 @@ export default function Straussenfleisch() {
                             <a href="mailto:info@big-birds.de" target="_blank">info@big-birds.de</a>
                         </h4>
                         <p>Oder schaut im Shop vorbei</p>
-                        <button type="button" className="btn border border-black fw-bold bg-white">
-                            <a href="https://mocfor.com">zum Straußenfleisch Shop</a>
-                        </button>
+                        <Link href="https://mocfor.com" className="btn btn-outline-primary">
+                          zum Straußenfleisch Shop
+                        </Link>
                     </div>
                     <p>Selbstverständlich bieten wir auch Hundefutter an.</p>
                 </div>

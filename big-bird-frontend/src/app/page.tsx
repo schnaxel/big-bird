@@ -1,5 +1,6 @@
 import React from "react";
 import ContactSection from "@/src/components/ContactSection/ContactSection";
+import Link from "next/link";
 
 export default function Home() {
     return (
@@ -14,9 +15,9 @@ export default function Home() {
                         <p>
                             Bei Regen finden die Führungen nur begrenzt bzw. gar nicht statt.
                         </p>
-                        <button type="button" className="btn border border-black fw-bold bg-white">
-                            <a href="/farm">mehr über die Farm</a>
-                        </button>
+                        <Link href="/farm/" className="btn btn-outline-primary">
+                            mehr zur Farm
+                        </Link>
                     </div>
                     <div className="row d-flex align-items-center">
                         <div className="col-md-2 text-center mb-4 text-md-end">
