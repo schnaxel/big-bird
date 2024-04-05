@@ -150,9 +150,9 @@ export function Header() {
     return (
         pathname !== '/impressum/' && pathname !== '/datenschutz/' && (
             <section>
-                <div className={'container'}>
+                <div className={'container-fluid'}>
                     <div className="row">
-                        <div className="col-12 pb-4">
+                        <div className="col-12 px-0 pb-4">
                             <Splide hasTrack={false} aria-label="..."
                                     data-splide='{"type":"loop","perPage":1,"perMove":1,"autoplay":true,"pauseOnFocus":true,"pagination":false}'>
                                 <div className="custom-wrapper">
@@ -170,8 +170,8 @@ export function Header() {
                     <div className="row">
                         <div className="col-12">
                             <div className="text-center pt-4">
-                                <h1 className={'fw-bold fs-2 mb-3'}>{headerTexts[pageKey]?.title}</h1>
-                                <h2 className={'fw-normal fs-3'}>{headerTexts[pageKey]?.subtitle}</h2>
+                                <h1 className={'fw-bold mb-3'}>{headerTexts[pageKey]?.title}</h1>
+                                <p className={'fw-normal fs-4'}>{headerTexts[pageKey]?.subtitle}</p>
                                 <div className={'py-4'}>
                                     {headerTexts[pageKey]?.paragraphs.map((paragraph, index) => (
                                         <p key={index} className={'m-0'}>{paragraph}</p>

@@ -14,8 +14,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--poppins);
-  font-weight: bold;
+  font-family: var(--font-amatic);
+  font-weight: 700;
 }
 
 .fs-1 {
@@ -50,7 +50,7 @@ a {
 
 // splide-slider
 .splide__slide {
-  height: 400px;
+  height: 70vh;
   img {
     display: block;
     width: 100%;
@@ -71,4 +71,9 @@ a {
 }
 .splide__arrow--next {
   right: 0;
+}
+
+.bg-repeat {
+  background-image: url("../public/images/bg-repeat.jpg");
+  background-repeat: repeat;
 }

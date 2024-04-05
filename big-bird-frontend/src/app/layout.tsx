@@ -1,6 +1,6 @@
 import "@/styles/bootstrap.scss";
 import type {Metadata} from 'next'
-import {Poppins} from 'next/font/google'
+import {Amatic_SC, Poppins} from 'next/font/google'
 import Footer from "@/src/components/Footer/Footer";
 import Script from "next/script";
 import {Navigation} from "@/src/components/Navigation/Navigation";
@@ -14,6 +14,13 @@ const poppins = Poppins({
     display: 'swap',
 })
 
+const amatic = Amatic_SC({
+    weight: ['400', '700'],
+    style: ['normal'],
+    subsets: ['latin'],
+    variable: '--font-amatic',
+})
+
 export const metadata: Metadata = {
     title: 'Big Birds Farm',
     description: 'Big-Bird',
@@ -25,8 +32,8 @@ export default function RootLayout({
     children: React.ReactNode
 }) {
     return (
-        <html lang="de" className={`${poppins.variable} h-100`}>
-            <body className={`${poppins.className} h-100`}>
+        <html lang="de" className={`${poppins.variable} ${amatic.variable} $ h-100`}>
+            <body className={`h-100 bg-repeat`}>
                 <Navigation />
                 <Header />
                 {children}
