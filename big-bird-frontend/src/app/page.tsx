@@ -1,5 +1,6 @@
 import React from "react";
 import ContactSection from "@/src/components/ContactSection/ContactSection";
+import Öffnungszeiten from "@/src/components/Öffnungszeiten/Öffnungszeiten";
 import Link from "next/link";
 
 export default function Home() {
@@ -7,8 +8,8 @@ export default function Home() {
         <>
 
             <div className={'container'}>
-                <div className="row justify-content-center text-center ">
-                    <div className="col-md-10 col-12 mb-4">
+                <div className="row justify-content-center">
+                    <div className="col-md-10 col-12 mb-4 text-center">
                         <h4 className="pb-3">
                             <a href="mailto:info@big-birds.de" target="_blank">info@big-birds.de</a>
                         </h4>
@@ -19,16 +20,18 @@ export default function Home() {
                             mehr zur Farm
                         </Link>
                     </div>
-                    <div className="row d-flex align-items-center py-4 bg-black text-secondary">
-                        <div className="col-md-2">
-                                <i className="bi bi-exclamation-circle fs-6"></i>
+                    <div className="row d-flex py-4 bg-black justify-content-center text-secondary">
+                        <div className="col-md-1 align-self-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor" className="bi bi-exclamation-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                                <path d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0M7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0z"/>
+                            </svg>
                         </div>
-                        <div className="col-md-10">
+                        <div className="col-md-9">
                             <p className="mb-0">
                                 Leider ist das Mitführen von Hunden nicht mehr erlaubt und denkt bitte an die
                                 Temperaturen, der Hund im Auto ist nicht die Lösung.
-                            </p>
-                            <p className="mb-0">Wir bitten um euer Verständnis.</p>
+                                Wir bitten um euer Verständnis.</p>
                         </div>
                     </div>
                 </div>
@@ -76,7 +79,7 @@ export default function Home() {
                         <Link href="/feiern/">
                             <div className="d-grid gap-3 mx-4 bg-white">
                                 <img src="/images/placeholder/feiern1.jpg" alt={''} className="img-fluid"></img>
-                                <h2>Shop und Café</h2>
+                                <h2>Feiern</h2>
                             </div>
                         </Link>
                     </div>
@@ -120,6 +123,8 @@ export default function Home() {
                         </p>
                     </div>
                 </div>
+
+                <Öffnungszeiten />
 
             </div>
             <ContactSection pageName={'Home'} subjects={['sub1', 'sub2', 'sub3']}/>

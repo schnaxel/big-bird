@@ -1,4 +1,5 @@
 import ContactSection from "@/src/components/ContactSection/ContactSection";
+import Öffnungszeiten from "@/src/components/Öffnungszeiten/Öffnungszeiten";
 
 export default function Feiern() {
     return (
@@ -41,7 +42,10 @@ export default function Feiern() {
                         streicheln könnt. Das Brutgehege wird von unserem stattlichen Straußenhahn Hektor und seinen
                         Damen beherbergt, die die wertvollen Straußeneier liefern.</p>
                 </div>
+
+                <Öffnungszeiten />
             </div>
+
             <ContactSection pageName={'Farm'} subjects={['sub1', 'sub2', 'sub3']}/>
         </>
     )
