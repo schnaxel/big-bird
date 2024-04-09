@@ -14,7 +14,7 @@ interface FewoDetailsProps {
 const FewoDetails: React.FC<FewoDetailsProps> = ({ detailsFewo}) => {
     return (
         <ul className={'list-group'}>
-            <li className={'list-group-item border-0 d-flex mb-3'}>
+            <li className={'list-group-item border-0 d-flex mb-3 bg-transparent'}>
                 <div style={{width: '3rem', height: '3rem'}}
                      className={'d-flex align-items-center justify-content-center border border-primary border-2 rounded-circle me-2'}
                 >
@@ -25,7 +25,7 @@ const FewoDetails: React.FC<FewoDetailsProps> = ({ detailsFewo}) => {
                     <p className={'m-0'}>{detailsFewo.bedrooms} Schlafzimmer</p>
                 </div>
             </li>
-            <li className={'list-group-item border-0 d-flex mb-3'}>
+            <li className={'list-group-item border-0 d-flex mb-3 bg-transparent'}>
                 <div style={{width: '3rem', height: '3rem'}}
                      className={'d-flex align-items-center justify-content-center border border-primary border-2 rounded-circle me-2'}
                 >
@@ -36,7 +36,7 @@ const FewoDetails: React.FC<FewoDetailsProps> = ({ detailsFewo}) => {
                     <p className={'m-0'}>{detailsFewo.rooms} Zimmer</p>
                 </div>
             </li>
-            <li className={'list-group-item border-0 d-flex mb-3'}>
+            <li className={'list-group-item border-0 d-flex mb-3 bg-transparent'}>
                 <div style={{width: '3rem', height: '3rem'}}
                      className={'d-flex align-items-center justify-content-center border border-primary border-2 rounded-circle me-2'}
                 >

@@ -10,9 +10,9 @@ const Footer: React.FC = () => {
             <div className={'container py-5'}>
                 <div className={'row'}>
                     <div className="col-12">
-                        <h3 className={'text-center fw-medium mb-4'} >
+                        <h3 className={'text-center mb-4'} >
                             <Link href={'https://www.instagram.com/bigbirdsfarm'} rel="noopener" target="_blank">
-                                #bigbirds
+                                #BIGBIRDS
                             </Link>
                         </h3>
                         <ElfsightWidget widgetId={"28c5f280-cfed-4ebf-8486-2cabcf09b089"} lazy className={'pb-5'}/>
@@ -21,8 +21,7 @@ const Footer: React.FC = () => {
                 </div>
                 <div className={'row'}>
                     <div className="col-12">
-                        <div className={'py-5 d-flex flex-column align-items-center'}>
-                            <p className={'fs-4 mb-4'}>follow us</p>
+                        <div className={'py-4 d-flex flex-column align-items-center'}>
                             <div className="d-flex justify-content-center">
                                 <div className="px-3">
                                     <Link href="https://www.facebook.com/mocfor" rel="noopener" target="_blank">

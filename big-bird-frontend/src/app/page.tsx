@@ -1,6 +1,6 @@
 import React from "react";
 import ContactSection from "@/src/components/ContactSection/ContactSection";
-import Öffnungszeiten from "@/src/components/Öffnungszeiten/Öffnungszeiten";
+import Oeffnungszeiten from "@/src/components/Oeffnungszeiten/Oeffnungszeiten";
 import Link from "next/link";
 
 export default function Home() {
@@ -20,7 +20,7 @@ export default function Home() {
                             mehr zur Farm
                         </Link>
                     </div>
-                    <div className="row d-flex py-4 bg-black justify-content-center text-secondary">
+                    <div className="row d-flex py-4 bg-primary justify-content-center text-secondary" style={{backgroundImage: 'url("/images/asfalt-light.png")', backgroundSize: "233px 175px", backgroundRepeat: 'repeat'}}>
                         <div className="col-md-1 align-self-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor" className="bi bi-exclamation-circle" viewBox="0 0 16 16">
                                 <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
@@ -124,7 +124,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <Öffnungszeiten />
+                <Oeffnungszeiten />
 
             </div>
             <ContactSection pageName={'Home'} subjects={['sub1', 'sub2', 'sub3']}/>

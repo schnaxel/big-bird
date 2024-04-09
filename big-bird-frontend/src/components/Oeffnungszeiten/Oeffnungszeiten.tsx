@@ -1,4 +1,4 @@
-export function Öffnungszeiten() {
+export function Oeffnungszeiten() {
     return (
         <section className="mt-4 p-4 bg-primary bg-opacity-10">
             <div className="text-center">
@@ -25,4 +25,4 @@ export function Öffnungszeiten() {
     );
 }
 
-export default Öffnungszeiten;
+export default Oeffnungszeiten;

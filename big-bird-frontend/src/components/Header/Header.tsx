@@ -68,7 +68,7 @@ export function Header() {
     const headerTexts: HeaderTexts = {
         home: {
             title: 'Willkommen auf Big Birds Farm',
-            subtitle: 'Öffnungszeiten: zurzeit haben wir geschlossen',
+            subtitle: 'Oeffnungszeiten: zurzeit haben wir geschlossen',
             paragraphs: [
                 'Unsere Strauße könnt ihr nur bei Führungen sehen – ab 13.30 Uhr und 15.30 Uhr. ',
                 'Der Spielplatz, Ziegen & Gänse stehen euch gerne zur Verfügung. Größere Gruppen bitte vorher anmelden',

@@ -1,5 +1,5 @@
 import ContactSection from "@/src/components/ContactSection/ContactSection";
-import Öffnungszeiten from "@/src/components/Öffnungszeiten/Öffnungszeiten";
+import Oeffnungszeiten from "@/src/components/Oeffnungszeiten/Oeffnungszeiten";
 
 export default function Feiern() {
     return (
@@ -48,7 +48,7 @@ export default function Feiern() {
                     </div>
                 </div>
 
-                <Öffnungszeiten />
+                <Oeffnungszeiten />
             </div>
 
             <ContactSection pageName={'Farm'} subjects={['sub1', 'sub2', 'sub3']}/>
