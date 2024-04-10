@@ -20,18 +20,21 @@ export default function Home() {
                             mehr zur Farm
                         </Link>
                     </div>
-                    <div className="row d-flex py-4 bg-primary justify-content-center text-secondary" style={{backgroundImage: 'url("/images/asfalt-light.png")', backgroundSize: "233px 175px", backgroundRepeat: 'repeat'}}>
-                        <div className="col-md-1 align-self-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor" className="bi bi-exclamation-circle" viewBox="0 0 16 16">
+
+                    <div className="row py-3 border border-info bg-info bg-opacity-25">
+                        <div className="col-1 text-end">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" className="bi bi-exclamation-circle" viewBox="0 0 16 16">
                                 <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
                                 <path d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0M7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0z"/>
                             </svg>
                         </div>
-                        <div className="col-md-9">
+                        <div className="col-10">
+                            <h4>Wichtiger Hinweis!</h4>
                             <p className="mb-0">
                                 Leider ist das Mitführen von Hunden nicht mehr erlaubt und denkt bitte an die
                                 Temperaturen, der Hund im Auto ist nicht die Lösung.
-                                Wir bitten um euer Verständnis.</p>
+                                Wir bitten um euer Verständnis.
+                            </p>                    
                         </div>
                     </div>
                 </div>

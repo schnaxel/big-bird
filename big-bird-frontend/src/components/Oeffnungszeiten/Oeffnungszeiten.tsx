@@ -4,18 +4,15 @@ export function Oeffnungszeiten() {
             <div className="text-center">
                 <h2>Öffnungszeiten</h2>
             </div>
-            <div className="row text-center mt-4">
-                <div className="col-4 px-4 border-end border-primary">
-                    <h3>Café</h3>
-                    <p>Zurzeit geschlossen</p>
+            <div className="row text-center text-muted mt-4">
+                <div className="col-6 px-4 border-end border-primary">
+                    <h3>Café und Shop</h3>
+                    <p className="mt-3 mb-1">Freitag bis Sonntag</p>
+                    <p>11 Uhr bis 17 Uhr</p>
                 </div>
-                <div className="col-4 px-4 border-end border-primary">
-                    <h3>Shop</h3>
-                    <p>Zurzeit geschlossen</p>
-                </div>
-                <div className="col-4 px-4">
+                <div className="col-6 px-4">
                     <h3>Führungen</h3>
-                    <p>Ab 13.30 Uhr und ab 15.30 Uhr</p>
+                    <p className="mt-3 mb-1">Ab 13.30 Uhr und ab 15.30 Uhr</p>
                     <p>
                         Bei Regen finden die Führungen nur begrenzt bzw. gar nicht statt.
                     </p>

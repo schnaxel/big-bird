@@ -4,14 +4,17 @@ $body-font-size: $font-size-root;
 //COLORS
 $color-primary: #2B3136;
 $color-secondary: #FFFFFF;
+$color-info: #BE7C49;
 
 $primary: $color-primary;
 $secondary: $color-secondary;
+$info: $color-info;
 
 
 $theme-colors: (
   "primary": $primary,
   "secondary": $secondary,
+  "info": $info,
 );
 
 // TYPOGRAPHY
