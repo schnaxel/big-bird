@@ -5,16 +5,19 @@ $body-font-size: $font-size-root;
 $color-primary: #2B3136;
 $color-secondary: #FFFFFF;
 $color-info: #BE7C49;
+$color-caro: #CF9B4E;
 
 $primary: $color-primary;
 $secondary: $color-secondary;
 $info: $color-info;
+$caro: $color-caro;
 
 
 $theme-colors: (
   "primary": $primary,
   "secondary": $secondary,
   "info": $info,
+  "caro": $caro,
 );
 
 // TYPOGRAPHY

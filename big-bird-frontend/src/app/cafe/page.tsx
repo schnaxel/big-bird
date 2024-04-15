@@ -18,9 +18,21 @@ export default function Cafe() {
                     </div>
                 </div>
 
+                <div className="d-flex flex-row py-4 bg-caro justify-content-center text-secondary">
+                    <div className="px-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor" className="bi bi-credit-card" viewBox="0 0 16 16">
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                            <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+                        </svg>
+                    </div>
+                    <div className="px-3 align-self-center">
+                        <h3 className="mb-0">Kartenzahlung ist möglich</h3>
+                    </div>
+                </div>
+
                 <div className="row my-5 text-center">
                     <div className="col-md-6 col-12">
-                        <img src="/images/placeholder/farm6.jpg" alt={''} className="img-fluid"></img>
+                        <img src="/images/placeholder/farm6.jpg" alt={''} className="img-fluid" />
                     </div>
                     <div className="col-md-6 col-12 row justify-content-md-center my-md-auto mt-5">
                         <h2>Eine Auswahl aus dem Angebot</h2>
