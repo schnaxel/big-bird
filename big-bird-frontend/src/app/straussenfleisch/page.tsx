@@ -61,17 +61,13 @@ export default function Straussenfleisch() {
                     </div>
                 </div>
 
-                <div className="text-center my-md-5 my-0">
-                    <div className="my-5">
+                <div className="text-center mt-md-5 my-0">
+                    <div className="my-4">
                         <p>
                             Unser Straußenfleischwird frisch & vakuumiert verpackt. Das frische
                             Straußenfleisch wird immer in einer Styroporkiste mit Trockeneis versendet!
                         </p>
-                        <p>Schreibt uns gerne für eine Bestellung an</p>
-                        <h4>
-                            <a href="mailto:info@big-birds.de" target="_blank">info@big-birds.de</a>
-                        </h4>
-                        <p>Oder schaut im Shop vorbei</p>
+                        <p>Schreibt uns gerne für eine Bestellung über das Kontaktformular an oder schaut im Shop vorbei</p>
                         <Link href="https://mocfor.com" className="btn btn-outline-primary">
                           zum Straußenfleisch Shop
                         </Link>

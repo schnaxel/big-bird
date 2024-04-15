@@ -36,8 +36,11 @@ export default function Datenschutz() {
                         </div>
                     </div>
                 </div>
-                <div className="row mt-5 text-center">
-                    <div className="col-md-6 col-12 my-md-auto my-5 order-2 order-md-1">
+
+                <hr/>
+
+                <div className="row mt-5">
+                    <div className="col-md-7 col-12 my-md-auto my-5 order-2 order-md-1">
                         <h2>Geschenke</h2>
                         <div className="mt-4">
                             <p>
@@ -47,81 +50,89 @@ export default function Datenschutz() {
                                 Firmenjubiläum überreichen? Ihr sucht Weihnachtspräsente für eure
                                 Geschäftspartner oder auch die gesamte Belegschaft?
                             </p>
+                            <p>
+                                Egal ob ein oder 1000 Geschenke, wir haben die Lösung. Nennt uns ein paar
+                                Eckdaten wie das Budget, den Anlass und einige Details zur Person bzw. der
+                                Personengruppe und wir stellen euch etwas Besonders zusammen.
+                            </p>
+                            <p>
+                                Egal wie klein oder groß das Budget ist, durch unsere langjährige Erfahrung
+                                und Vielfältigkeit der Produkte aus unserem Hofladen von Lebensmitteln, über
+                                Dekorativem bis zu Praktischem finden wir für jeden etwas Passendes und die
+                                Freude des Beschenkten wird groß sein. Jedes Geschenk wird bei uns auf der
+                                Farm von Hand verpackt und drückt die Wertschätzung aus, die ihr vermitteln
+                                möchtet.
+                            </p>
                         </div>
                     </div>
-                    <div className="col-md-6 col-12 order-1 order-md-2">
-                        <img src="/images/placeholder/farm2.jpg" alt={''} className="img-fluid"></img>
+                    <div className="col-md-5 col-12 order-1 order-md-2">
+                        <img src="/images/geschenke/geschenke_16.jpg" alt={''} className="img-fluid"></img>
                     </div>
                 </div>
-                <div className="text-center mb-4 mt-md-5 mt-0 row justify-content-md-center">
-                    <div className="col-md-11 col-12">
-                        <p>
-                            Egal ob ein oder 1000 Geschenke, wir haben die Lösung. Nennt uns ein paar
-                            Eckdaten wie das Budget, den Anlass und einige Details zur Person bzw. der
-                            Personengruppe und wir stellen euch etwas Besonders zusammen.
-                        </p>
-                        <p>
-                            Egal wie klein oder groß das Budget ist, durch unsere langjährige Erfahrung
-                            und Vielfältigkeit der Produkte aus unserem Hofladen von Lebensmitteln, über
-                            Dekorativem bis zu Praktischem finden wir für jeden etwas Passendes und die
-                            Freude des Beschenkten wird groß sein. Jedes Geschenk wird bei uns auf der
-                            Farm von Hand verpackt und drückt die Wertschätzung aus, die ihr vermitteln
-                            möchten.
-                        </p>
-                        <p>
-                            Falls ihr euch nicht entscheiden könnt, ist unser Gutschein genau das
-                            Richtige, denn der kann sowohl in unserem <a href="/cafe">Café</a> als
-                            auch in unserem Hofladen eingelöst werden.
-                        </p>
-                        <p>
-                            Ihr wohnt weiter weg? Wir versenden die Präsente gerne.
-                            Sprecht uns im Hofladen an, oder kontaktiert uns unter
-                        </p>
-                        <h4>
-                            <a href="mailto:info@big-birds.de" target="_blank">info@big-birds.de</a>
-                        </h4>
-                    </div>
+                <div className="mb-4 mt-md-5 mt-0">
+                    <p>
+                        Falls ihr euch nicht entscheiden könnt, ist unser Gutschein genau das
+                        Richtige, denn der kann sowohl in unserem <a href="/cafe">Café</a> als
+                        auch in unserem Hofladen eingelöst werden.
+                    </p>
+                    <p>
+                        Ihr wohnt weiter weg? Wir versenden die Präsente gerne.
+                        Sprecht uns im Hofladen an oder kontaktiert uns über unser Kontaktformular.
+                    </p>
                 </div>
 
                 <div className="row">
-                    <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                    <div className="col-lg-3 col-md-12 mb-4 mb-lg-0">
                         <img
-                            src="/images/placeholder/farm2.jpg"
-                            className="w-100 shadow-1-strong rounded mb-4"
+                            src="/images/geschenke/geschenke_01.jpg"
+                            className="w-100 shadow-1-strong mb-4"
                             alt=""
                         />
 
                         <img
-                            src="/images/placeholder/farm2.jpg"
-                            className="w-100 shadow-1-strong rounded mb-4"
-                            alt=""
-                        />
-                    </div>
-
-                    <div className="col-lg-4 mb-4 mb-lg-0">
-                        <img
-                            src="/images/placeholder/farm2.jpg"
-                            className="w-100 shadow-1-strong rounded mb-4"
-                            alt=""
-                        />
-
-                        <img
-                            src="/images/placeholder/farm2.jpg"
-                            className="w-100 shadow-1-strong rounded mb-4"
+                            src="/images/geschenke/geschenke_15.jpg"
+                            className="w-100 shadow-1-strong mb-4"
                             alt=""
                         />
                     </div>
 
-                    <div className="col-lg-4 mb-4 mb-lg-0">
+                    <div className="col-lg-3 mb-4 mb-lg-0">
                         <img
-                            src="/images/placeholder/farm2.jpg"
-                            className="w-100 shadow-1-strong rounded mb-4"
+                            src="/images/geschenke/geschenke_05.jpg"
+                            className="w-100 shadow-1-strong mb-4"
                             alt=""
                         />
 
                         <img
-                            src="/images/placeholder/farm2.jpg"
-                            className="w-100 shadow-1-strong rounded mb-4"
+                            src="/images/geschenke/geschenke_06.jpg"
+                            className="w-100 shadow-1-strong mb-4"
+                            alt=""
+                        />
+                    </div>
+
+                    <div className="col-lg-3 mb-4 mb-lg-0">
+                        <img
+                            src="/images/geschenke/geschenke_16.jpg"
+                            className="w-100 shadow-1-strong mb-4"
+                            alt=""
+                        />
+
+                        <img
+                            src="/images/geschenke/geschenke_09.jpg"
+                            className="w-100 shadow-1-strong mb-4"
+                            alt=""
+                        />
+                    </div>
+                    <div className="col-lg-3 mb-4 mb-lg-0">
+                        <img
+                            src="/images/geschenke/geschenke_11.jpg"
+                            className="w-100 shadow-1-strong mb-4"
+                            alt=""
+                        />
+
+                        <img
+                            src="/images/geschenke/geschenke_13.jpg"
+                            className="w-100 shadow-1-strong mb-4"
                             alt=""
                         />
                     </div>

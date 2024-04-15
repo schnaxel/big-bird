@@ -10,12 +10,6 @@ export default function Home() {
             <div className={'container'}>
                 <div className="row justify-content-center">
                     <div className="col-md-10 col-12 mb-4 text-center">
-                        <h4 className="pb-3">
-                            <a href="mailto:info@big-birds.de" target="_blank">info@big-birds.de</a>
-                        </h4>
-                        <p>
-                            Bei Regen finden die Führungen nur begrenzt bzw. gar nicht statt.
-                        </p>
                         <Link href="/farm/" className="btn btn-outline-primary">
                             mehr zur Farm
                         </Link>
