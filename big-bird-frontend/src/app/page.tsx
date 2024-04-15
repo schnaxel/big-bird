@@ -47,7 +47,7 @@ export default function Home() {
                 </div>
 
                 <div className="row text-center mt-5">
-                    <div className="col-4">
+                    <div className="col-lg-4 col-md-6 col-12 my-2 my-lg-0">
                         <Link href="/shop/">
                             <div className="d-grid gap-3 mx-4 bg-white">
                                 <img src="/images/placeholder/farm-shop.jpg" alt={''} className="img-fluid"></img>
@@ -56,7 +56,7 @@ export default function Home() {
                         </Link>
                     </div>
 
-                    <div className="col-4">
+                    <div className="col-lg-4 col-md-6 col-12 my-2 my-lg-0">
                         <Link href="/cafe/">
                             <div className="d-grid gap-3 mx-4 bg-white">
                                 <img src="/images/placeholder/farm-shop.jpg" alt={''} className="img-fluid"></img>
@@ -65,7 +65,7 @@ export default function Home() {
                         </Link>
                     </div>
 
-                    <div className="col-4">
+                    <div className="col-lg-4 col-md-6 col-12 my-2 my-lg-0">
                         <Link href="/straussenfleisch/">
                             <div className="d-grid gap-3 mx-4 bg-white">
                                 <img src="/images/placeholder/farm2.jpg" alt={''} className="img-fluid"></img>
@@ -73,10 +73,8 @@ export default function Home() {
                             </div>
                         </Link>
                     </div>
-                </div>
                 
-                <div className="row text-center mt-4">
-                    <div className="col-4">
+                    <div className="col-lg-4 col-md-6 col-12 my-2 my-lg-0">
                         <Link href="/alter-stall/">
                             <div className="d-grid gap-3 mx-4 bg-white">
                                 <img src="/images/placeholder/farm3.jpg" alt={''} className="img-fluid"></img>
@@ -85,7 +83,7 @@ export default function Home() {
                         </Link>
                     </div>
 
-                    <div className="col-4">
+                    <div className="col-lg-4 col-md-6 col-12 my-2 my-lg-0">
                         <Link href="/feiern/">
                             <div className="d-grid gap-3 mx-4 bg-white">
                                 <img src="/images/placeholder/feiern1.jpg" alt={''} className="img-fluid"></img>
@@ -94,7 +92,7 @@ export default function Home() {
                         </Link>
                     </div>
 
-                    <div className="col-4">
+                    <div className="col-lg-4 col-md-6 col-12 my-2 my-lg-0">
                         <Link href="/ferienwohnungen/">
                             <div className="d-grid gap-3 mx-4 bg-white">
 
@@ -110,10 +108,10 @@ export default function Home() {
                 </div>
 
                 <div className="row">
-                    <div className="col-4 align-self-center text-center">
+                    <div className="col-12 col-md-4 align-self-center text-center">
                         <img src="/images/bigbirds_logo.png" alt={''} className="img-fluid"></img>
                     </div>
-                    <div className="col-8">
+                    <div className="col-12 col-md-8 mt-5 mt-md-0">
                         <p>
                             Ihr möchtet <a href="/straussenfleisch">Straußenfleisch</a> kaufen? Bei uns findet ihr
                             Filet, Steak, Braten, Wurst und Burger Patties. Alle Straußenfleischprodukte gibt es bei
