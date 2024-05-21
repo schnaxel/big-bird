@@ -25,18 +25,18 @@ const Footer: React.FC = () => {
                             <div className="d-flex justify-content-center">
                                 <div className="px-3">
                                     <Link href="https://www.facebook.com/mocfor" rel="noopener" target="_blank">
-                                        <i className="bi bi-facebook fs-2 text-black"></i>
+                                        <i className="bi bi-facebook fs-2 text-primary"></i>
                                     </Link>
                                 </div>
                                 <div className="px-3">
                                     <Link href="https://www.instagram.com/bigbirdsfarm" rel="noopener" target="_blank">
-                                        <i className="bi bi-instagram fs-2 text-black"></i>
+                                        <i className="bi bi-instagram fs-2 text-primary"></i>
                                     </Link>
                                 </div>
                                 <div className="px-3">
                                     <Link href="https://www.youtube.com/channel/UCXrHqywSfUoacvzpduod_8g" rel="noopener"
                                           target="_blank">
-                                        <i className="bi bi-youtube fs-2 text-black"></i>
+                                        <i className="bi bi-youtube fs-2 text-primary"></i>
                                     </Link>
                                 </div>
                             </div>
