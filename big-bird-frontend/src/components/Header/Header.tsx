@@ -37,28 +37,14 @@ export function Header() {
         ],
         shop: [
             {src: '/images/placeholder/farm-shop.jpg', alt: 'Shop 1'},
-            {src: '/images/placeholder/farm4.jpg', alt: 'Shop 2'},
-            {src: '/images/placeholder/farm3.jpg', alt: 'Shop 3'},
         ],
         alterStall: [
-            {src: '/images/placeholder/farm5.jpg', alt: 'Alter Stall 1'},
-            {src: '/images/placeholder/farm6.jpg', alt: 'Alter Stall 2'},
-            {src: '/images/placeholder/farm7.jpg', alt: 'Alter Stall 3'},
         ],
         straussenfleisch: [
-            {src: '/images/placeholder/farm6.jpg', alt: 'Straussenfleisch 1'},
-            {src: '/images/placeholder/farm5.jpg', alt: 'Straussenfleisch 2'},
-            {src: '/images/placeholder/farm4.jpg', alt: 'Straussenfleisch 3'},
         ],
         feiern: [
-            {src: '/images/placeholder/feiern1.jpg', alt: 'Feiern 1'},
-            {src: '/images/placeholder/feiern2.jpg', alt: 'Feiern 2'},
-            {src: '/images/placeholder/feiern3.jpg', alt: 'Feiern 3'},
         ],
         ferienwohnungen: [
-            {src: '/images/placeholder/fewo.jpg', alt: 'Ferienwohnungen 1'},
-            {src: '/images/placeholder/farm2.jpg', alt: 'Ferienwohnungen 2'},
-            {src: '/images/placeholder/farm3.jpg', alt: 'Ferienwohnungen 3'},
         ],
     }
     const headerTexts: HeaderTexts = {
@@ -164,10 +150,11 @@ export function Header() {
                                             </SplideTrack>
                                         </div>
                                     </Splide>
-                            ) :
+                            ) : images.length === 1 ?
                                 (
                                     <header className={'w-100'} style={{height: '70vh', backgroundSize: 'cover', backgroundPosition: 'center', backgroundImage: `url(${images[0]?.src})`}} />
-                                )}
+                                ) :
+                                null}
                         </div>
                     </div>
                     <div className="row">
