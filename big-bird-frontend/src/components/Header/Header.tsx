@@ -25,19 +25,15 @@ export function Header() {
     const pathname = usePathname()
     const headerImages: HeaderImages = {
         home: [
-            {src: 'images/placeholder/farm1.jpg', alt: 'Home 1'},
-            {src: 'images/placeholder/farm2.jpg', alt: 'Home 2'},
-            {src: 'images/placeholder/farm3.jpg', alt: 'Home 3'},
+            {src: '/images/farm/header/farm-header.jpg', alt: 'Home 1'},
+            {src: '/images/farm/header/farm-emil.jpg', alt: 'Home 2'},
+            {src: '/images/farm/header/farm-fuehrung.jpg', alt: 'Home 3'},
         ],
         farm: [
-            {src: '/images/placeholder/farm4.jpg', alt: 'Farm 1'},
-            {src: '/images/placeholder/farm5.jpg', alt: 'Farm 2'},
-            {src: '/images/placeholder/farm6.jpg', alt: 'Farm 3'},
+            {src: '/images/farm/header/farm-fuehrung.jpg', alt: 'Farm 1'},
         ],
         cafe: [
-            {src: '/images/placeholder/farm7.jpg', alt: 'Cafe 1'},
-            {src: '/images/placeholder/farm1.jpg', alt: 'Cafe 2'},
-            {src: '/images/placeholder/farm2.jpg', alt: 'Cafe 3'},
+            {src: '/images/cafe/header/cafe-header.jpg', alt: 'Cafe 1'},
         ],
         shop: [
             {src: '/images/placeholder/farm-shop.jpg', alt: 'Shop 1'},
@@ -154,18 +150,24 @@ export function Header() {
                 <div className={'container-fluid'}>
                     <div className="row">
                         <div className="col-12 px-0 pb-4">
-                            <Splide hasTrack={false} aria-label="..."
-                                    data-splide='{"type":"loop","perPage":1,"perMove":1,"autoplay":true,"pauseOnFocus":true,"pagination":false}'>
-                                <div className="custom-wrapper">
-                                    <SplideTrack>
-                                        {images.map(({src, alt}, index) => (
-                                            <SplideSlide key={index}>
-                                                <img src={src} alt={alt}/>
-                                            </SplideSlide>
-                                        ))}
-                                    </SplideTrack>
-                                </div>
-                            </Splide>
+                            {images.length > 1 ? (
+                                    <Splide hasTrack={false} aria-label="..."
+                                            data-splide='{"type":"loop","perPage":1,"perMove":1,"autoplay":true,"pauseOnFocus":true,"pagination":false}'>
+                                        <div className="custom-wrapper">
+                                            <SplideTrack>
+                                                {images.map(({src, alt}, index) => (
+                                                    <SplideSlide key={index}>
+                                                        <img src={src} alt={alt}/>
+                                                    </SplideSlide>
+                                                ))
+                                                }
+                                            </SplideTrack>
+                                        </div>
+                                    </Splide>
+                            ) :
+                                (
+                                    <header className={'w-100'} style={{height: '70vh', backgroundSize: 'cover', backgroundPosition: 'center', backgroundImage: `url(${images[0]?.src})`}} />
+                                )}
                         </div>
                     </div>
                     <div className="row">
