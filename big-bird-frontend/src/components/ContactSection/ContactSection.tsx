@@ -7,17 +7,17 @@ const ContactSection: React.FC<{ pageName: string, subjects: string[], activeFew
     return (
         <section className={'py-5'}>
             <div className="container">
-                <div className="row bg-primary py-4" style={{backgroundImage: 'url("/images/asfalt-light.png")', backgroundSize: "233px 175px", backgroundRepeat: 'repeat'}}>
-                    <div className="col-12 col-lg-6 px-4 pe-lg-2">
+                <div className="row py-4" style={{backgroundImage: 'url("/images/asfalt-light.png")', backgroundSize: "233px 175px", backgroundRepeat: 'repeat'}}>
+                    <div className="col-12 col-lg-6 pe-lg-2">
                         <div className="row">
                             <div className="col-12">
-                                <h2 className={'text-white fw-medium'}>Kontakt</h2>
+                                <h2 className={'fw-medium'}>Kontakt</h2>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-12">
                                 <p className={'m-0'}>
-                                    <Link href={'https://maps.app.goo.gl/1mV7BoTaTNsbDTu66'} rel="noopener" target="_blank" className={'text-white'}>
+                                    <Link href={'https://maps.app.goo.gl/1mV7BoTaTNsbDTu66'} rel="noopener" target="_blank" className={''}>
                                         Bundesstraße 7, 24857 Fahrdorf
                                     </Link>
                                 </p>
@@ -50,7 +50,7 @@ const ContactSection: React.FC<{ pageName: string, subjects: string[], activeFew
                             </div>
                         </div>
                     </div>
-                    <div className="col-12 col-lg-6 px-4 ps-lg-3 align-content-end justify-content-center">
+                    <div className="col-12 col-lg-6 ps-lg-3 align-content-end justify-content-center">
                         <ContactForm pageName={pageName} subjects={subjects} activeFewo={activeFewo}/>
                     </div>
                 </div>

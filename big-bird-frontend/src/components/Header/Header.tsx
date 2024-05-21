@@ -38,14 +38,10 @@ export function Header() {
         shop: [
             {src: '/images/placeholder/farm-shop.jpg', alt: 'Shop 1'},
         ],
-        alterStall: [
-        ],
-        straussenfleisch: [
-        ],
-        feiern: [
-        ],
-        ferienwohnungen: [
-        ],
+        alterStall: [],
+        straussenfleisch: [],
+        feiern: [],
+        ferienwohnungen: [],
     }
     const headerTexts: HeaderTexts = {
         home: {
@@ -127,7 +123,7 @@ export function Header() {
     };
 
 
-    const pageKey = pathname!== '/' ? pathname === '/alter-stall/' ? 'alterStall' : pathname.split('/')[1] : 'home';
+    const pageKey = pathname !== '/' ? pathname === '/alter-stall/' ? 'alterStall' : pathname.split('/')[1] : 'home';
     const images = headerImages[pageKey] || [];
 
     return (
@@ -137,24 +133,30 @@ export function Header() {
                     <div className="row">
                         <div className="col-12 px-0 pb-4">
                             {images.length > 1 ? (
-                                    <Splide hasTrack={false} aria-label="..."
-                                            data-splide='{"type":"loop","perPage":1,"perMove":1,"autoplay":true,"pauseOnFocus":true,"pagination":false}'>
-                                        <div className="custom-wrapper">
-                                            <SplideTrack>
-                                                {images.map(({src, alt}, index) => (
-                                                    <SplideSlide key={index}>
-                                                        <img src={src} alt={alt}/>
-                                                    </SplideSlide>
-                                                ))
-                                                }
-                                            </SplideTrack>
-                                        </div>
-                                    </Splide>
+                                <Splide hasTrack={false} aria-label="..."
+                                        data-splide='{"type":"loop","perPage":1,"perMove":1,"autoplay":true,"pauseOnFocus":true,"pagination":false}'>
+                                    <div className="custom-wrapper">
+                                        <SplideTrack>
+                                            {images.map(({src, alt}, index) => (
+                                                <SplideSlide key={index}>
+                                                    <img src={src} alt={alt}/>
+                                                </SplideSlide>
+                                            ))
+                                            }
+                                        </SplideTrack>
+                                    </div>
+                                </Splide>
                             ) : images.length === 1 ?
                                 (
-                                    <header className={'w-100'} style={{height: '70vh', backgroundSize: 'cover', backgroundPosition: 'center', backgroundImage: `url(${images[0]?.src})`}} />
+                                    <header className={'w-100'} style={{
+                                        height: '70vh',
+                                        backgroundSize: 'cover',
+                                        backgroundPosition: 'center',
+                                        backgroundImage: `url(${images[0]?.src})`
+                                    }}/>
                                 ) :
-                                null}
+                                null
+                            }
                         </div>
                     </div>
                     <div className="row">
