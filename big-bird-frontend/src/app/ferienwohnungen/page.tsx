@@ -128,7 +128,7 @@ export default function Ferienwohnungen() {
                     <div className="row py-4">
                         <div className="col-12 text-center">
                             <Link href={activeFewo === 'fewo1' ? detailsFewo1.bookingLink : detailsFewo2.bookingLink} rel="noopener" target="_blank" className={'btn btn-lg btn-outline-primary rounded-0'}>
-                                Hier Reservieren
+                                Bei Airbnb reservieren
                             </Link>
                         </div>
                     </div>

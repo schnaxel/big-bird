@@ -18,7 +18,7 @@ export function Navigation() {
     return (
         <>
             {/* Navigation Desktop */}
-            <nav className={"navbar navbar-expand user-select-none p-0 d-none d-lg-flex"} style={{backgroundImage: 'url("/images/bg-repeat.jpg")', backgroundRepeat: 'repeat'}}>
+            <nav className={"navbar navbar-expand user-select-none p-0 d-none d-xl-flex"} style={{backgroundImage: 'url("/images/bg-repeat.jpg")', backgroundRepeat: 'repeat'}}>
                 <div className={'container py-3 align-items-center justify-content-start'}>
                     <Link href={'/'} scroll={false} className={'navbar-brand'}>
                         <img src="/images/bigbirds_logo.png" alt="Logo Big Birds" height={'89px'}
@@ -29,7 +29,8 @@ export function Navigation() {
                             <li key={index} className={'nav-item'}>
                                 <Link href={href}
                                       scroll={false}
-                                      className={`nav-link text-nowrap fs-4 text-primary p-0 m-2 ${pathname === href ? 'text-black fw-medium border-bottom border-3 border-black' : ''}`}>
+                                      style={{fontSize: '20px'}}
+                                      className={`nav-link text-nowrap text-primary p-0 m-3 ${pathname === href ? 'text-black fw-medium border-bottom border-3 border-black' : ''}`}>
                                     {label}
                                 </Link>
                             </li>
@@ -39,7 +40,7 @@ export function Navigation() {
             </nav>
 
             {/* Navigation Mobil */}
-            <nav className="navbar d-lg-none user-select-none bg-secondary" style={{backgroundImage: 'url("/images/bg-repeat.jpg")', backgroundRepeat: 'repeat'}}>
+            <nav className="navbar d-xl-none user-select-none bg-secondary" style={{backgroundImage: 'url("/images/bg-repeat.jpg")', backgroundRepeat: 'repeat'}}>
                 <div className="container">
                     <Link href={'/'} scroll={false} className={'navbar-brand'}>
                         <img src="/images/bigbirds_logo.png" alt="Logo Big Birds" height={'89px'}
