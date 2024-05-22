@@ -6,60 +6,68 @@ export default function Cafe() {
         <>
 
             <div className={'container'}>
-                <div className="d-flex flex-row py-4 bg-primary justify-content-center text-secondary" style={{backgroundImage: 'url("/images/asfalt-light.png")', backgroundSize: "233px 175px", backgroundRepeat: 'repeat'}}>
-                    <div className="px-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor" className="bi bi-credit-card" viewBox="0 0 16 16">
-                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
-                            <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
-                        </svg>
-                    </div>
-                    <div className="px-3 align-self-center">
-                        <h3 className="mb-0">Kartenzahlung ist möglich</h3>
-                    </div>
-                </div>
-
-                <div className="d-flex flex-row py-4 bg-caro justify-content-center text-secondary">
-                    <div className="px-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor" className="bi bi-credit-card" viewBox="0 0 16 16">
-                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
-                            <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
-                        </svg>
-                    </div>
-                    <div className="px-3 align-self-center">
-                        <h3 className="mb-0">Kartenzahlung ist möglich</h3>
+                <div className="mt-4 row justify-content-center">
+                    <div className="col-10 px-0 border border-muted rounded-end">
+                        <div className="d-flex flex-row align-items-center justify-content-center border-start border-caro border-4 py-3 px-3">
+                            <div className="px-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor" className="bi bi-credit-card" viewBox="0 0 16 16">
+                                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                                    <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+                                </svg>
+                            </div>
+                            <h4 className="mb-0">Kartenzahlung ist möglich</h4>                  
+                        </div>
                     </div>
                 </div>
 
-                <div className="row my-5 text-center">
+                <div className="row mt-5 text-center">
                     <div className="col-md-6 col-12">
                         <img src="/images/placeholder/farm6.jpg" alt={''} className="img-fluid" />
                     </div>
-                    <div className="col-md-6 col-12 row justify-content-md-center my-md-auto mt-5">
-                        <h2>Eine Auswahl aus dem Angebot</h2>
-                        <div className="mt-4 text-start col-12 col-md-10">
-                            <ul>
-                                <li>Farmtorte</li>
-                                <li>Straußenlikörtorte</li>
-                                <li>Donauwelle</li>
-                                <li>Kaffee Crema, Café Latte und Espresso</li>
-                                <li>ausgesuchte Tees</li>
-                                <li>feinste Schokoladengetränke</li>
-                            </ul>
-                        </div>
-                        <div className="mt-3 d-none d-lg-block">
-                            <h3>Jahreszeiten-Specials</h3>
-                            <p>Ob Cool Mint Ice Tea oder einer weihnachtlichen Chai Latte - wir haben auch immer etwas
-                                Besonderes im Angebot</p>
+                    <div className="col-md-6 col-12 row justify-content-md-center my-md-auto mt-5 d-none d-md-block">
+                        <h2>Unser Angebot</h2>
+                        <div className="mt-4 text-center col-12">
+                            <p>Ob eine gute Tasse Kaffee Crema, eine cremige Café Latte oder einen 
+                                kräftigen Espresso. Natürlich bieten wir auch ausgesuchte Tees und 
+                                feinste Schokoladengetränke. Besonders unsere Hot Chocolate Delux in 
+                                Weiß, Vollmilch oder Zartbitter aus heißer, geschäumter Milch gemischt 
+                                mit belgischer Schokolade garniert mit Sahne und Marshmallows ist ein 
+                                wahr gewordener Schokoladentraum. 
+                            </p>
+                            <p>
+                                Oder Du lässt Dich von unseren 
+                                Jahreszeiten-Specials überraschen, ob Cool Mint Ice Tea oder einer 
+                                weihnachtlichen Chai Latte werden wir immer etwas Besonderes im 
+                                Angebot haben. 
+                            </p>
+                            <p>
+                                Als Milchalternative haben wir laktosefreie Hafermilch. 
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div className="mt-3 d-block d-lg-none text-center">
-                    <h3>Jahreszeiten-Specials</h3>
-                    <p>Ob Cool Mint Ice Tea oder einer weihnachtlichen Chai Latte - wir haben auch immer etwas
-                        Besonderes im Angebot</p>
+                <div className="mt-3 d-block d-md-none text-center">
+                    <h2>Unser Angebot</h2>
+                    <div className="mt-4 text-center col-12 col-md-10">
+                        <p>Ob eine gute Tasse Kaffee Crema, eine cremige Café Latte oder einen 
+                            kräftigen Espresso. Natürlich bieten wir auch ausgesuchte Tees und 
+                            feinste Schokoladengetränke. Besonders unsere Hot Chocolate Delux in 
+                            Weiß, Vollmilch oder Zartbitter aus heißer, geschäumter Milch gemischt 
+                            mit belgischer Schokolade garniert mit Sahne und Marshmallows ist ein 
+                            wahr gewordener Schokoladentraum. 
+                        </p>
+                        <p>
+                            Oder Du lässt Dich von unseren 
+                            Jahreszeiten-Specials überraschen, ob Cool Mint Ice Tea oder einer 
+                            weihnachtlichen Chai Latte werden wir immer etwas Besonderes im 
+                            Angebot haben. 
+                        </p>
+                        <p>
+                            Als Milchalternative haben wir laktosefreie Hafermilch. 
+                        </p>
+                    </div>
                 </div>
-                <div className="text-center my-4">
-                    <p>Als Milchalternative haben wir laktosefreie Hafermilch.</p>
+                <div className="text-center my-5">
                     <p>Eine Reservierung ist bei uns nicht möglich.</p>
                 </div>
 
