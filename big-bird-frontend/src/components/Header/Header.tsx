@@ -46,7 +46,7 @@ export function Header() {
     const headerTexts: HeaderTexts = {
         home: {
             title: 'Willkommen auf Big Birds Farm',
-            subtitle: 'Oeffnungszeiten: Freitag bis Sonntag von 11 Uhr bis 17 Uhr',
+            subtitle: 'Oeffnungszeiten: Samstag und Sonntag 11 bis 17 Uhr</br>Jeden ersten Samstag im Monat Event auf der Farm',
             paragraphs: [
                 'Unsere Strauße könnt ihr nur bei Führungen sehen – ab 13.30 Uhr und 15.30 Uhr. ',
                 'Der Spielplatz, Ziegen & Gänse stehen euch gerne zur Verfügung. Größere Gruppen bitte vorher anmelden.',
@@ -129,12 +129,13 @@ export function Header() {
     return (
         pathname !== '/impressum/' && pathname !== '/datenschutz/' && (
             <section>
-                <div className={'container-fluid'}>
+                <div className={'container-fluid'} style={{maxWidth: '1296px'}}>
                     <div className="row">
                         <div className="col-12 px-0 pb-4">
                             {images.length > 1 ? (
                                 <Splide hasTrack={false} aria-label="..."
-                                        data-splide='{"type":"loop","perPage":1,"perMove":1,"autoplay":true,"pauseOnFocus":true,"pagination":false}'>
+                                        data-splide='{"type":"loop","perPage":1,"perMove":1,"autoplay":true,"pauseOnFocus":true,"pagination":false}'
+                                >
                                     <div className="custom-wrapper">
                                         <SplideTrack>
                                             {images.map(({src, alt}, index) => (
@@ -162,8 +163,8 @@ export function Header() {
                     <div className="row">
                         <div className="col-12">
                             <div className="text-center pt-4">
-                                <h1 className={'fw-bold mb-3'}>{headerTexts[pageKey]?.title}</h1>
-                                <p className={'fw-normal fs-4'}>{headerTexts[pageKey]?.subtitle}</p>
+                                <h1 className={'fw-bold fs-1 mb-3'}>{headerTexts[pageKey]?.title}</h1>
+                                <p className={'fw-normal fs-4'} dangerouslySetInnerHTML={{ __html: headerTexts[pageKey]?.subtitle }}/>
                                 <div className={'py-4'}>
                                     {headerTexts[pageKey]?.paragraphs.map((paragraph, index) => (
                                         <p key={index} className={'m-0'}>{paragraph}</p>
