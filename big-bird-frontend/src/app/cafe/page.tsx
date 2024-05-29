@@ -20,11 +20,11 @@ export default function Cafe() {
                     </div>
                 </div>
 
-                <div className="row mt-5 text-center">
-                    <div className="col-md-6 col-12">
+                <div className="d-flex flex-column flex-lg-row mt-5 text-center align-items-center">
+                    <div className="col-lg-6 col-12 p-3">
                         <img src="/images/placeholder/farm6.jpg" alt={''} className="img-fluid" />
                     </div>
-                    <div className="col-md-6 col-12 row justify-content-md-center my-md-auto mt-5 d-none d-md-block">
+                    <div className="col-lg-6 col-12 row justify-content-md-center my-md-auto pt-4">
                         <h2>Unser Angebot</h2>
                         <div className="mt-4 text-center col-12">
                             <p>Ob eine gute Tasse Kaffee Crema, eine cremige Café Latte oder einen 
@@ -46,28 +46,8 @@ export default function Cafe() {
                         </div>
                     </div>
                 </div>
-                <div className="mt-3 d-block d-md-none text-center">
-                    <h2>Unser Angebot</h2>
-                    <div className="mt-4 text-center col-12 col-md-10">
-                        <p>Ob eine gute Tasse Kaffee Crema, eine cremige Café Latte oder einen 
-                            kräftigen Espresso. Natürlich bieten wir auch ausgesuchte Tees und 
-                            feinste Schokoladengetränke. Besonders unsere Hot Chocolate Delux in 
-                            Weiß, Vollmilch oder Zartbitter aus heißer, geschäumter Milch gemischt 
-                            mit belgischer Schokolade garniert mit Sahne und Marshmallows ist ein 
-                            wahr gewordener Schokoladentraum. 
-                        </p>
-                        <p>
-                            Oder Du lässt Dich von unseren 
-                            Jahreszeiten-Specials überraschen, ob Cool Mint Ice Tea oder einer 
-                            weihnachtlichen Chai Latte werden wir immer etwas Besonderes im 
-                            Angebot haben. 
-                        </p>
-                        <p>
-                            Als Milchalternative haben wir laktosefreie Hafermilch. 
-                        </p>
-                    </div>
-                </div>
-                <div className="text-center my-5">
+                
+                <div className="text-center my-lg-5">
                     <p>Eine Reservierung ist bei uns nicht möglich.</p>
                 </div>
 

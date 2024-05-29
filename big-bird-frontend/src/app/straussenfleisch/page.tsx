@@ -9,111 +9,113 @@ export default function Straussenfleisch() {
                 <div className="mt-5">
                     <h2>Unsere Produkte</h2>
 
-                    <div className="row my-5 text-center bg-primary bg-opacity-10">
-                        <div className="col-md-4 col-12 p-0">
-                            <img src="/images/placeholder/straußenfleisch-filet.jpg" alt={''} className="img-fluid w-100"></img>
-                        </div>
-                        <div className="col-md-8 col-12 text-start px-5 row justify-content-md-center my-md-auto mt-5">
-                            <h3>Straußenfilet</h3>
-                            <div className="mt-2">
-                                <p>
-                                    Das Straußenfilet zeichnet sich durch einen niedrigen Cholesterin- und 
-                                    Fettgehalt aus, ist jedoch reich an Eiweiß und Eisen, was es 
-                                    besonders gesund und leicht verdaulich macht.
-                                </p>
-                                <p>Das Straußenfilet wird zuerst scharf in der Pfanne angebraten und 
-                                    anschließend im Ofen saftig gegart. Sein Aroma ist nussig, der 
-                                    Geschmack auf der Zunge butterzart mit einer feinen Note von Wild 
-                                    und Leber.
-                                </p>
-                                <p>
-                                    Die hohe Qualität des eiweißreichen Straußenfilets erkennt man 
-                                    besonders an der geringen Fettmarmorierung.
-                                </p>
+                    <div>
+                        <div className="col-12 col-md-6 col-lg-12 row my-5 mx-2 mx-lg-0 text-center bg-primary bg-opacity-10">
+                            <div className="col-lg-4 col-12 p-0">
+                                <img src="/images/placeholder/straußenfleisch-filet.jpg" alt={''} className="img-fluid w-100"></img>
+                            </div>
+                            <div className="col-lg-8 col-12 text-start p-4 px-lg-5 row justify-content-md-center my-md-auto">
+                                <h3>Straußenfilet</h3>
+                                <div className="mt-2">
+                                    <p>
+                                        Das Straußenfilet zeichnet sich durch einen niedrigen Cholesterin- und 
+                                        Fettgehalt aus, ist jedoch reich an Eiweiß und Eisen, was es 
+                                        besonders gesund und leicht verdaulich macht.
+                                    </p>
+                                    <p>Das Straußenfilet wird zuerst scharf in der Pfanne angebraten und 
+                                        anschließend im Ofen saftig gegart. Sein Aroma ist nussig, der 
+                                        Geschmack auf der Zunge butterzart mit einer feinen Note von Wild 
+                                        und Leber.
+                                    </p>
+                                    <p className="mb-0">
+                                        Die hohe Qualität des eiweißreichen Straußenfilets erkennt man 
+                                        besonders an der geringen Fettmarmorierung.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div className="row my-5 text-center bg-primary bg-opacity-10">
-                        <div className="col-md-4 col-12 p-0">
-                            <img src="/images/placeholder/straußenfleisch-steak.jpg" alt={''} className="img-fluid w-100"></img>
-                        </div>
-                        <div className="col-md-8 col-12 text-start px-5 row justify-content-md-center my-md-auto mt-5">
-                            <h3>Straußensteak</h3>
-                            <div className="mt-4">
-                                <p>
-                                    Unsere Steaks werden am besten wie ein Filet auf dem Grill 
-                                    zubereitet. Auch hier sind die Nährwerte wieder besonders beeindruckend: 
-                                    Dieses außergewöhnliche Geschmackserlebnis enthält erstaunlich wenig 
-                                    Cholesterin und Fett.
-                                </p>
-                                <p>
-                                    Gleichzeitig hat es sogar einen höheren Eiweißgehalt als das 
-                                    Fleisch von Huhn oder Pute. Deshalb ist gerade für Sportler und 
-                                    Diätbewusste ein saftiges Steak von unseren Big Birds genau das Richtige.
-                                </p>
+                        <div className="col-12 col-md-6 col-lg-12 row my-5 mx-2 mx-lg-0 text-center bg-primary bg-opacity-10">
+                            <div className="col-lg-4 col-12 p-0">
+                                <img src="/images/placeholder/straußenfleisch-steak.jpg" alt={''} className="img-fluid w-100"></img>
+                            </div>
+                            <div className="col-lg-8 col-12 text-start p-4 px-lg-5 row justify-content-md-center my-md-auto">
+                                <h3>Straußensteak</h3>
+                                <div className="mt-2">
+                                    <p>
+                                        Unsere Steaks werden am besten wie ein Filet auf dem Grill 
+                                        zubereitet. Auch hier sind die Nährwerte wieder besonders beeindruckend: 
+                                        Dieses außergewöhnliche Geschmackserlebnis enthält erstaunlich wenig 
+                                        Cholesterin und Fett.
+                                    </p>
+                                    <p className="mb-0">
+                                        Gleichzeitig hat es sogar einen höheren Eiweißgehalt als das 
+                                        Fleisch von Huhn oder Pute. Deshalb ist gerade für Sportler und 
+                                        Diätbewusste ein saftiges Steak von unseren Big Birds genau das Richtige.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div className="row my-5 text-center bg-primary bg-opacity-10">
-                        <div className="col-md-4 col-12 p-0">
-                            <img src="/images/placeholder/straußenfleisch-filet.jpg" alt={''} className="img-fluid w-100"></img>
-                        </div>
-                        <div className="col-md-8 col-12 text-start px-5 row justify-content-md-center my-md-auto mt-5">
-                            <h3>Straußenbraten</h3>
-                            <div className="mt-4">
-                                <p>
-                                    Das zarte Fleisch unserer Big Birds wird langsam gegart und 
-                                    entfaltet dabei einen einzigartigen Geschmack.
-                                </p>
-                                <p>
-                                    Dieser Braten verleiht euren Gerichten eine besondere Note und 
-                                    hebt sie auf ein neues kulinarisches Niveau.
-                                </p>
-                                <p>
-                                    Unser Braten zergeht auf der Zunge und verwöhnt den Gaumen.
-                                </p>
+                        <div className="col-12 col-md-6 col-lg-12 row my-5 mx-2 mx-lg-0 text-center bg-primary bg-opacity-10">
+                            <div className="col-md-4 col-12 p-0">
+                                <img src="/images/placeholder/straußenfleisch-filet.jpg" alt={''} className="img-fluid w-100"></img>
+                            </div>
+                            <div className="col-md-8 col-12 text-start p-4 px-lg-5 row justify-content-md-center my-md-auto">
+                                <h3>Straußenbraten</h3>
+                                <div className="mt-2">
+                                    <p>
+                                        Das zarte Fleisch unserer Big Birds wird langsam gegart und 
+                                        entfaltet dabei einen einzigartigen Geschmack.
+                                    </p>
+                                    <p>
+                                        Dieser Braten verleiht euren Gerichten eine besondere Note und 
+                                        hebt sie auf ein neues kulinarisches Niveau.
+                                    </p>
+                                    <p className="mb-0">
+                                        Unser Braten zergeht auf der Zunge und verwöhnt den Gaumen.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div className="row my-5 text-center bg-primary bg-opacity-10">
-                        <div className="col-md-4 col-12 p-0">
-                            <img src="/images/placeholder/straußenfleisch-steak.jpg" alt={''} className="img-fluid w-100"></img>
-                        </div>
-                        <div className="col-md-8 col-12 text-start px-5 row justify-content-md-center my-md-auto mt-5">
-                            <h3>Straußenwurst</h3>
-                            <div className="mt-4">
-                                <p>                                
-                                    Unsere Straußenbratwurst ist weich, zart und saftig und besteht 
-                                    hauptsächlich aus fettarmem Straußenfleisch.
-                                </p>
-                                <p>
-                                    Unsere Wurstspezialitäten sind keine Massenware, sondern entstehen in echter Handarbeit.
-                                </p>
+                        <div className="col-12 col-md-6 col-lg-12 row my-5 mx-2 mx-lg-0 text-center bg-primary bg-opacity-10">
+                            <div className="col-md-4 col-12 p-0">
+                                <img src="/images/placeholder/straußenfleisch-steak.jpg" alt={''} className="img-fluid w-100"></img>
+                            </div>
+                            <div className="col-md-8 col-12 text-start p-4 px-lg-5 row justify-content-md-center my-md-auto mt-5">
+                                <h3>Straußenwurst</h3>
+                                <div className="mt-2">
+                                    <p>                                
+                                        Unsere Straußenbratwurst ist weich, zart und saftig und besteht 
+                                        hauptsächlich aus fettarmem Straußenfleisch.
+                                    </p>
+                                    <p className="mb-0">
+                                        Unsere Wurstspezialitäten sind keine Massenware, sondern entstehen in echter Handarbeit.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div className="row my-5 text-center bg-primary bg-opacity-10">
-                        <div className="col-md-4 col-12 p-0">
-                            <img src="/images/placeholder/straußenfleisch-filet.jpg" alt={''} className="img-fluid w-100"></img>
-                        </div>
-                        <div className="col-md-8 col-12 text-start px-5 row justify-content-md-center my-md-auto mt-5">
-                            <h3>Burger Patties vom Strauß</h3>
-                            <div className="mt-4">
-                                <p>
-                                    Weniger ist mehr - das gilt besonders für Burger mit unserem Burger Patty vom Strauß.
-                                </p>
-                                <p>
-                                    Käse, Sauce und andere Zutaten sollten unserer Erfahrung nach 
-                                    eine untergeordnete Rolle spielen, wenn ihr eure Freunde beim 
-                                    nächsten Kochevent begeistern wollen.
-                                </p>
-                                <p>
-                                    Das fett- und cholesterinarme Patty aus Straßenfleisch spricht für sich.
-                                </p>
+                        <div className="col-12 col-md-6 col-lg-12 row my-5 mx-2 mx-lg-0 text-center bg-primary bg-opacity-10">
+                            <div className="col-md-4 col-12 p-0">
+                                <img src="/images/placeholder/straußenfleisch-filet.jpg" alt={''} className="img-fluid w-100"></img>
+                            </div>
+                            <div className="col-md-8 col-12 text-start p-4 px-lg-5 row justify-content-md-center my-md-auto mt-5">
+                                <h3>Burger Patties vom Strauß</h3>
+                                <div className="mt-2">
+                                    <p>
+                                        Weniger ist mehr - das gilt besonders für Burger mit unserem Burger Patty vom Strauß.
+                                    </p>
+                                    <p>
+                                        Käse, Sauce und andere Zutaten sollten unserer Erfahrung nach 
+                                        eine untergeordnete Rolle spielen, wenn ihr eure Freunde beim 
+                                        nächsten Kochevent begeistern wollen.
+                                    </p>
+                                    <p className="mb-0">
+                                        Das fett- und cholesterinarme Patty aus Straßenfleisch spricht für sich.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>

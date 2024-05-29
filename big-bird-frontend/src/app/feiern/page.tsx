@@ -10,7 +10,7 @@ export default function Datenschutz() {
                 </div>
 
                 <div className="row mt-5">
-                    <div className="col-lg-3 col-md-12 mb-4 mb-lg-0">
+                    <div className="col-lg-3 col-md-6 col-sm-12 mb-4 mb-lg-0">
                         <img
                             src="/images/feiern/feiern-01.jpg"
                             className="w-100 shadow-1-strong mb-4"
@@ -29,7 +29,7 @@ export default function Datenschutz() {
                         />
                     </div>
 
-                    <div className="col-lg-3 mb-4 mb-lg-0">
+                    <div className="col-lg-3 col-md-6 col-sm-12 mb-4 mb-lg-0">
                         <img
                             src="/images/feiern/feiern-04.jpg"
                             className="w-100 shadow-1-strong mb-4"
@@ -48,7 +48,7 @@ export default function Datenschutz() {
                         />
                     </div>
 
-                    <div className="col-lg-3 mb-4 mb-lg-0">
+                    <div className="col-lg-3 col-md-6 col-sm-12 mb-4 mb-lg-0">
                         <img
                             src="/images/feiern/feiern-07.jpg"
                             className="w-100 shadow-1-strong mb-4"
@@ -67,7 +67,7 @@ export default function Datenschutz() {
                         />
                     </div>
 
-                    <div className="col-lg-3 mb-4 mb-lg-0">
+                    <div className="col-lg-3 col-md-6 col-sm-12 mb-4 mb-lg-0">
                         <img
                             src="/images/feiern/feiern-10.jpg"
                             className="w-100 shadow-1-strong mb-4"

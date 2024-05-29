@@ -5,17 +5,15 @@ export default function Datenschutz() {
         <>
 
             <div className={'container'}>
-                <div className="text-center row justify-content-md-center">
-                    <div className="col-11">
-                        <p>
-                            Erweitert wird das Big Birds Shop Sortiment durch saisonale Geschenkartikeln,
-                            Deko- und Wohnaccessoires aus Skandinavien. Im ständigen Angebot sind zudem
-                            besondere Küchenaccessoires, die die Herzen von kochbegeisterten Männern und
-                            Frauen gleichermaßen höher schlagen lassen. Mit unserem Shop wollen wir Dir
-                            die Möglichkeit geben die Atmosphäre der Big Birds Farm in Dein Zuhause
-                            mitzunehmen.
-                        </p>
-                    </div>
+                <div className="text-center">
+                    <p>
+                        Erweitert wird das Big Birds Shop Sortiment durch saisonale Geschenkartikeln,
+                        Deko- und Wohnaccessoires aus Skandinavien. Im ständigen Angebot sind zudem
+                        besondere Küchenaccessoires, die die Herzen von kochbegeisterten Männern und
+                        Frauen gleichermaßen höher schlagen lassen. Mit unserem Shop wollen wir Dir
+                        die Möglichkeit geben die Atmosphäre der Big Birds Farm in Dein Zuhause
+                        mitzunehmen.
+                    </p>
                 </div>
 
                 <div className="row my-5 text-center">
@@ -39,8 +37,8 @@ export default function Datenschutz() {
 
                 <hr/>
 
-                <div className="row mt-5">
-                    <div className="col-md-7 col-12 my-md-auto my-5 order-2 order-md-1">
+                <div className="d-flex flex-column flex-lg-row align-items-center mt-5">
+                    <div className="col-lg-7 col-12 my-md-auto py-3 order-2 order-lg-1">
                         <h2>Geschenke</h2>
                         <div className="mt-4">
                             <p>
@@ -65,11 +63,11 @@ export default function Datenschutz() {
                             </p>
                         </div>
                     </div>
-                    <div className="col-md-5 col-12 order-1 order-md-2">
+                    <div className="col-lg-5 col-12 p-3 order-1 order-lg-2">
                         <img src="/images/geschenke/geschenke_16.jpg" alt={''} className="img-fluid"></img>
                     </div>
                 </div>
-                <div className="mb-4 mt-md-5 mt-0">
+                <div className="mb-4 mt-lg-4 mt-0">
                     <p>
                         Falls ihr euch nicht entscheiden könnt, ist unser Gutschein genau das
                         Richtige, denn der kann sowohl in unserem <a href="/cafe">Café</a> als
@@ -82,7 +80,7 @@ export default function Datenschutz() {
                 </div>
 
                 <div className="row">
-                    <div className="col-lg-3 col-md-12 mb-4 mb-lg-0">
+                    <div className="col-lg-3 col-12 mb-4 mb-lg-0">
                         <img
                             src="/images/geschenke/geschenke_01.jpg"
                             className="w-100 shadow-1-strong mb-4"
