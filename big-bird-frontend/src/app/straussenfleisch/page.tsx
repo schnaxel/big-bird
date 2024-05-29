@@ -10,9 +10,9 @@ export default function Straussenfleisch() {
                     <h2>Unsere Produkte</h2>
 
                     <div>
-                        <div className="col-12 col-md-6 col-lg-12 row my-5 mx-2 mx-lg-0 text-center bg-primary bg-opacity-10">
+                        <div className="row my-5 mx-2 mx-lg-0 text-center bg-primary bg-opacity-10">
                             <div className="col-lg-4 col-12 p-0">
-                                <img src="/images/placeholder/straußenfleisch-filet.jpg" alt={''} className="img-fluid w-100"></img>
+                                <img src="/images/placeholder/straußenfleisch-filet.jpg" alt={''} className="img-fluid w-100 h-100 object-fit-cover"></img>
                             </div>
                             <div className="col-lg-8 col-12 text-start p-4 px-lg-5 row justify-content-md-center my-md-auto">
                                 <h3>Straußenfilet</h3>
@@ -35,9 +35,9 @@ export default function Straussenfleisch() {
                             </div>
                         </div>
 
-                        <div className="col-12 col-md-6 col-lg-12 row my-5 mx-2 mx-lg-0 text-center bg-primary bg-opacity-10">
+                        <div className="row my-5 mx-2 mx-lg-0 text-center bg-primary bg-opacity-10">
                             <div className="col-lg-4 col-12 p-0">
-                                <img src="/images/placeholder/straußenfleisch-steak.jpg" alt={''} className="img-fluid w-100"></img>
+                                <img src="/images/placeholder/straußenfleisch-steak.jpg" alt={''} className="img-fluid w-100 h-100 object-fit-cover"></img>
                             </div>
                             <div className="col-lg-8 col-12 text-start p-4 px-lg-5 row justify-content-md-center my-md-auto">
                                 <h3>Straußensteak</h3>
@@ -57,11 +57,11 @@ export default function Straussenfleisch() {
                             </div>
                         </div>
 
-                        <div className="col-12 col-md-6 col-lg-12 row my-5 mx-2 mx-lg-0 text-center bg-primary bg-opacity-10">
-                            <div className="col-md-4 col-12 p-0">
-                                <img src="/images/placeholder/straußenfleisch-filet.jpg" alt={''} className="img-fluid w-100"></img>
+                        <div className="row my-5 mx-2 mx-lg-0 text-center bg-primary bg-opacity-10">
+                            <div className="col-lg-4 col-12 p-0">
+                                <img src="/images/placeholder/straußenfleisch-filet.jpg" alt={''} className="img-fluid w-100 h-100 object-fit-cover"></img>
                             </div>
-                            <div className="col-md-8 col-12 text-start p-4 px-lg-5 row justify-content-md-center my-md-auto">
+                            <div className="col-lg-8 col-12 text-start p-4 px-lg-5 row justify-content-md-center my-md-auto">
                                 <h3>Straußenbraten</h3>
                                 <div className="mt-2">
                                     <p>
@@ -79,11 +79,11 @@ export default function Straussenfleisch() {
                             </div>
                         </div>
 
-                        <div className="col-12 col-md-6 col-lg-12 row my-5 mx-2 mx-lg-0 text-center bg-primary bg-opacity-10">
-                            <div className="col-md-4 col-12 p-0">
-                                <img src="/images/placeholder/straußenfleisch-steak.jpg" alt={''} className="img-fluid w-100"></img>
+                        <div className="row my-5 mx-2 mx-lg-0 text-center bg-primary bg-opacity-10">
+                            <div className="col-lg-4 col-12 p-0">
+                                <img src="/images/placeholder/straußenfleisch-steak.jpg" alt={''} className="img-fluid w-100 h-100 object-fit-cover"></img>
                             </div>
-                            <div className="col-md-8 col-12 text-start p-4 px-lg-5 row justify-content-md-center my-md-auto mt-5">
+                            <div className="col-lg-8 col-12 text-start p-4 px-lg-5 row justify-content-md-center my-md-auto">
                                 <h3>Straußenwurst</h3>
                                 <div className="mt-2">
                                     <p>                                
@@ -97,11 +97,11 @@ export default function Straussenfleisch() {
                             </div>
                         </div>
 
-                        <div className="col-12 col-md-6 col-lg-12 row my-5 mx-2 mx-lg-0 text-center bg-primary bg-opacity-10">
-                            <div className="col-md-4 col-12 p-0">
-                                <img src="/images/placeholder/straußenfleisch-filet.jpg" alt={''} className="img-fluid w-100"></img>
+                        <div className="row my-5 mx-2 mx-lg-0 text-center bg-primary bg-opacity-10">
+                            <div className="col-lg-4 col-12 p-0">
+                                <img src="/images/placeholder/straußenfleisch-filet.jpg" alt={''} className="img-fluid w-100 h-100 object-fit-cover"></img>
                             </div>
-                            <div className="col-md-8 col-12 text-start p-4 px-lg-5 row justify-content-md-center my-md-auto mt-5">
+                            <div className="col-lg-8 col-12 text-start p-4 px-lg-5 row justify-content-md-center my-md-auto">
                                 <h3>Burger Patties vom Strauß</h3>
                                 <div className="mt-2">
                                     <p>
@@ -136,11 +136,11 @@ export default function Straussenfleisch() {
                     </p>
                 </div>
 
-                <div className="row my-5 text-center">
-                    <div className="col-md-6 col-12">
+                <div className="d-flex flex-column flex-lg-row my-5 text-center">
+                    <div className="col-lg-6 col-12">
                         <img src="/images/placeholder/straußenfleisch-steak.jpg" alt={''} className="img-fluid w-75"></img>
                     </div>
-                    <div className="col-md-6 col-12 row justify-content-md-center my-md-auto mt-5">
+                    <div className="col-lg-6 col-12 row justify-content-md-center my-md-auto pt-4">
                         <h3>Unser Fleisch ist ideal für:</h3>
                         <div className="mt-4 text-start col-12 col-md-10">
                             <ul>
@@ -155,8 +155,8 @@ export default function Straussenfleisch() {
                     </div>
                 </div>
 
-                <div className="row mt-5 text-center">
-                    <div className="col-md-6 col-12 row justify-content-md-center my-md-auto mt-5 mb-0 order-2 order-md-1">
+                <div className="d-flex flex-column-reverse flex-lg-row mt-5 text-center">
+                    <div className="col-lg-6 col-12 row justify-content-md-center my-md-auto pt-4 mb-0">
                         <h2>Garzeiten</h2>
                         <div className="mt-4 col-12 col-md-10">
                             <p>
@@ -168,12 +168,12 @@ export default function Straussenfleisch() {
                             </p>
                         </div>
                     </div>
-                    <div className="col-md-6 col-12 order-1 order-md-2">
+                    <div className="col-lg-6 col-12">
                         <img src="/images/placeholder/straußenfleisch-filet.jpg" alt={''} className="img-fluid w-75"></img>
                     </div>
                 </div>
 
-                <div className="text-center mt-md-5 my-0">
+                <div className="text-center mt-lg-5 my-0">
                     <div className="my-4">
                         <p>
                             Unser Straußenfleischwird frisch & vakuumiert verpackt. Das frische
