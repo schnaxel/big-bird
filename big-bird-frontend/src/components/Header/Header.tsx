@@ -46,7 +46,7 @@ export function Header() {
     const headerTexts: HeaderTexts = {
         home: {
             title: 'Willkommen auf Big Birds Farm',
-            subtitle: 'Oeffnungszeiten: Samstag und Sonntag 11 bis 17 Uhr</br>Jeden ersten Samstag im Monat Event auf der Farm',
+            subtitle: 'Öffnungszeiten: Samstag und Sonntag von 11 bis 17 Uhr</br>Jeden ersten Samstag im Monat Event auf der Farm',
             paragraphs: [
                 'Unsere Strauße könnt ihr nur bei Führungen sehen – ab 13.30 Uhr und 15.30 Uhr. ',
                 'Der Spielplatz, Ziegen & Gänse stehen euch gerne zur Verfügung. Größere Gruppen bitte vorher anmelden.',
@@ -75,7 +75,7 @@ export function Header() {
         },
         shop: {
             title: 'Big Birds Shop',
-            subtitle: 'Integriert in das Big Birds Café ist der Big Birds Shop, unser Hofladen in dem Sie Produkte aus eigener Produktion sowie ausgewählte zugekaufte Produkte finden.',
+            subtitle: 'Integriert in das Big Birds Café ist der Big Birds Shop, unser Hofladen, in dem Ihr Produkte aus eigener Produktion sowie ausgewählte zugekaufte Produkte findet.',
             paragraphs: [
                 'Vom Fleisch unserer Strauße, auf das bereits Hildegard von Bingen schwor, und das Fleisch unserer Highland – bzw. Gallowayrinder, ',
                 'über Straußenei-Nudeln und Straußeneierlikör, bis zu pikanten Saucen ist das kulinarische Angebot groß.',
@@ -95,7 +95,7 @@ export function Header() {
         },
         straussenfleisch: {
             title: 'Straußenfleisch von der Big Birds Farm',
-            subtitle: 'Entdecke die Delikatesse aus der Savanne',
+            subtitle: 'Wir bieten verschiedene Fleischprodukte vom Strauß, sowie vom Wasserbüffel und Wild an.',
             paragraphs: [
                 'Bei uns findet ihr Filet, Steak, Braten, Wurst und Burger Patties. Alle Straußenfleischprodukte gibt ',
                 'es bei uns auf der Farm oder können per Kühlpaket an euch versendet werden.',
@@ -113,11 +113,11 @@ export function Header() {
         },
         ferienwohnungen: {
             title: 'Willkommen in den Ferienwohnungen',
-            subtitle: 'Entspannen Sie sich in unserer idyllischen Umgebung',
+            subtitle: 'Entspannt Euch in unserer idyllischen Umgebung',
             paragraphs: [
-                'Verbringen Sie Ihren Urlaub in unseren gemütlichen Ferienwohnungen und genießen Sie die Ruhe und Natur.',
-                'Unsere komfortablen Unterkünfte bieten Ihnen alles, was Sie für einen erholsamen Aufenthalt benötigen.',
-                'Entdecken Sie die Schönheit unserer Umgebung und erleben Sie unvergessliche Momente inmitten der Natur.'
+                'Verbringt Euren Urlaub in unseren gemütlichen Ferienwohnungen und genießt die Ruhe und Natur.',
+                'Unsere komfortablen Unterkünfte bieten Euch alles, was Ihr für einen erholsamen Aufenthalt benötigt.',
+                'Entdeckt die Schönheit unserer Umgebung und erlebt unvergessliche Momente inmitten der Natur.'
             ]
         },
     };

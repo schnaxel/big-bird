@@ -12,7 +12,7 @@ export function Oeffnungszeiten() {
                 <hr className="d-md-none"/>
                 <div className="col-12 col-md-8 px-4">
                     <h3>Café und Shop</h3>
-                    <p className="mt-3 mb-4">Freitag bis Sonntag von 11 Uhr bis 17 Uhr</p>
+                    <p className="mt-3 mb-4">Samstag und Sonntag von 11 Uhr bis 17 Uhr</p>
                     <h3>Führungen</h3>
                     <p className="mt-3 mb-1">Ab 13.30 Uhr und ab 15.30 Uhr</p>
                     <p>
