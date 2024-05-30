@@ -42,7 +42,7 @@ export default function Home() {
                     <div className="col-lg-4 col-md-6 col-12 my-2 my-lg-0">
                         <Link href="/cafe/">
                             <div className="d-grid gap-3 mx-4 bg-white">
-                                <img src="/images/placeholder/farm-shop.jpg" alt={''} className="img-fluid"></img>
+                                <img src="/images/cafe/header/cafe-header.jpg" alt={''} className="img-fluid"></img>
                                 <h2>Café</h2>
                             </div>
                         </Link>
@@ -51,7 +51,7 @@ export default function Home() {
                     <div className="col-lg-4 col-md-6 col-12 my-2 my-lg-0">
                         <Link href="/straussenfleisch/">
                             <div className="d-grid gap-3 mx-4 bg-white">
-                                <img src="/images/placeholder/farm2.jpg" alt={''} className="img-fluid"></img>
+                                <img src="/images/placeholder/straußenfleisch-filet.jpg" alt={''} className="img-fluid"></img>
                                 <h2>Straußenfleisch</h2>
                             </div>
                         </Link>
@@ -60,7 +60,7 @@ export default function Home() {
                     <div className="col-lg-4 col-md-6 col-12 my-2 my-lg-0">
                         <Link href="/alter-stall/">
                             <div className="d-grid gap-3 mx-4 bg-white">
-                                <img src="/images/placeholder/farm3.jpg" alt={''} className="img-fluid"></img>
+                                <img src="/images/alterStall/alterStall-04.jpg" alt={''} className="img-fluid"></img>
                                 <h2>Alter Stall</h2>
                             </div>
                         </Link>
