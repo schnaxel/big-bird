@@ -51,6 +51,85 @@ export default function Cafe() {
                     <p>Eine Reservierung ist bei uns nicht möglich.</p>
                 </div>
 
+                <div className="row mt-5">
+                    <div className="col-lg-3 col-md-6 col-sm-12 mb-4 mb-lg-0">
+                        <img
+                            src="/images/cafe/cafe-01.jpg"
+                            className="w-100 shadow-1-strong mb-4"
+                            alt=""
+                        />
+
+                        <img
+                            src="/images/cafe/cafe-02.jpg"
+                            className="w-100 shadow-1-strong mb-4"
+                            alt=""
+                        />
+                        <img
+                            src="/images/cafe/cafe-10.jpg"
+                            className="w-100 shadow-1-strong mb-4"
+                            alt=""
+                        />
+                    </div>
+
+                    <div className="col-lg-3 col-md-6 col-sm-12 mb-4 mb-lg-0">
+                        <img
+                            src="/images/cafe/cafe-13.jpg"
+                            className="w-100 shadow-1-strong mb-4"
+                            alt=""
+                        />
+
+                        <img
+                            src="/images/cafe/cafe-14.jpg"
+                            className="w-100 shadow-1-strong mb-4"
+                            alt=""
+                        />
+                        <img
+                            src="/images/cafe/cafe-15.jpg"
+                            className="w-100 shadow-1-strong mb-4"
+                            alt=""
+                        />
+                    </div>
+
+                    <div className="col-lg-3 col-md-6 col-sm-12 mb-4 mb-lg-0">
+                        <img
+                            src="/images/cafe/cafe-16.jpg"
+                            className="w-100 shadow-1-strong mb-4"
+                            alt=""
+                        />
+
+                        <img
+                            src="/images/cafe/cafe-17.jpg"
+                            className="w-100 shadow-1-strong mb-4"
+                            alt=""
+                        />
+                        <img
+                            src="/images/cafe/cafe-18.jpg"
+                            className="w-100 shadow-1-strong mb-4"
+                            alt=""
+                        />
+                    </div>
+
+                    <div className="col-lg-3 col-md-6 col-sm-12 mb-4 mb-lg-0">
+                        <img
+                            src="/images/cafe/cafe-20.jpg"
+                            className="w-100 shadow-1-strong mb-4"
+                            alt=""
+                        />
+
+                        <img
+                            src="/images/cafe/cafe-21.jpg"
+                            className="w-100 shadow-1-strong mb-4"
+                            alt=""
+                        />
+
+                        <img
+                            src="/images/cafe/cafe-22.jpg"
+                            className="w-100 shadow-1-strong mb-4"
+                            alt=""
+                        />
+                    </div>
+                </div>
+
                 <Oeffnungszeiten />
             </div>
             <ContactSection pageName={'Café'} subjects={['sub1', 'sub2', 'sub3']}/>
