@@ -48,7 +48,7 @@ export function Header() {
             title: 'Willkommen auf Big Birds Farm',
             subtitle: 'Öffnungszeiten: Samstag und Sonntag von 11 bis 17 Uhr</br>Jeden ersten Samstag im Monat Event auf der Farm',
             paragraphs: [
-                'Unsere Strauße könnt ihr nur bei Führungen sehen – ab 13.30 Uhr und 15.30 Uhr. ',
+                '<strong>Unsere Strauße könnt ihr nur bei Führungen sehen – ab 13.30 Uhr und 15.30 Uhr.</strong> ',
                 'Der Spielplatz, Ziegen & Gänse stehen euch gerne zur Verfügung. Größere Gruppen bitte vorher anmelden.',
                 'Bei Regen finden die Führungen nur begrenzt bzw. gar nicht statt.',
             ]
@@ -167,7 +167,7 @@ export function Header() {
                                 <p className={'fw-normal fs-4'} dangerouslySetInnerHTML={{ __html: headerTexts[pageKey]?.subtitle }}/>
                                 <div className={'py-4'}>
                                     {headerTexts[pageKey]?.paragraphs.map((paragraph, index) => (
-                                        <p key={index} className={'m-0'}>{paragraph}</p>
+                                        <p key={index} className={'m-0'} dangerouslySetInnerHTML={{ __html: paragraph }} />
                                     ))}
                                 </div>
                             </div>
