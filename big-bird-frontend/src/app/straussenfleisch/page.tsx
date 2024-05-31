@@ -57,7 +57,7 @@ export default function Straussenfleisch() {
                             </div>
                         </div>
 
-                        <div className="row my-5 mx-2 mx-lg-0 text-center bg-primary bg-opacity-10">
+                        <div className="row my-5 mx-2 mx-lg-0 text-center bg-primary bg-opacity-10 d-none">
                             <div className="col-lg-4 col-12 p-0">
                                 <img src="/images/placeholder/straußenfleisch-filet.jpg" alt={''} className="img-fluid w-100 h-100 object-fit-cover"></img>
                             </div>
@@ -79,7 +79,7 @@ export default function Straussenfleisch() {
                             </div>
                         </div>
 
-                        <div className="row my-5 mx-2 mx-lg-0 text-center bg-primary bg-opacity-10">
+                        <div className="row my-5 mx-2 mx-lg-0 text-center bg-primary bg-opacity-10 d-none">
                             <div className="col-lg-4 col-12 p-0">
                                 <img src="/images/placeholder/straußenfleisch-steak.jpg" alt={''} className="img-fluid w-100 h-100 object-fit-cover"></img>
                             </div>
@@ -97,7 +97,7 @@ export default function Straussenfleisch() {
                             </div>
                         </div>
 
-                        <div className="row my-5 mx-2 mx-lg-0 text-center bg-primary bg-opacity-10">
+                        <div className="row my-5 mx-2 mx-lg-0 text-center bg-primary bg-opacity-10 d-none">
                             <div className="col-lg-4 col-12 p-0">
                                 <img src="/images/placeholder/straußenfleisch-filet.jpg" alt={''} className="img-fluid w-100 h-100 object-fit-cover"></img>
                             </div>
