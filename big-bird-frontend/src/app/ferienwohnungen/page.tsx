@@ -50,7 +50,7 @@ export default function Ferienwohnungen() {
         persons: '4',
         bedrooms: '2',
         highlights: ['Highlight1', 'Highlight2', 'Highlight3', 'Highlight4'],
-        bookingLink: 'https://www.airbnb.de/rooms/912202930363128131?adults=2&check_in=2024-05-01&check_out=2024-05-05&source_impression_id=p3_1688875466_JdNQmqPEVQ3XQJgi&previous_page_section_name=1000&federated_search_id=76ebf474-e5c8-4edd-9bbb-ac9a9ec98aaf'
+        bookingLink: 'https://www.airbnb.de/rooms/912202930363128131'
     }
 
     const detailsFewo2 = {
@@ -60,7 +60,7 @@ export default function Ferienwohnungen() {
         persons: '5',
         bedrooms: '4',
         highlights: ['Highlight1', 'Highlight2', 'Highlight3', 'Highlight4'],
-        bookingLink: 'https://www.airbnb.de/rooms/912202930363128131?adults=2&check_in=2024-05-01&check_out=2024-05-05&source_impression_id=p3_1688875466_JdNQmqPEVQ3XQJgi&previous_page_section_name=1000&federated_search_id=76ebf474-e5c8-4edd-9bbb-ac9a9ec98aaf'
+        bookingLink: ''
     }
 
     return (
@@ -111,9 +111,6 @@ export default function Ferienwohnungen() {
                     </div>
                 </div>
             </section>
-
-
-            {/* Übergeben Sie activeFewo als Props an ContactSection */}
             <ContactSection subjects={['Verfügbarkeit und Buchung', 'Ausstattung der Ferienwohnung']} pageName={'Ferienwohnung'} activeFewo={activeFewo}/>
         </>
     )
