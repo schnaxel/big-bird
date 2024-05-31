@@ -63,29 +63,6 @@ export default function Ferienwohnungen() {
         bookingLink: 'https://www.airbnb.de/rooms/912202930363128131?adults=2&check_in=2024-05-01&check_out=2024-05-05&source_impression_id=p3_1688875466_JdNQmqPEVQ3XQJgi&previous_page_section_name=1000&federated_search_id=76ebf474-e5c8-4edd-9bbb-ac9a9ec98aaf'
     }
 
-    const descriptionFewo1 = [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac felis sit amet odio aliquam tincidunt. Nullam nec odio nec nunc ultricies ultricies.',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac felis sit amet odio aliquam tincidunt. Nullam nec odio nec nunc ultricies ultricies.',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac felis sit amet odio aliquam tincidunt. Nullam nec odio nec nunc ultricies ultricies.',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac felis sit amet odio aliquam tincidunt. Nullam nec odio nec nunc ultricies ultricies.',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac felis sit amet odio aliquam tincidunt. Nullam nec odio nec nunc ultricies ultricies.',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac felis sit amet odio aliquam tincidunt. Nullam nec odio nec nunc ultricies ultricies.',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac felis sit amet odio aliquam tincidunt. Nullam nec odio nec nunc ultricies ultricies.',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac felis sit amet odio aliquam tincidunt. Nullam nec odio nec nunc ultricies ultricies.'
-    ];
-    const descriptionFewo2 = [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac felis sit amet odio aliquam tincidunt. Nullam nec odio nec nunc ultricies ultricies.',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac felis sit amet odio aliquam tincidunt. Nullam nec odio nec nunc ultricies ultricies.',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac felis sit amet odio aliquam tincidunt. Nullam nec odio nec nunc ultricies ultricies.',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac felis sit amet odio aliquam tincidunt. Nullam nec odio nec nunc ultricies ultricies.',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac felis sit amet odio aliquam tincidunt. Nullam nec odio nec nunc ultricies ultricies.',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac felis sit amet odio aliquam tincidunt. Nullam nec odio nec nunc ultricies ultricies.',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac felis sit amet odio aliquam tincidunt. Nullam nec odio nec nunc ultricies ultricies.',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac felis sit amet odio aliquam tincidunt. Nullam nec odio nec nunc ultricies ultricies.'
-    ];
-
-    const descriptionFewo = activeFewo === 'fewo1' ? descriptionFewo1 : descriptionFewo2;
-
     return (
         <>
             <section className={'py-5'}>
@@ -125,25 +102,11 @@ export default function Ferienwohnungen() {
                             <SliderFewo images={activeFewo === 'fewo1' ? imagesFewo1 : imagesFewo2}/>
                         </div>
                     </div>
-                    <div className="row py-4">
+                    <div className="row pt-4">
                         <div className="col-12 text-center">
                             <Link href={activeFewo === 'fewo1' ? detailsFewo1.bookingLink : detailsFewo2.bookingLink} rel="noopener" target="_blank" className={'btn btn-lg btn-outline-primary rounded-0'}>
                                 Bei Airbnb reservieren
                             </Link>
-                        </div>
-                    </div>
-                    <div className="row pt-4">
-                        <div className="col-12 col-lg-6">
-                            <span>{descriptionFewo[0]}</span>
-                            <span>{descriptionFewo[1]}</span>
-                            <span>{descriptionFewo[2]}</span>
-                            <span>{descriptionFewo[3]}</span>
-                        </div>
-                        <div className="col-12 col-lg-6">
-                            <span>{descriptionFewo[4]}</span>
-                            <span>{descriptionFewo[5]}</span>
-                            <span>{descriptionFewo[6]}</span>
-                            <span>{descriptionFewo[7]}</span>
                         </div>
                     </div>
                 </div>
