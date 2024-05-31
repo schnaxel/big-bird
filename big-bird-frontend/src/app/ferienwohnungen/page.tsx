@@ -6,41 +6,68 @@ import FewoDetails from "@/src/components/FewoDetails/FewoDetails";
 import Link from "next/link";
 
 export default function Ferienwohnungen() {
-    const [activeFewo, setActiveFewo] = useState('fewo1'); // Zustand für die aktive Ferienwohnung
+    const [activeFewo, setActiveFewo] = useState('fewo1');
 
     const imagesFewo1 = [
         {
-            src: '/images/placeholder/fewo.jpg',
-            alt: 'Ferienwohnung 1',
-            description: 'Ferienwohnung 1'
+            src: '/images/fewos/fewo01-9.jpg',
+            alt: 'Ferienwohnung Lily',
+            description: 'Wohnzimmer'
         },
         {
-            src: '/images/placeholder/feiern1.jpg',
-            alt: 'Ferienwohnung 1',
-            description: 'Ferienwohnung 1'
+            src: '/images/fewos/fewo01-5.jpg',
+            alt: 'Ferienwohnung Lily',
+            description: 'Wohnzimmer'
         },
         {
-            src: '/images/placeholder/feiern2.jpg',
-            alt: 'Ferienwohnung 1',
-            description: 'Ferienwohnung 1'
-        }
+            src: '/images/fewos/fewo01-4.jpg',
+            alt: 'Ferienwohnung Lily',
+            description: 'Voll ausgestattete Küche'
+        },
+        {
+            src: '/images/fewos/fewo01-1.jpg',
+            alt: 'Ferienwohnung Lily',
+            description: 'Essbereich'
+        },
+        {
+            src: '/images/fewos/fewo01-8.jpg',
+            alt: 'Ferienwohnung Lily',
+            description: 'Essbereich'
+        },
+        {
+            src: '/images/fewos/fewo01-3.jpg',
+            alt: 'Ferienwohnung Lily',
+            description: 'Schlafzimmer 1'
+        },
+        {
+            src: '/images/fewos/fewo01-2.jpg',
+            alt: 'Ferienwohnung Lily',
+            description: 'Schlafzimmer 2'
+        },
+        {
+            src: '/images/fewos/fewo01-6.jpg',
+            alt: 'Ferienwohnung Lily',
+            description: 'Wäschebereich'
+        },
+        {
+            src: '/images/fewos/fewo01-7.jpg',
+            alt: 'Ferienwohnung Lily',
+            description: 'Badezimmer'
+        },
+
+
     ];
     const imagesFewo2 = [
         {
             src: '/images/placeholder/farm1.jpg',
-            alt: 'Ferienwohnung 2',
+            alt: 'Ferienwohnung Lova',
             description: 'Ferienwohnung 2'
         },
         {
-            src: '/images/placeholder/farm2.jpg',
-            alt: 'Ferienwohnung 2',
+            src: '/images/placeholder/farm1.jpg',
+            alt: 'Ferienwohnung Lova',
             description: 'Ferienwohnung 2'
         },
-        {
-            src: '/images/placeholder/farm3.jpg',
-            alt: 'Ferienwohnung 2',
-            description: 'Ferienwohnung 2'
-        }
     ];
 
     const detailsFewo1 = {
@@ -49,7 +76,8 @@ export default function Ferienwohnungen() {
         rooms: '3',
         persons: '4',
         bedrooms: '2',
-        highlights: ['Highlight1', 'Highlight2', 'Highlight3', 'Highlight4'],
+        highlights: ['kostenlose Parkmöglichkeiten', 'Kinderspielplatz'],
+        checkIn: ['Eigenständiger Check-in', 'Checke per Schlüsselbox selbst ein.'],
         bookingLink: 'https://www.airbnb.de/rooms/912202930363128131'
     }
 
@@ -59,13 +87,14 @@ export default function Ferienwohnungen() {
         rooms: '5',
         persons: '5',
         bedrooms: '4',
-        highlights: ['Highlight1', 'Highlight2', 'Highlight3', 'Highlight4'],
+        highlights: ['kostenlose Parkmöglichkeiten', 'Kinderspielplatz'],
+        checkIn: ['Eigenständiger Check-in', 'Checke per Schlüsselbox selbst ein.'],
         bookingLink: ''
     }
 
     return (
         <>
-            <section className={'py-5'}>
+            {/*<section className={'py-5'}>
                 <div className="container">
                     <div className="row">
                         <div className="col-12 d-flex justify-content-center gap-3">
@@ -84,12 +113,12 @@ export default function Ferienwohnungen() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section>*/}
             <section className={'pt-4 pb-5'}>
                 <div className="container">
                     <div className="row pb-4">
                         <div className="col-12">
-                            <h2 className={'fw-medium text-center mb-0'}>
+                            <h2 className={'fw-medium fs-2 text-center mb-0'}>
                                 {activeFewo === 'fewo1' ? detailsFewo1.name : detailsFewo2.name}
                             </h2>
                         </div>
@@ -104,7 +133,7 @@ export default function Ferienwohnungen() {
                     </div>
                     <div className="row pt-4">
                         <div className="col-12 text-center">
-                            <Link href={activeFewo === 'fewo1' ? detailsFewo1.bookingLink : detailsFewo2.bookingLink} rel="noopener" target="_blank" className={'btn btn-lg btn-outline-primary rounded-0'}>
+                            <Link href={activeFewo === 'fewo1' ? detailsFewo1.bookingLink : detailsFewo2.bookingLink} rel="noopener" target="_blank" className={'btn btn-outline-primary rounded-0'}>
                                 Bei Airbnb reservieren
                             </Link>
                         </div>
