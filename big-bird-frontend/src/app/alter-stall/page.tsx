@@ -89,7 +89,7 @@ export default function AlterStall() {
                     </div>
                 </div>
             </div>
-            <ContactSection pageName={'Alter Stall'} subjects={['sub1', 'sub2', 'sub3']}/>
+            <ContactSection pageName={'Alter Stall'} subjects={['Frage zu Möbeln', 'Besichtigung']}/>
         </>
     )
 }

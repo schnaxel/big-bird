@@ -118,7 +118,7 @@ export default function Home() {
                 <Oeffnungszeiten />
 
             </div>
-            <ContactSection pageName={'Home'} subjects={['sub1', 'sub2', 'sub3']}/>
+            <ContactSection pageName={'Home'} subjects={['Allgemeine Anfrage', 'Besuchsanfrage', 'Feedback']}/>
         </>
     )
 }

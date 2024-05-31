@@ -184,7 +184,7 @@ export default function Straussenfleisch() {
                     <p>Selbstverständlich bieten wir auch Hundefutter an.</p>
                 </div>
             </div>
-            <ContactSection pageName={'Straußenfleisch'} subjects={['sub1', 'sub2', 'sub3']}/>
+            <ContactSection pageName={'Straußenfleisch'} subjects={['Verfügbarkeit von Straußenfleisch', 'Bestellung von Straußenfleisch', 'Informationen zu Straußenfleisch']}/>
         </>
     )
 }

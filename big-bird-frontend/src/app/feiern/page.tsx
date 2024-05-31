@@ -89,7 +89,7 @@ export default function Datenschutz() {
 
                 </div>
             </div>
-            <ContactSection pageName={'Feiern'} subjects={['sub1', 'sub2', 'sub3']}/>
+            <ContactSection pageName={'Feiern'} subjects={['Eventplanung und -organisation', 'Betriebsausflug']}/>
         </>
     )
 }

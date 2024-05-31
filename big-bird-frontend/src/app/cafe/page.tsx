@@ -132,7 +132,7 @@ export default function Cafe() {
 
                 <Oeffnungszeiten />
             </div>
-            <ContactSection pageName={'Café'} subjects={['sub1', 'sub2', 'sub3']}/>
+            <ContactSection pageName={'Café'} subjects={['Reservierung im Café', 'Menüanfrage']}/>
         </>
     )
 }

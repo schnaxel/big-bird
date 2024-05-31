@@ -44,7 +44,7 @@ const ContactForm: React.FC<{ pageName: string, subjects: string[], activeFewo?:
                     />
                     <input
                         id="name"
-                        className={'form-control rounded-0 bg-primary bg-opacity-10'}
+                        className={'form-control rounded-0 bg-secondary bg-opacity-33'}
                         //style={{backgroundImage: "url('/images/bg-repeat.jpg')", backgroundRepeat: 'repeat'}}
                         type="text"
                         name="Name"
@@ -60,7 +60,7 @@ const ContactForm: React.FC<{ pageName: string, subjects: string[], activeFewo?:
                 <div className={'d-flex flex-column mb-3 col-12 col-md-6 pt-md-4'}>
                     <input
                         id="email"
-                        className={'form-control rounded-0 bg-primary bg-opacity-10'}
+                        className={'form-control rounded-0 bg-secondary bg-opacity-33'}
                         //style={{backgroundImage: "url('/images/bg-repeat.jpg')", backgroundRepeat: 'repeat'}}
                         type="email"
                         name="E-Mail Adresse"
@@ -78,7 +78,7 @@ const ContactForm: React.FC<{ pageName: string, subjects: string[], activeFewo?:
                 <div className={'d-flex flex-column mb-3 col-12 col-md-6'}>
                     <input
                         id="phone"
-                        className={'form-control rounded-0 bg-primary bg-opacity-10'}
+                        className={'form-control rounded-0 bg-secondary bg-opacity-33'}
                         //style={{backgroundImage: "url('/images/bg-repeat.jpg')", backgroundRepeat: 'repeat'}}
 
                         type="tel"
@@ -95,7 +95,7 @@ const ContactForm: React.FC<{ pageName: string, subjects: string[], activeFewo?:
                 <div className={'d-flex flex-column mb-3 col-12 col-md-6'}>
                     <select id="subject"
                             name="Betreff"
-                            className={'form-select rounded-0 bg-primary bg-opacity-10'}
+                            className={'form-select rounded-0 bg-secondary bg-opacity-33'}
                             //style={{backgroundImage: "url('/images/bg-repeat.jpg')", backgroundRepeat: 'repeat', backgroundSize: 'auto'}}
                             required={true}
                     >
@@ -114,7 +114,7 @@ const ContactForm: React.FC<{ pageName: string, subjects: string[], activeFewo?:
                 <div className={'d-flex flex-column pb-4 col-12'}>
                     <textarea
                         id="message"
-                        className={'form-control rounded-0 bg-primary bg-opacity-10'}
+                        className={'form-control rounded-0 bg-secondary bg-opacity-33'}
                         //style={{backgroundImage: "url('/images/bg-repeat.jpg')", backgroundRepeat: 'repeat', resize: 'none'}}
                         name="Anfrage"
                         placeholder={'Nachricht *'}

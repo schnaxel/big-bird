@@ -141,7 +141,7 @@ export default function Feiern() {
                 <Oeffnungszeiten />
             </div>
 
-            <ContactSection pageName={'Farm'} subjects={['sub1', 'sub2', 'sub3']}/>
+            <ContactSection pageName={'Farm'} subjects={['Fragen zur Farm', 'Führungen und Besichtigungen']}/>
         </>
     )
 }

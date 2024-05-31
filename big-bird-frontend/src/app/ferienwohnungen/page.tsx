@@ -114,7 +114,7 @@ export default function Ferienwohnungen() {
 
 
             {/* Übergeben Sie activeFewo als Props an ContactSection */}
-            <ContactSection subjects={['sub1', 'sub2', 'sub3']} pageName={'Ferienwohnung'} activeFewo={activeFewo}/>
+            <ContactSection subjects={['Verfügbarkeit und Buchung', 'Ausstattung der Ferienwohnung']} pageName={'Ferienwohnung'} activeFewo={activeFewo}/>
         </>
     )
 }

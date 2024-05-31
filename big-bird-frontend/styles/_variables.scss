@@ -61,6 +61,22 @@ $container-max-widths: (
   "xxxxxl": 1840px,
 );*/
 
+$utilities: (
+  "bg-opacity": (
+    css-var: true,
+    class: bg-opacity,
+    values: (
+            5: .05,
+            10: .1,
+            25: .25,
+            33: .33,
+            50: .5,
+            75: .75,
+            100: 1
+    ),
+  )
+);
+
 // SCROLLBAR
 @mixin custom-scroll-bar() {
   &::-webkit-scrollbar {

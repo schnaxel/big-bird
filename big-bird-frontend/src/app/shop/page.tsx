@@ -150,7 +150,7 @@ export default function Datenschutz() {
                     </div>
                 </div>
             </div>
-            <ContactSection pageName={'Shop'} subjects={['sub1', 'sub2', 'sub3']}/>
+            <ContactSection pageName={'Shop'} subjects={['Produktanfrage', 'Bestellung und Lieferung', 'Reklamationen und Rückgaben']}/>
         </>
     )
 }
