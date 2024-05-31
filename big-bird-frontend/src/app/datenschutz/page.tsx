@@ -6,13 +6,13 @@ export default function Datenschutz() {
       <p>
         Mit der folgenden Datenschutzerklärung möchten wir Sie darüber
         aufklären, welche Arten Ihrer personenbezogenen Daten (nachfolgend auch
-        kurz als "Daten“ bezeichnet) wir zu welchen Zwecken und in welchem
+        kurz als &quot;Daten&quot; bezeichnet) wir zu welchen Zwecken und in welchem
         Umfang verarbeiten. Die Datenschutzerklärung gilt für alle von uns
         durchgeführten Verarbeitungen personenbezogener Daten, sowohl im Rahmen
         der Erbringung unserer Leistungen als auch insbesondere auf unseren
         Webseiten, in mobilen Applikationen sowie innerhalb externer
         Onlinepräsenzen, wie z.B. unserer Social-Media-Profile (nachfolgend
-        zusammenfassend bezeichnet als "Onlineangebot“).
+        zusammenfassend bezeichnet als &quot;Onlineangebot&quot;).
       </p>
       <p>Die verwendeten Begriffe sind nicht geschlechtsspezifisch.</p>
       <p>Stand: 23. November 2021</p>
@@ -308,7 +308,7 @@ export default function Datenschutz() {
         wurde, gehören. Zu dem Begriff der Cookies zählen wir ferner andere
         Technologien, die die gleichen Funktionen wie Cookies erfüllen (z.B.,
         wenn Angaben der Nutzer anhand pseudonymer Onlinekennzeichnungen
-        gespeichert werden, auch als "Nutzer-IDs" bezeichnet)
+        gespeichert werden, auch als &quot;Nutzer-IDs&quot; bezeichnet)
       </p>
       <p>
         <strong>
@@ -357,9 +357,9 @@ export default function Datenschutz() {
           Nutzen von Funktionen etc.) auf einzelnen Webseiten in einem
           Nutzerprofil gespeichert werden. Solche Profile dienen dazu, den
           Nutzern z.B. Inhalte anzuzeigen, die ihren potentiellen Interessen
-          entsprechen. Dieses Verfahren wird auch als "Tracking", d.h.,
+          entsprechen. Dieses Verfahren wird auch als &quot;Tracking&quot;, d.h.,
           Nachverfolgung der potentiellen Interessen der Nutzer bezeichnet.
-          Soweit wir Cookies oder "Tracking"-Technologien einsetzen, informieren
+          Soweit wir Cookies oder &quot;Tracking&quot;-Technologien einsetzen, informieren
           wir Sie gesondert in unserer Datenschutzerklärung oder im Rahmen der
           Einholung einer Einwilligung.
         </li>
@@ -391,7 +391,7 @@ export default function Datenschutz() {
         oder gesetzlichen Erlaubnis erfolgt, haben Sie jederzeit die
         Möglichkeit, eine erteilte Einwilligung zu widerrufen oder der
         Verarbeitung Ihrer Daten durch Cookie-Technologien zu widersprechen
-        (zusammenfassend als "Opt-Out" bezeichnet). Sie können Ihren Widerspruch
+        (zusammenfassend als &quot;Opt-Out&quot; bezeichnet). Sie können Ihren Widerspruch
         zunächst mittels der Einstellungen Ihres Browsers erklären, z.B., indem
         Sie die Nutzung von Cookies deaktivieren (wobei hierdurch auch die
         Funktionsfähigkeit unseres Onlineangebotes eingeschränkt werden kann).
@@ -662,28 +662,28 @@ export default function Datenschutz() {
       <p>
         <strong>Facebook-Seiten</strong>: Wir sind gemeinsam mit Facebook Irland
         Ltd. für die Erhebung (jedoch nicht die weitere Verarbeitung) von Daten
-        der Besucher unserer Facebook-Seite (sog. "Fanpage") verantwortlich. Zu
+        der Besucher unserer Facebook-Seite (sog. &quot;Fanpage&quot;) verantwortlich. Zu
         diesen Daten gehören Informationen zu den Arten von Inhalten, die Nutzer
         sich ansehen oder mit denen sie interagieren, oder die von ihnen
-        vorgenommenen Handlungen (siehe unter „Von dir und anderen getätigte und
-        bereitgestellte Dinge“ in der Facebook-Datenrichtlinie:
+        vorgenommenen Handlungen (siehe unter &quot;Von dir und anderen getätigte und
+        bereitgestellte Dinge&quot; in der Facebook-Datenrichtlinie:
         <a href="https://www.facebook.com/policy" target="_blank">
           https://www.facebook.com/policy
         </a>
         ), sowie Informationen über die von den Nutzern genutzten Geräte (z. B.
         IP-Adressen, Betriebssystem, Browsertyp, Spracheinstellungen,
-        Cookie-Daten; siehe unter „Geräteinformationen“ in der
+        Cookie-Daten; siehe unter &quot;Geräteinformationen&quot; in der
         Facebook-Datenrichtlinie:
         <a href="https://www.facebook.com/policy" target="_blank">
           https://www.facebook.com/policy
         </a>
         ). Wie in der Facebook-Datenrichtlinie unter „Wie verwenden wir diese
-        Informationen?“ erläutert, erhebt und verwendet Facebook Informationen
-        auch, um Analysedienste, so genannte "Seiten-Insights", für
+        Informationen?&quot; erläutert, erhebt und verwendet Facebook Informationen
+        auch, um Analysedienste, so genannte &quot;Seiten-Insights&quot;, für
         Seitenbetreiber bereitzustellen, damit diese Erkenntnisse darüber
         erhalten, wie Personen mit ihren Seiten und mit den mit ihnen
         verbundenen Inhalten interagieren. Wir haben mit Facebook eine spezielle
-        Vereinbarung abgeschlossen ("Informationen zu Seiten-Insights",
+        Vereinbarung abgeschlossen (&quot;Informationen zu Seiten-Insights&quot;,
         <a
           href="https://www.facebook.com/legal/terms/page_controller_addendum"
           target="_blank"
@@ -697,7 +697,7 @@ export default function Datenschutz() {
         (insbesondere auf Auskunft, Löschung, Widerspruch und Beschwerde bei
         zuständiger Aufsichtsbehörde), werden durch die Vereinbarungen mit
         Facebook nicht eingeschränkt. Weitere Hinweise finden sich in den
-        "Informationen zu Seiten-Insights" (
+        &quot;Informationen zu Seiten-Insights&quot; (
         <a
           href="https://www.facebook.com/legal/terms/information_about_page_insights_data"
           target="_blank"
@@ -872,9 +872,9 @@ export default function Datenschutz() {
       <ul className="glossary">
         <li>
           <strong>Personenbezogene Daten:</strong>
-          "Personenbezogene Daten“ sind alle Informationen, die sich auf eine
+          &quot;Personenbezogene Daten&quot; sind alle Informationen, die sich auf eine
           identifizierte oder identifizierbare natürliche Person (im Folgenden
-          "betroffene Person“) beziehen; als identifizierbar wird eine
+          &quot;betroffene Person&quot;) beziehen; als identifizierbar wird eine
           natürliche Person angesehen, die direkt oder indirekt, insbesondere
           mittels Zuordnung zu einer Kennung wie einem Namen, zu einer
           Kennnummer, zu Standortdaten, zu einer Online-Kennung (z.B. Cookie)
@@ -885,14 +885,14 @@ export default function Datenschutz() {
         </li>
         <li>
           <strong>Verantwortlicher:</strong>
-          Als "Verantwortlicher“ wird die natürliche oder juristische Person,
+          Als &quot;Verantwortlicher&quot; wird die natürliche oder juristische Person,
           Behörde, Einrichtung oder andere Stelle, die allein oder gemeinsam mit
           anderen über die Zwecke und Mittel der Verarbeitung von
           personenbezogenen Daten entscheidet, bezeichnet.
         </li>
         <li>
           <strong>Verarbeitung:</strong>
-          "Verarbeitung" ist jeder mit oder ohne Hilfe automatisierter Verfahren
+          &quot;Verarbeitung&quot; ist jeder mit oder ohne Hilfe automatisierter Verfahren
           ausgeführte Vorgang oder jede solche Vorgangsreihe im Zusammenhang mit
           personenbezogenen Daten. Der Begriff reicht weit und umfasst praktisch
           jeden Umgang mit Daten, sei es das Erheben, das Auswerten, das
