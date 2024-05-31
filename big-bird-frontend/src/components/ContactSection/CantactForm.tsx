@@ -3,7 +3,7 @@ import React from 'react';
 import {useForm, ValidationError} from '@formspree/react';
 
 const ContactForm: React.FC<{ pageName: string, subjects: string[], activeFewo?: string }> = ({ pageName, subjects, activeFewo }) => {
-    const [state, handleSubmit] = useForm("xeqyrajw");
+    const [state, handleSubmit] = useForm("mnqeknwn");
     if (state.succeeded) {
         return (
             <div className="alert alert-secondary d-flex flex-column align-items-center mb-1 mt-4" role="alert">
