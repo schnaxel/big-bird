@@ -1,5 +1,5 @@
 'use client'
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import ContactSection from "@/src/components/ContactSection/ContactSection";
 import SliderFewo from "@/src/components/SliderFewo/SliderFewo";
 import FewoDetails from "@/src/components/FewoDetails/FewoDetails";
@@ -7,6 +7,9 @@ import Link from "next/link";
 
 export default function Ferienwohnungen() {
     const [activeFewo, setActiveFewo] = useState('fewo1');
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     const imagesFewo1 = [
         {

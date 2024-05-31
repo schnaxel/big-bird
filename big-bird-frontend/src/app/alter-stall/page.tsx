@@ -1,7 +1,12 @@
+'use client'
 import ContactSection from "@/src/components/ContactSection/ContactSection";
 import Link from "next/link";
+import {useEffect} from "react";
 
 export default function AlterStall() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <>
 
