@@ -68,8 +68,8 @@ export function Header() {
             subtitle: 'Das Big Birds Café hat das Ziel euch den besten Kaffee mit handgemachten Torten & Kuchen zu servieren.',
             paragraphs: [
                 'Fair gehandelter und lokal gerösteter Kaffee bezogen über eine Kieler Manufaktur.',
-                'Kulinarisch verwöhnen wir euch mit selbstgemachten Torten, Kuchen, Muffins und weiteren Leckereien von',
-                'Tante Dani. Unser wechselndes Angebot könnt ihr natürlich jederzeit bei Instagram einsehen.',
+                'Kulinarisch verwöhnen wir euch mit selbstgemachten Torten, Kuchen, Muffins und weiteren Leckereien.',
+                'Unser wechselndes Angebot könnt ihr natürlich jederzeit bei Instagram einsehen.',
                 'Selbstverständlich bieten wir euch unsere Kostbarkeiten zum Teil auch vegan und laktosefrei an.'
             ]
         },

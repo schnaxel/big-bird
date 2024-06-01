@@ -110,7 +110,7 @@ export default function Home() {
                         </p>
                         <p>
                             Kulinarisch verwöhnen wir euch mit selbstgemachten Torten, Kuchen, Muffins und weiteren
-                            Leckereien von Tante Dani und bestem Kaffee.
+                            Leckereien und bestem Kaffee.
                         </p>
                     </div>
                 </div>
