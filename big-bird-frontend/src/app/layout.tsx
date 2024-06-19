@@ -1,5 +1,4 @@
 import "@/styles/bootstrap.scss";
-import type {Metadata} from 'next'
 import {Amatic_SC, Poppins} from 'next/font/google'
 import Footer from "@/src/components/Footer/Footer";
 import Script from "next/script";
@@ -20,11 +19,6 @@ const amatic = Amatic_SC({
     subsets: ['latin'],
     variable: '--font-amatic',
 })
-
-export const metadata: Metadata = {
-    title: 'Big Birds Farm',
-    description: 'Big-Bird',
-}
 
 export default function RootLayout({
                                        children,

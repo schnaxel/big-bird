@@ -1,15 +1,17 @@
-'use client'
 import ContactSection from "@/src/components/ContactSection/ContactSection";
 import Oeffnungszeiten from "@/src/components/Oeffnungszeiten/Oeffnungszeiten";
-import {useEffect} from "react";
+import React from "react";
+import {Metadata} from "next";
+
+export const metadata: Metadata = {
+    title: 'Big Birds Farm - Café',
+    description: 'Das Big Birds Café hat das Ziel euch den besten Kaffee mit handgemachten Torten & Kuchen zu servieren.',
+}
 
 export default function Cafe() {
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, []);
+
     return (
         <>
-
             <div className={'container'}>
                 <div className="mt-4 row justify-content-center">
                     <div className="col-10 px-0 border border-muted rounded-end">

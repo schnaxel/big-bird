@@ -1,10 +1,16 @@
 import ContactSection from "@/src/components/ContactSection/ContactSection";
 import Oeffnungszeiten from "@/src/components/Oeffnungszeiten/Oeffnungszeiten";
+import React from "react";
+import {Metadata} from "next";
+
+export const metadata: Metadata = {
+    title: 'Big Birds Farm - Farm',
+    description: 'Strauße hautnah erleben! Die Big Birds Farm umfasst Gehege, Weiden und Wiesen zwischen Haithabu und Fahrdorf, entlang der Schlei, auf denen unsere Tiere draußen weiden. Direkt auf dem Hof an der B76 findet Ihr unsere Straußengehege, in denen ihr unsere Tiere während unserer Führungen beobachten und fotografieren könnt.',
+}
 
 export default function Feiern() {
     return (
         <>
-
             <div className={'container'}>
                 <div className="row mb-md-5 mt-5">
                     <div className="col-md-4 col-12">

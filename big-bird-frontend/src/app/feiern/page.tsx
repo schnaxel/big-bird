@@ -1,14 +1,15 @@
-'use client'
 import ContactSection from "@/src/components/ContactSection/ContactSection";
-import {useEffect} from "react";
+import React from "react";
+import {Metadata} from "next";
+
+export const metadata: Metadata = {
+    title: 'Big Birds Farm - Feiern',
+    description: 'Ein besonderer Ort für besondere Anlässe - Unsere Farm bietet eine gemütliche und einzigartige Atmosphäre für dein Fest, ob Hochzeit, Geburtstag, Weihnachtsessen, Konfirmation, Firmenevent, lockere Party oder stilvolle Feier – wir beraten Dich gerne und erstellen dir ein individuelles Angebot.',
+}
 
 export default function Datenschutz() {
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, []);
     return (
         <>
-
             <div className={'container'}>
                 <div className="text-center">
                     <p>Schreib uns gerne über das Kontaktformular an.</p>

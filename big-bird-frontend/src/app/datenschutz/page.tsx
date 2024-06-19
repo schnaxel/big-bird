@@ -1,3 +1,8 @@
+import {Metadata} from "next";
+
+export const metadata: Metadata = {
+  title: 'Big Birds Farm - Datenschutz',
+}
 export default function Datenschutz() {
   return (
     <div className={"container"}>

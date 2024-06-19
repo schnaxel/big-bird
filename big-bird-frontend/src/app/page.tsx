@@ -2,11 +2,16 @@ import React from "react";
 import ContactSection from "@/src/components/ContactSection/ContactSection";
 import Oeffnungszeiten from "@/src/components/Oeffnungszeiten/Oeffnungszeiten";
 import Link from "next/link";
+import {Metadata} from "next";
+
+export const metadata: Metadata = {
+    title: 'Big Birds Farm - Startsteite',
+    description: 'Willkommen auf Big Birds Farm! Öffnungszeiten: Samstag und Sonntag von 11 bis 17 Uhr Jeden ersten Samstag im Monat Event auf der Farm Unsere Strauße könnt ihr nur bei Führungen sehen – ab 13.30 Uhr und 15.30 Uhr.',
+}
 
 export default function Home() {
     return (
         <>
-
             <div className={'container'}>
                 <div className="row justify-content-center">
                     <div className="col-md-10 col-12 mb-4 text-center">

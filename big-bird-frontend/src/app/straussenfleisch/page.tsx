@@ -1,14 +1,15 @@
-'use client'
 import ContactSection from "@/src/components/ContactSection/ContactSection";
-import {useEffect} from "react";
+import React from "react";
+import {Metadata} from "next";
+
+export const metadata: Metadata = {
+    title: 'Big Birds Farm - Straußenfleisch',
+    description: 'Wir bieten verschiedene Fleischprodukte vom Strauß, sowie vom Wasserbüffel und Wild an.',
+}
 
 export default function Straussenfleisch() {
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, []);
     return (
         <>
-
             <div className={'container text-center'}>
 
                 <div className="mt-5">

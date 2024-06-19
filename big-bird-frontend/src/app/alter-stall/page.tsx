@@ -1,15 +1,17 @@
-'use client'
 import ContactSection from "@/src/components/ContactSection/ContactSection";
 import Link from "next/link";
-import {useEffect} from "react";
+import React from "react";
+import {Metadata} from "next";
+
+export const metadata: Metadata = {
+    title: 'Big Birds Farm - Alter Stall',
+    description: 'Besucht unseren alten Stall und entdeckt einzigartige Möbel. Unsere Möbel erhalten durch die Verarbeitung von Altholz ihren einzigartigen, rustikalen Charakter. – für Möbel mit Geschichte.',
+}
 
 export default function AlterStall() {
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, []);
+
     return (
         <>
-
             <div className={'container text-center'}>
                 <Link href="https://mocfor.com" className="btn btn-outline-primary">
                     zum MOCFOR Shop

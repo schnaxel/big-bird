@@ -1,14 +1,16 @@
-'use client'
 import ContactSection from "@/src/components/ContactSection/ContactSection";
-import {useEffect} from "react";
+import React from "react";
+import {Metadata} from "next";
+
+export const metadata: Metadata = {
+    title: 'Big Birds Farm - Shop',
+    description: 'Integriert in das Big Birds Café ist der Big Birds Shop, unser Hofladen, in dem Ihr Produkte aus eigener Produktion sowie ausgewählte zugekaufte Produkte findet.',
+}
 
 export default function Datenschutz() {
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, []);
+
     return (
         <>
-
             <div className={'container'}>
                 <div className="text-center">
                     <p>
