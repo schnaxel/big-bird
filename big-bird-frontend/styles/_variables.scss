@@ -4,21 +4,27 @@ $body-font-size: $font-size-root;
 //COLORS
 $color-primary: #2B3136;
 $color-secondary: #FFFFFF;
+$color-info: #BE7C49;
+$color-caro: #CF9B4E;
 
 $primary: $color-primary;
 $secondary: $color-secondary;
+$info: $color-info;
+$caro: $color-caro;
 
 
 $theme-colors: (
   "primary": $primary,
   "secondary": $secondary,
+  "info": $info,
+  "caro": $caro,
 );
 
 // TYPOGRAPHY
 $h1-font-size: 3rem;
 $h2-font-size: 2rem;
 $h3-font-size: 1.5rem;
-$h4-font-size: 1.2rem;
+$h4-font-size: 1.4rem;
 $h5-font-size: 1rem;
 $h6-font-size: .875rem;
 
@@ -54,6 +60,22 @@ $container-max-widths: (
   "xxxxl": 1640px,
   "xxxxxl": 1840px,
 );*/
+
+$utilities: (
+  "bg-opacity": (
+    css-var: true,
+    class: bg-opacity,
+    values: (
+            5: .05,
+            10: .1,
+            25: .25,
+            33: .33,
+            50: .5,
+            75: .75,
+            100: 1
+    ),
+  )
+);
 
 // SCROLLBAR
 @mixin custom-scroll-bar() {

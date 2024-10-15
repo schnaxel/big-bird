@@ -45,7 +45,7 @@ const SliderFewo: React.FC<SliderFewoProps> = ({ images }) => {
 
     const renderSlides = () => {
         return images.map((image, index) => (
-            <Carousel.Item key={index} onClick={() => handleImageClick(index)}>
+            <Carousel.Item key={index} style={{maxHeight: '477px', objectFit: 'cover'}} onClick={() => handleImageClick(index)}>
                 <img className="d-block w-100" src={image.src} alt={image.alt} />
             </Carousel.Item>
         ));
@@ -66,10 +66,10 @@ const SliderFewo: React.FC<SliderFewoProps> = ({ images }) => {
 
             {/* Modal für das Vollbild */}
             <Modal show={showModal} onHide={handleCloseModal} centered size={"xl"}>
-                <Modal.Body>
+                <Modal.Body className={'d-flex flex-column align-items-center'}>
                     {selectedImage !== null && (
                         <>
-                            <img className="img-fluid" src={images[selectedImage].src} alt={images[selectedImage].alt} />
+                            <img className="img-fluid" src={images[selectedImage].src} alt={images[selectedImage].alt} style={{maxHeight:'830px'}} />
                             <p className={'text-center mt-2'}>{images[selectedImage]?.description}</p>
                         </>
                     )}

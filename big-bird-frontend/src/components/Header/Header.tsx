@@ -25,53 +25,32 @@ export function Header() {
     const pathname = usePathname()
     const headerImages: HeaderImages = {
         home: [
-            {src: 'images/placeholder/farm1.jpg', alt: 'Home 1'},
-            {src: 'images/placeholder/farm2.jpg', alt: 'Home 2'},
-            {src: 'images/placeholder/farm3.jpg', alt: 'Home 3'},
+            {src: '/images/farm/header/farm-header.jpg', alt: 'Home 1'},
+            {src: '/images/farm/header/farm-emil.jpg', alt: 'Home 2'},
+            {src: '/images/farm/header/farm-fuehrung.jpg', alt: 'Home 3'},
         ],
         farm: [
-            {src: '/images/placeholder/farm4.jpg', alt: 'Farm 1'},
-            {src: '/images/placeholder/farm5.jpg', alt: 'Farm 2'},
-            {src: '/images/placeholder/farm6.jpg', alt: 'Farm 3'},
+            {src: '/images/farm/header/farm-fuehrung.jpg', alt: 'Farm 1'},
         ],
         cafe: [
-            {src: '/images/placeholder/farm7.jpg', alt: 'Cafe 1'},
-            {src: '/images/placeholder/farm1.jpg', alt: 'Cafe 2'},
-            {src: '/images/placeholder/farm2.jpg', alt: 'Cafe 3'},
+            {src: '/images/cafe/header/cafe-header.jpg', alt: 'Cafe 1'},
         ],
         shop: [
             {src: '/images/placeholder/farm-shop.jpg', alt: 'Shop 1'},
-            {src: '/images/placeholder/farm4.jpg', alt: 'Shop 2'},
-            {src: '/images/placeholder/farm3.jpg', alt: 'Shop 3'},
         ],
-        alterStall: [
-            {src: '/images/placeholder/farm5.jpg', alt: 'Alter Stall 1'},
-            {src: '/images/placeholder/farm6.jpg', alt: 'Alter Stall 2'},
-            {src: '/images/placeholder/farm7.jpg', alt: 'Alter Stall 3'},
-        ],
-        straussenfleisch: [
-            {src: '/images/placeholder/farm6.jpg', alt: 'Straussenfleisch 1'},
-            {src: '/images/placeholder/farm5.jpg', alt: 'Straussenfleisch 2'},
-            {src: '/images/placeholder/farm4.jpg', alt: 'Straussenfleisch 3'},
-        ],
-        feiern: [
-            {src: '/images/placeholder/feiern1.jpg', alt: 'Feiern 1'},
-            {src: '/images/placeholder/feiern2.jpg', alt: 'Feiern 2'},
-            {src: '/images/placeholder/feiern3.jpg', alt: 'Feiern 3'},
-        ],
-        ferienwohnungen: [
-            {src: '/images/placeholder/fewo.jpg', alt: 'Ferienwohnungen 1'},
-            {src: '/images/placeholder/farm2.jpg', alt: 'Ferienwohnungen 2'},
-            {src: '/images/placeholder/farm3.jpg', alt: 'Ferienwohnungen 3'},
-        ],
+        alterStall: [],
+        straussenfleisch: [],
+        feiern: [],
+        ferienwohnungen: [],
     }
     const headerTexts: HeaderTexts = {
         home: {
             title: 'Willkommen auf Big Birds Farm',
-            subtitle: 'Öffnungszeiten: zurzeit haben wir geschlossen',
+            subtitle: 'Öffnungszeiten: Mittwoch bis Sonntag von 11 bis 17 Uhr</br>Jeden ersten Samstag im Monat Event auf der Farm',
             paragraphs: [
-                'Unsere Strauße könnt ihr nur bei Führungen sehen – ab 13.30 Uhr und 15.30 Uhr. ',
-                'Der Spielplatz, Ziegen & Gänse stehen euch gerne zur Verfügung. Größere Gruppen bitte vorher anmelden',
+                '<strong>Unsere Strauße könnt ihr nur bei Führungen sehen – nur Samstag und Sonntag 13.30Uhr und 15.30Uhr.</strong> ',
+                'Der Spielplatz, Ziegen & Gänse stehen euch gerne zur Verfügung. Größere Gruppen bitte vorher anmelden.',
+                'Bei Regen finden die Führungen nur begrenzt bzw. gar nicht statt.',
             ]
         },
         farm: {
@@ -89,14 +68,14 @@ export function Header() {
             subtitle: 'Das Big Birds Café hat das Ziel euch den besten Kaffee mit handgemachten Torten & Kuchen zu servieren.',
             paragraphs: [
                 'Fair gehandelter und lokal gerösteter Kaffee bezogen über eine Kieler Manufaktur.',
-                'Kulinarisch verwöhnen wir euch mit selbstgemachten Torten, Kuchen, Muffins und weiteren Leckereien von',
-                'Tante Dani. Unser wechselndes Angebot könnt ihr natürlich jederzeit bei Instagram einsehen.',
+                'Kulinarisch verwöhnen wir euch mit selbstgemachten Torten, Kuchen, Muffins und weiteren Leckereien.',
+                'Unser wechselndes Angebot könnt ihr natürlich jederzeit bei Instagram einsehen.',
                 'Selbstverständlich bieten wir euch unsere Kostbarkeiten zum Teil auch vegan und laktosefrei an.'
             ]
         },
         shop: {
             title: 'Big Birds Shop',
-            subtitle: 'Integriert in das Big Birds Café ist der Big Birds Shop, unser Hofladen in dem Sie Produkte aus eigener Produktion sowie ausgewählte zugekaufte Produkte finden.',
+            subtitle: 'Integriert in das Big Birds Café ist der Big Birds Shop, unser Hofladen, in dem Ihr Produkte aus eigener Produktion sowie ausgewählte zugekaufte Produkte findet.',
             paragraphs: [
                 'Vom Fleisch unserer Strauße, auf das bereits Hildegard von Bingen schwor, und das Fleisch unserer Highland – bzw. Gallowayrinder, ',
                 'über Straußenei-Nudeln und Straußeneierlikör, bis zu pikanten Saucen ist das kulinarische Angebot groß.',
@@ -116,7 +95,7 @@ export function Header() {
         },
         straussenfleisch: {
             title: 'Straußenfleisch von der Big Birds Farm',
-            subtitle: 'Entdecke die Delikatesse aus der Savanne',
+            subtitle: 'Wir bieten verschiedene Fleischprodukte vom Strauß, sowie vom Wasserbüffel und Wild an.',
             paragraphs: [
                 'Bei uns findet ihr Filet, Steak, Braten, Wurst und Burger Patties. Alle Straußenfleischprodukte gibt ',
                 'es bei uns auf der Farm oder können per Kühlpaket an euch versendet werden.',
@@ -134,47 +113,61 @@ export function Header() {
         },
         ferienwohnungen: {
             title: 'Willkommen in den Ferienwohnungen',
-            subtitle: 'Entspannen Sie sich in unserer idyllischen Umgebung',
+            subtitle: 'Entspannt Euch in unserer idyllischen Umgebung',
             paragraphs: [
-                'Verbringen Sie Ihren Urlaub in unseren gemütlichen Ferienwohnungen und genießen Sie die Ruhe und Natur.',
-                'Unsere komfortablen Unterkünfte bieten Ihnen alles, was Sie für einen erholsamen Aufenthalt benötigen.',
-                'Entdecken Sie die Schönheit unserer Umgebung und erleben Sie unvergessliche Momente inmitten der Natur.'
+                'Verbringt Euren Urlaub in unseren gemütlichen Ferienwohnungen und genießt die Ruhe und Natur.',
+                'Unsere komfortablen Unterkünfte bieten Euch alles, was Ihr für einen erholsamen Aufenthalt benötigt.',
+                'Entdeckt die Schönheit unserer Umgebung und erlebt unvergessliche Momente inmitten der Natur.'
             ]
         },
     };
 
 
-    const pageKey = pathname!== '/' ? pathname === '/alter-stall/' ? 'alterStall' : pathname.split('/')[1] : 'home';
+    const pageKey = pathname !== '/' ? pathname === '/alter-stall/' ? 'alterStall' : pathname.split('/')[1] : 'home';
     const images = headerImages[pageKey] || [];
 
     return (
         pathname !== '/impressum/' && pathname !== '/datenschutz/' && (
             <section>
-                <div className={'container'}>
+                <div className={'container-fluid'} style={{maxWidth: '1296px'}}>
                     <div className="row">
-                        <div className="col-12 pb-4">
-                            <Splide hasTrack={false} aria-label="..."
-                                    data-splide='{"type":"loop","perPage":1,"perMove":1,"autoplay":true,"pauseOnFocus":true,"pagination":false}'>
-                                <div className="custom-wrapper">
-                                    <SplideTrack>
-                                        {images.map(({src, alt}, index) => (
-                                            <SplideSlide key={index}>
-                                                <img src={src} alt={alt}/>
-                                            </SplideSlide>
-                                        ))}
-                                    </SplideTrack>
-                                </div>
-                            </Splide>
+                        <div className="col-12 px-0 pb-4">
+                            {images.length > 1 ? (
+                                <Splide hasTrack={false} aria-label="..."
+                                        data-splide='{"type":"loop","perPage":1,"perMove":1,"autoplay":true,"pauseOnFocus":true,"pagination":false}'
+                                >
+                                    <div className="custom-wrapper">
+                                        <SplideTrack>
+                                            {images.map(({src, alt}, index) => (
+                                                <SplideSlide key={index}>
+                                                    <img src={src} alt={alt}/>
+                                                </SplideSlide>
+                                            ))
+                                            }
+                                        </SplideTrack>
+                                    </div>
+                                </Splide>
+                            ) : images.length === 1 ?
+                                (
+                                    <header className={'w-100'} style={{
+                                        height: '70vh',
+                                        backgroundSize: 'cover',
+                                        backgroundPosition: 'center',
+                                        backgroundImage: `url(${images[0]?.src})`
+                                    }}/>
+                                ) :
+                                null
+                            }
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-12">
                             <div className="text-center pt-4">
-                                <h1 className={'fw-bold fs-2 mb-3'}>{headerTexts[pageKey]?.title}</h1>
-                                <h2 className={'fw-normal fs-3'}>{headerTexts[pageKey]?.subtitle}</h2>
+                                <h1 className={'fw-bold fs-1 mb-3'}>{headerTexts[pageKey]?.title}</h1>
+                                <p className={'fw-normal fs-4'} dangerouslySetInnerHTML={{ __html: headerTexts[pageKey]?.subtitle }}/>
                                 <div className={'py-4'}>
                                     {headerTexts[pageKey]?.paragraphs.map((paragraph, index) => (
-                                        <p key={index} className={'m-0'}>{paragraph}</p>
+                                        <p key={index} className={'m-0'} dangerouslySetInnerHTML={{ __html: paragraph }} />
                                     ))}
                                 </div>
                             </div>

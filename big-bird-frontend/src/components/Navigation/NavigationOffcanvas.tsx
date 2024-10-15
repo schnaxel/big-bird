@@ -9,10 +9,10 @@ function OffCanvasMenu(props: { navigationItems: { href: string, label: string }
 
     return (
         <>
-            <Button variant="secondary" onClick={handleToggle} className={'pe-0'}>
+            <Button variant="secondary" onClick={handleToggle} className={'pe-0 border-0'} style={{backgroundImage: 'url("/images/bg-repeat.jpg")', backgroundRepeat: 'repeat'}}>
                 <i className="bi bi-list fs-2 text-primary"></i>
             </Button>
-            <Offcanvas show={show} onHide={handleToggle} placement={'top'} style={{height: '100vh'}}>
+            <Offcanvas show={show} onHide={handleToggle} placement={'top'} style={{height: '100vh', backgroundImage: 'url("/images/bg-repeat.jpg")', backgroundRepeat: 'repeat'}}>
 
                 <Offcanvas.Header onClick={handleToggle} closeButton>
                     Menü schließen

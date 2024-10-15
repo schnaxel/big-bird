@@ -3,7 +3,7 @@ import React from 'react';
 import {useForm, ValidationError} from '@formspree/react';
 
 const ContactForm: React.FC<{ pageName: string, subjects: string[], activeFewo?: string }> = ({ pageName, subjects, activeFewo }) => {
-    const [state, handleSubmit] = useForm("xeqyrajw");
+    const [state, handleSubmit] = useForm("mnqeknwn");
     if (state.succeeded) {
         return (
             <div className="alert alert-secondary d-flex flex-column align-items-center mb-1 mt-4" role="alert">
@@ -44,7 +44,8 @@ const ContactForm: React.FC<{ pageName: string, subjects: string[], activeFewo?:
                     />
                     <input
                         id="name"
-                        className={'form-control rounded-0 border-primary bg-secondary'}
+                        className={'form-control rounded-0 bg-secondary bg-opacity-33'}
+                        //style={{backgroundImage: "url('/images/bg-repeat.jpg')", backgroundRepeat: 'repeat'}}
                         type="text"
                         name="Name"
                         placeholder={'Vor- und Nachname *'}
@@ -59,7 +60,8 @@ const ContactForm: React.FC<{ pageName: string, subjects: string[], activeFewo?:
                 <div className={'d-flex flex-column mb-3 col-12 col-md-6 pt-md-4'}>
                     <input
                         id="email"
-                        className={'form-control rounded-0 border-primary bg-secondary'}
+                        className={'form-control rounded-0 bg-secondary bg-opacity-33'}
+                        //style={{backgroundImage: "url('/images/bg-repeat.jpg')", backgroundRepeat: 'repeat'}}
                         type="email"
                         name="E-Mail Adresse"
                         placeholder={'E-Mail Adresse *'}
@@ -76,7 +78,9 @@ const ContactForm: React.FC<{ pageName: string, subjects: string[], activeFewo?:
                 <div className={'d-flex flex-column mb-3 col-12 col-md-6'}>
                     <input
                         id="phone"
-                        className={'form-control rounded-0 border-primary bg-secondary'}
+                        className={'form-control rounded-0 bg-secondary bg-opacity-33'}
+                        //style={{backgroundImage: "url('/images/bg-repeat.jpg')", backgroundRepeat: 'repeat'}}
+
                         type="tel"
                         name="Telefonnummer"
                         placeholder={'Telefonnummer*'}
@@ -91,7 +95,8 @@ const ContactForm: React.FC<{ pageName: string, subjects: string[], activeFewo?:
                 <div className={'d-flex flex-column mb-3 col-12 col-md-6'}>
                     <select id="subject"
                             name="Betreff"
-                            className={'form-select rounded-0 border-primary bg-secondary'}
+                            className={'form-select rounded-0 bg-secondary bg-opacity-33'}
+                            //style={{backgroundImage: "url('/images/bg-repeat.jpg')", backgroundRepeat: 'repeat', backgroundSize: 'auto'}}
                             required={true}
                     >
                         {subjects.map((subject, index) => (
@@ -109,12 +114,12 @@ const ContactForm: React.FC<{ pageName: string, subjects: string[], activeFewo?:
                 <div className={'d-flex flex-column pb-4 col-12'}>
                     <textarea
                         id="message"
-                        className={'form-control rounded-0 border-primary bg-secondary'}
+                        className={'form-control rounded-0 bg-secondary bg-opacity-33'}
+                        //style={{backgroundImage: "url('/images/bg-repeat.jpg')", backgroundRepeat: 'repeat', resize: 'none'}}
                         name="Anfrage"
                         placeholder={'Nachricht *'}
                         rows={5}
                         required={true}
-                        style={{resize: 'none'}}
                     />
                     <ValidationError
                         prefix="Message"
@@ -126,7 +131,7 @@ const ContactForm: React.FC<{ pageName: string, subjects: string[], activeFewo?:
             <div className="row">
                 <div className="col-12 pb-1 d-flex justify-content-center">
                     <button type="submit"
-                            className={'btn btn-outline-secondary rounded-0 align-self-center'}
+                            className={'btn btn-outline-primary rounded-0 align-self-center'}
                             disabled={state.submitting}>
                         Anfrage abschicken
                     </button>
