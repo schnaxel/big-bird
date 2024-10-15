@@ -7,6 +7,7 @@ export function Navigation() {
     const pathname = usePathname()
     const navigationItems = [
         {href: '/', label: 'Home'},
+        {href: '/events/', label: 'Events'},
         {href: '/farm/', label: 'Farm'},
         {href: '/cafe/', label: 'Café'},
         {href: '/shop/', label: 'Shop'},
