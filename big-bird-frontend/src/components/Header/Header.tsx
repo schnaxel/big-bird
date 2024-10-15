@@ -29,6 +29,7 @@ export function Header() {
             {src: '/images/farm/strauß_6.jpg', alt: 'Home 2'},
             {src: '/images/farm/header/fuehrung_header.jpg', alt: 'Home 3'},
         ],
+        events: [],
         farm: [
             {src: '/images/farm/strauß_7.jpg', alt: 'Farm 1'},
         ],
@@ -51,6 +52,16 @@ export function Header() {
                 '<strong>Unsere Strauße könnt ihr nur bei Führungen sehen – nur Samstag und Sonntag 13.30Uhr und 15.30Uhr.</strong> ',
                 'Der Spielplatz, Ziegen & Gänse stehen euch gerne zur Verfügung. Größere Gruppen bitte vorher anmelden.',
                 'Bei Regen finden die Führungen nur begrenzt bzw. gar nicht statt.',
+            ]
+        },
+        events: {
+            title: 'Events',
+            subtitle: 'Hier findest du alle anstehenden Events und Veranstaltungen auf der Big Birds Farm',
+            paragraphs: [
+                'Ob ihr nun Tiere streicheln, Neues lernen oder einfach nur lecker essen und eine gute Zeit haben wollt',
+                '- Auf der Farm ist immer was los.',
+                'Informiere dich hier über unsere aktuellen Veranstaltungen und plane deinen nächsten Besuch.',
+                'Wir freuen uns auf dich!',
             ]
         },
         farm: {
