@@ -14,7 +14,7 @@ export default function Feiern() {
             <div className={'container'}>
                 <div className="row mb-md-5 mt-5">
                     <div className="col-md-4 col-12">
-                        <img src="/images/placeholder/farm5.jpg" alt={''} className="img-fluid"></img>
+                        <img src="/images/farm/fuehrung_1.jpg" alt={''} className="img-fluid"></img>
                     </div>
                     <div className="col-md-8 col-12 my-md-auto my-5">
                         <h2>Führungen</h2>
@@ -98,7 +98,7 @@ export default function Feiern() {
                             alt=""
                         />
                         <img
-                            src="/images/farm/farm-10.jpg"
+                            src="/images/farm/straußküken_1.jpg"
                             className="w-100 shadow-1-strong mb-4"
                             alt=""
                         />
@@ -106,13 +106,13 @@ export default function Feiern() {
 
                     <div className="col-lg-3 col-md-6 col-sm-12 mb-4 mb-lg-0">
                         <img
-                            src="/images/farm/farm-23.jpg"
+                            src="/images/farm/strauß_5.jpg"
                             className="w-100 shadow-1-strong mb-4"
                             alt=""
                         />
 
                         <img
-                            src="/images/farm/farm-24.jpg"
+                            src="/images/farm/strauß_9.jpg"
                             className="w-100 shadow-1-strong mb-4"
                             alt=""
                         />
@@ -131,13 +131,13 @@ export default function Feiern() {
                         />
 
                         <img
-                            src="/images/farm/farm-28.jpg"
+                            src="/images/farm/fuehrung_3.jpg"
                             className="w-100 shadow-1-strong mb-4"
                             alt=""
                         />
 
                         <img
-                            src="/images/farm/farm-29.jpg"
+                            src="/images/farm/hund_2.jpg"
                             className="w-100 shadow-1-strong mb-4"
                             alt=""
                         />
