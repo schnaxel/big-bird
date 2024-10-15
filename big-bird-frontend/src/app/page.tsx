@@ -6,7 +6,7 @@ import {Metadata} from "next";
 
 export const metadata: Metadata = {
     title: 'Big Birds Farm - Startsteite',
-    description: 'Willkommen auf Big Birds Farm! Öffnungszeiten: Samstag und Sonntag von 11 bis 17 Uhr Jeden ersten Samstag im Monat Event auf der Farm Unsere Strauße könnt ihr nur bei Führungen sehen – ab 13.30 Uhr und 15.30 Uhr.',
+    description: 'Willkommen auf Big Birds Farm! Öffnungszeiten: Mittwoch bis Sonntag von 11 bis 17 Uhr. Jeden ersten Samstag im Monat Event auf der Farm. Unsere Strauße könnt ihr nur bei Führungen sehen – Samstag und Sonntag 13.30Uhr und 15.30Uhr',
 }
 
 export default function Home() {
