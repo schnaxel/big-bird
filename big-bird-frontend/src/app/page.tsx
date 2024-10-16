@@ -36,6 +36,15 @@ export default function Home() {
 
                 <div className="row text-center mt-5">
                     <div className="col-lg-4 col-md-6 col-12 my-2">
+                        <Link href="/events/">
+                            <div className="d-grid gap-3 mx-4 bg-white">
+
+                                <img src="/images/feiern/feiern-15.jpg" alt={''} className="img-fluid"></img>
+                                <h2>Events</h2>
+                            </div>
+                        </Link>
+                    </div>
+                    <div className="col-lg-4 col-md-6 col-12 my-2">
                         <Link href="/shop/">
                             <div className="d-grid gap-3 mx-4 bg-white">
                                 <img src="/images/placeholder/farm-shop.jpg" alt={''} className="img-fluid"></img>
@@ -76,16 +85,6 @@ export default function Home() {
                             <div className="d-grid gap-3 mx-4 bg-white">
                                 <img src="/images/placeholder/feiern1.jpg" alt={''} className="img-fluid"></img>
                                 <h2>Feiern</h2>
-                            </div>
-                        </Link>
-                    </div>
-
-                    <div className="col-lg-4 col-md-6 col-12 my-2">
-                        <Link href="/ferienwohnungen/">
-                            <div className="d-grid gap-3 mx-4 bg-white">
-
-                                <img src="/images/placeholder/fewo.jpg" alt={''} className="img-fluid"></img>
-                                <h2>Ferienwohnungen</h2>
                             </div>
                         </Link>
                     </div>
