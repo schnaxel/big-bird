@@ -34,7 +34,9 @@ export function Header() {
             {src: '/images/farm/strauß_7.jpg', alt: 'Farm 1'},
         ],
         cafe: [
-            {src: '/images/cafe/header/cafe-header.jpg', alt: 'Cafe 1'},
+            {src: '/images/cafe/header/cafe-header-2.jpg', alt: 'Cafe 1'},
+            {src: '/images/cafe/header/cafe-18.jpg', alt: 'Cafe 2'},
+            {src: '/images/cafe/header/cafe-22.jpg', alt: 'Cafe 3'},
         ],
         shop: [
             {src: '/images/placeholder/farm-shop.jpg', alt: 'Shop 1'},
