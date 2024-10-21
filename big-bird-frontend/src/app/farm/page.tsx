@@ -72,7 +72,11 @@ export default function Feiern() {
                             className="w-100 shadow-1-strong mb-4"
                             alt=""
                         />
-
+                        <img
+                            src="/images/farm/farm-09.jpg"
+                            className="w-100 shadow-1-strong mb-4"
+                            alt=""
+                        />
                         <img
                             src="/images/farm/farm-05.jpg"
                             className="w-100 shadow-1-strong mb-4"
@@ -91,7 +95,11 @@ export default function Feiern() {
                             className="w-100 shadow-1-strong mb-4"
                             alt=""
                         />
-
+                        <img
+                            src="/images/farm/farm-30.jpg"
+                            className="w-100 shadow-1-strong mb-4"
+                            alt=""
+                        />
                         <img
                             src="/images/farm/farm-08.jpg"
                             className="w-100 shadow-1-strong mb-4"
@@ -110,7 +118,11 @@ export default function Feiern() {
                             className="w-100 shadow-1-strong mb-4"
                             alt=""
                         />
-
+                        <img
+                            src="/images/farm/farm-31.jpg"
+                            className="w-100 shadow-1-strong mb-4"
+                            alt=""
+                        />
                         <img
                             src="/images/farm/strauß_9.jpg"
                             className="w-100 shadow-1-strong mb-4"
@@ -125,17 +137,20 @@ export default function Feiern() {
 
                     <div className="col-lg-3 col-md-6 col-sm-12 mb-4 mb-lg-0">
                         <img
-                            src="/images/farm/farm-27.jpg"
+                            src="/images/farm/hund_3.jpg"
                             className="w-100 shadow-1-strong mb-4"
                             alt=""
                         />
-
+                        <img
+                            src="/images/farm/hund_4.jpg"
+                            className="w-100 shadow-1-strong mb-4"
+                            alt=""
+                        />
                         <img
                             src="/images/farm/fuehrung_3.jpg"
                             className="w-100 shadow-1-strong mb-4"
                             alt=""
                         />
-
                         <img
                             src="/images/farm/hund_2.jpg"
                             className="w-100 shadow-1-strong mb-4"

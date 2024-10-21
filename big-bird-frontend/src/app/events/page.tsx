@@ -31,7 +31,7 @@ export default function Events() {
                     <div>
                         <div className="row my-5 mx-2 mx-lg-0 text-center bg-primary bg-opacity-10">
                             <div className="col-lg-4 col-12 p-0">
-                                <img src="/images/placeholder/straußenfleisch-filet.jpg" alt={''} className="img-fluid w-100 h-100 object-fit-cover"></img>
+                                <img src="/images/events/events_oktober.jpg" alt={''} className="img-fluid w-100 h-100 object-fit-cover"></img>
                             </div>
                             <div className="col-lg-8 col-12 text-start p-4 px-lg-5 row justify-content-md-center my-md-auto">
                                 <h3>Oktober</h3>
@@ -52,7 +52,7 @@ export default function Events() {
 
                         <div className="row my-5 mx-2 mx-lg-0 text-center bg-primary bg-opacity-10">
                             <div className="col-lg-4 col-12 p-0">
-                                <img src="/images/placeholder/straußenfleisch-steak.jpg" alt={''} className="img-fluid w-100 h-100 object-fit-cover"></img>
+                                <img src="/images/events/events_november.jpg" alt={''} className="img-fluid w-100 h-100 object-fit-cover"></img>
                             </div>
                             <div className="col-lg-8 col-12 text-start p-4 px-lg-5 row justify-content-md-center my-md-auto">
                                 <h3>November</h3>

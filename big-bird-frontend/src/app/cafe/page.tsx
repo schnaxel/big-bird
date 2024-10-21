@@ -29,7 +29,7 @@ export default function Cafe() {
 
                 <div className="d-flex flex-column flex-lg-row mt-5 text-center align-items-center">
                     <div className="col-lg-6 col-12 p-3">
-                        <img src="/images/placeholder/farm6.jpg" alt={''} className="img-fluid" />
+                        <img src="/images/cafe/header/cafe-header.jpg" alt={''} className="img-fluid" />
                     </div>
                     <div className="col-lg-6 col-12 row justify-content-md-center my-md-auto pt-4">
                         <h2>Unser Angebot</h2>
@@ -67,7 +67,7 @@ export default function Cafe() {
                         />
 
                         <img
-                            src="/images/cafe/cafe-02.jpg"
+                            src="/images/cafe/cafe-27.jpg"
                             className="w-100 shadow-1-strong mb-4"
                             alt=""
                         />
@@ -118,7 +118,7 @@ export default function Cafe() {
 
                     <div className="col-lg-3 col-md-6 col-sm-12 mb-4 mb-lg-0">
                         <img
-                            src="/images/cafe/cafe-20.jpg"
+                            src="/images/cafe/cafe-26.jpg"
                             className="w-100 shadow-1-strong mb-4"
                             alt=""
                         />
