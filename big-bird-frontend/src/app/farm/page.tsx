@@ -19,7 +19,7 @@ export default function Feiern() {
                     <div className="col-md-8 col-12 my-md-auto my-5">
                         <h2>Führungen</h2>
                         <div className="mt-4">
-                            <p>Die Führungen finden am Wochenende ab 13.30 Uhr und 15.30 Uhr statt und sind aktuell kostenlos.</p>
+                            <p>Die kostenlosen Führungen finden am Wochenende von Mai bis Oktober 13.30 Uhr und 15.30 Uhr statt.</p>
                             <p>Bei Regen finden die Führungen nur begrenzt statt und bei starkem Regen werden keine
                                 Führungen durchgeführt.</p>
                         </div>

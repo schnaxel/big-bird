@@ -51,7 +51,7 @@ export function Header() {
             title: 'Willkommen auf Big Birds Farm',
             subtitle: 'Öffnungszeiten: Mittwoch bis Sonntag von 11 bis 17 Uhr</br>Jeden ersten Samstag im Monat Event auf der Farm',
             paragraphs: [
-                '<strong>Unsere Strauße könnt ihr nur bei Führungen sehen – nur Samstag und Sonntag 13.30Uhr und 15.30Uhr.</strong> ',
+                '<strong>Unsere Strauße könnt ihr nur bei Führungen sehen – von Mai bis Oktober am Samstag und Sonntag um 13.30Uhr und 15.30Uhr.</strong> ',
                 'Der Spielplatz, Ziegen & Gänse stehen euch gerne zur Verfügung. Größere Gruppen bitte vorher anmelden.',
                 'Bei Regen finden die Führungen nur begrenzt bzw. gar nicht statt.',
             ]
