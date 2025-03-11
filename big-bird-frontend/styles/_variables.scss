@@ -4,20 +4,25 @@ $body-font-size: $font-size-root;
 //COLORS
 $color-primary: #2B3136;
 $color-secondary: #FFFFFF;
-$color-info: #BE7C49;
 $color-caro: #CF9B4E;
+$color-green: #7FD1AE;
+$color-beige: #F4F0EB;
+$color-accent: #FF8A5F;
 
 $primary: $color-primary;
 $secondary: $color-secondary;
-$info: $color-info;
 $caro: $color-caro;
-
+$green: $color-green;
+$beige: $color-beige;
+$accent: $color-accent;
 
 $theme-colors: (
   "primary": $primary,
   "secondary": $secondary,
-  "info": $info,
   "caro": $caro,
+  "green": $green,
+  "beige": $beige,
+  "accent": $accent,
 );
 
 // TYPOGRAPHY

@@ -1,24 +1,23 @@
 import "@/styles/bootstrap.scss";
-import {Amatic_SC, Poppins} from 'next/font/google'
+import {Amatic_SC, Poppins, Bebas_Neue, Lora} from 'next/font/google'
 import Footer from "@/src/components/Footer/Footer";
 import Script from "next/script";
 import {Navigation} from "@/src/components/Navigation/Navigation";
 import {Header} from "@/src/components/Header/Header";
 
-const poppins = Poppins({
-    weight: ['400', '500', '700'],
-    style: ['normal', 'italic'],
+const bebasNeue = Bebas_Neue({
+    weight: ['400'],
+    style: ['normal'],
     subsets: ['latin'],
-    variable: '--font-poppins',
-    display: 'swap',
-})
-
-const amatic = Amatic_SC({
+    variable: '--font-bebas-neue',
+});
+  
+const lora = Lora({
     weight: ['400', '700'],
     style: ['normal'],
     subsets: ['latin'],
-    variable: '--font-amatic',
-})
+    variable: '--font-lora',
+});
 
 export default function RootLayout({
                                        children,
@@ -26,8 +25,8 @@ export default function RootLayout({
     children: React.ReactNode
 }) {
     return (
-        <html lang="de" className={`${poppins.variable} ${amatic.variable} $ h-100`}>
-            <body className={`h-100 bg-repeat`}>
+        <html lang="de" className={`${lora.variable} ${bebasNeue.variable} $ h-100`}>
+            <body className={`h-100 bg-beige`}>
                 <Navigation />
                 <Header />
                 {children}

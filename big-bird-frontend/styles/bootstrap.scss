@@ -8,13 +8,13 @@
 // Eigene Styles
 body {
   font-size: $body-font-size;
-  font-family: var(--font-poppins);
+  font-family: var(--font-lora);
   @include custom-scroll-bar;
   height: 100vh;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-amatic);
+  font-family: var(--font-bebas-neue);
   font-weight: 700;
 }
 

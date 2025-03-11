@@ -142,7 +142,7 @@ export function Header() {
     return (
         pathname !== '/impressum/' && pathname !== '/datenschutz/' && (
             <section>
-                <div className={'container-fluid'} style={{maxWidth: '1296px'}}>
+                <div className='container-fluid'>
                     <div className="row">
                         <div className="col-12 px-0 pb-4">
                             {images.length > 1 ? (
