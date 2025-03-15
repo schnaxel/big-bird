@@ -31,9 +31,6 @@ export default function Datenschutz() {
                         <h2>Eine Auswahl aus dem Sortiment</h2>
                         <div className="mt-4 text-start col-12 col-md-10">
                             <ul>
-                                <li><a href="/straussenfleisch">Fleisch unserer Strauße</a></li>
-                                <li>Straußeneiern, Straußfedern und Staubwedeln</li>
-                                <li>Straußenei-Nudeln und Straußeneierlikör</li>
                                 <li>Fleisch unserer Highland – bzw. Gallowayrinder</li>
                                 <li>Lebensmittel und Geschenkideen aus Dänemark und Schweden</li>
                                 <li>Deko- und Wohnaccessoires aus Skandinavien</li>

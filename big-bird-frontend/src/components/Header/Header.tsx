@@ -25,9 +25,6 @@ export function Header() {
     const pathname = usePathname()
     const headerImages: HeaderImages = {
         home: [
-            {src: '/images/farm/strauß_3.jpg', alt: 'Home 1'},
-            {src: '/images/farm/strauß_6.jpg', alt: 'Home 2'},
-            {src: '/images/farm/header/fuehrung_header.jpg', alt: 'Home 3'},
         ],
         events: [],
         farm: [
@@ -51,7 +48,7 @@ export function Header() {
             title: 'Willkommen auf Big Birds Farm',
             subtitle: 'Öffnungszeiten: Mittwoch bis Sonntag von 11 bis 17 Uhr</br>Jeden ersten Samstag im Monat Event auf der Farm',
             paragraphs: [
-                '<strong>Unsere Strauße könnt ihr nur bei Führungen sehen – von Mai bis Oktober am Samstag und Sonntag um 13.30Uhr und 15.30Uhr.</strong> ',
+                '<strong>Führungen auf der Farm finden von Mai bis Oktober am Samstag und Sonntag um 13.30Uhr und 15.30Uhr statt.</strong> ',
                 'Der Spielplatz, Ziegen & Gänse stehen euch gerne zur Verfügung. Größere Gruppen bitte vorher anmelden.',
                 'Bei Regen finden die Führungen nur begrenzt bzw. gar nicht statt.',
             ]
@@ -90,11 +87,9 @@ export function Header() {
             title: 'Big Birds Shop',
             subtitle: 'Integriert in das Big Birds Café ist der Big Birds Shop, unser Hofladen, in dem Ihr Produkte aus eigener Produktion sowie ausgewählte zugekaufte Produkte findet.',
             paragraphs: [
-                'Vom Fleisch unserer Strauße, auf das bereits Hildegard von Bingen schwor, und das Fleisch unserer Highland – bzw. Gallowayrinder, ',
-                'über Straußenei-Nudeln und Straußeneierlikör, bis zu pikanten Saucen ist das kulinarische Angebot groß.',
+                'Vom Fleisch unserer Highland – bzw. Gallowayrinder bis zu pikanten Saucen ist das kulinarische Angebot groß.',
                 'Durch die Nähe zu Skandinavien bekommst Du bei uns ausgewählte Lebensmittel und Geschenkideen aus Dänemark und Schweden, wie zum ',
-                'Beispiel schwedische Blaubeermarmelade. Du wirst außerdem Produkte rund um das ',
-                'Thema Strauß finden, von Straußeneiern, über Federn und Staubwedeln.'
+                'Beispiel schwedische Blaubeermarmelade.'
             ]
         },
         alterStall: {

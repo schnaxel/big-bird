@@ -8,11 +8,9 @@ export function Navigation() {
     const navigationItems = [
         {href: '/', label: 'Home'},
         {href: '/events/', label: 'Events'},
-        {href: '/farm/', label: 'Farm'},
         {href: '/cafe/', label: 'Café'},
         {href: '/shop/', label: 'Shop'},
         {href: '/alter-stall/', label: 'Alter Stall'},
-        {href: '/straussenfleisch/', label: 'Straußenfleisch'},
         {href: '/feiern/', label: 'Feiern'},
         {href: '/ferienwohnungen/', label: 'Ferienwohnungen'}
     ]

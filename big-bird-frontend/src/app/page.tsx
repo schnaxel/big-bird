@@ -14,12 +14,6 @@ export default function Home() {
         <>
             <div className={'container'}>
                 <div className="row justify-content-center">
-                    <div className="col-md-10 col-12 mb-4 text-center">
-                        <Link href="/farm/" className="btn btn-outline-primary">
-                            mehr zur Farm
-                        </Link>
-                    </div>
-
                     <div className="mt-4 row justify-content-center">
                         <div className="col-11 px-0 border border-muted rounded-end">
                             <div className="border-start border-caro border-4 py-3 px-3">
@@ -61,16 +55,8 @@ export default function Home() {
                             </div>
                         </Link>
                     </div>
-
-                    <div className="col-lg-4 col-md-6 col-12 my-2">
-                        <Link href="/straussenfleisch/">
-                            <div className="d-grid gap-3 mx-4 bg-white">
-                                <img src="/images/placeholder/straußenfleisch-filet.jpg" alt={''} className="img-fluid"></img>
-                                <h2>Straußenfleisch</h2>
-                            </div>
-                        </Link>
-                    </div>
-                
+                </div>
+                <div className="row justify-content-center text-center">
                     <div className="col-lg-4 col-md-6 col-12 my-2">
                         <Link href="/alter-stall/">
                             <div className="d-grid gap-3 mx-4 bg-white">
@@ -98,12 +84,7 @@ export default function Home() {
                     <div className="col-12 col-md-4 align-self-center text-center">
                         <img src="/images/BIg_Birds_Logo_NEU.png" style={{maxHeight: '240px'}} alt={''} className="img-fluid"></img>
                     </div>
-                    <div className="col-12 col-md-8 mt-5 mt-md-0">
-                        <p>
-                            Ihr möchtet <a href="/straussenfleisch">Straußenfleisch</a> kaufen? Bei uns findet ihr
-                            Filet, Steak, Braten, Wurst und Burger Patties. Alle Straußenfleischprodukte gibt es bei
-                            uns auf der Farm oder können per Kühlpaket an euch versendet werden.
-                        </p>
+                    <div className="col-12 col-md-8 mt-5 mt-md-0 align-self-center">
                         <p>
                             Im <a href="/shop">Hofladen</a> und <a href="/cafe">Café</a> gibt es immer etwas zu
                             entdecken. Bioprodukte, Skandinavische
