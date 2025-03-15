@@ -27,7 +27,7 @@ export function Navigation() {
                         <Link href='/'>Kontakt</Link>
                     </div>
                 </div>
-                <div className={'container-fluid py-2 align-items-center justify-content-center'}>
+                <div className={'container-fluid align-items-center justify-content-center py-2'}>
                     <ul className="navbar-nav">
                         {navigationItems.slice(0, 4).map(({href, label}, index) => (
                             <li key={index} className={'nav-item'}>
@@ -40,9 +40,8 @@ export function Navigation() {
                             </li>
                         ))}
                     </ul>
-                    <Link href={'/'} scroll={false} className={'navbar-brand'}>
-                        <img src="/images/logo.JPG" alt="Logo" height={'89px'}
-                             className={"d-inline-block align-text-top px-3"} draggable={"false"}/>
+                    <Link href={'/'} scroll={false} className={'navbar-brand position-relative px-3 mx-0'} style={{ marginTop: '-50px', marginBottom: '-40px', zIndex: 10 }}>
+                        <img src="/images/logo_draft.png" alt="Logo" height={'149px'} draggable={"false"}/>
                     </Link>
                     <ul className="navbar-nav">
                         {navigationItems.slice(-3).map(({href, label}, index) => (
