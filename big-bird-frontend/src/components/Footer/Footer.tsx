@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
     return (
         <footer className='py-5'>
             <div >
-                <h2 className={'mb-4'} >
+                <h2 className={'mb-4 text-center'} >
                     <Link href={'https://www.instagram.com/bigbirdsfarm'} rel="noopener" target="_blank">
                         #BIGBIRDS
                     </Link>

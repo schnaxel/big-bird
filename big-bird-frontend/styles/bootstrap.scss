@@ -13,9 +13,10 @@ body {
   height: 100vh;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .navbar-nav {
   font-family: var(--font-bebas-neue);
-  font-weight: 700;
+  font-weight: 400;
+  letter-spacing: 1.5px;
 }
 
 .fs-1 {
