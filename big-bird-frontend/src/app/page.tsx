@@ -3,6 +3,7 @@ import ContactSection from "@/src/components/ContactSection/ContactSection";
 import Oeffnungszeiten from "@/src/components/Oeffnungszeiten/Oeffnungszeiten";
 import Link from "next/link";
 import {Metadata} from "next";
+import InstagramFeed from "../components/InstagramFeed/InstagramFeed";
 
 export const metadata: Metadata = {
     title: 'Big Birds Farm - Startsteite',
@@ -123,6 +124,7 @@ export default function Home() {
 
             </div>
             <ContactSection pageName={'Home'} subjects={['Allgemeine Anfrage', 'Besuchsanfrage', 'Feedback']}/>
+            <InstagramFeed />
         </>
     )
 }
