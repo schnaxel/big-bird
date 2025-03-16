@@ -17,14 +17,14 @@ export function Navigation() {
     return (
         <>
             {/* Navigation Desktop */}
-            <nav className={"navbar navbar-expand user-select-none p-0 d-none d-xxl-flex flex-column"}>
+            <nav className={"navbar navbar-expand bg-beige user-select-none p-0 d-none d-xxl-flex flex-column"}>
                 <div className='w-100 py-2' style={{backgroundImage: 'url("/images/bg-repeat.jpg")', backgroundRepeat: 'repeat'}}>
                     <div className='container d-flex justify-content-between align-items-center'>
                         <div>
                             <span className='me-3'>WhatsApp: +49</span>
                             <Link href="/">E-Mail: XXX</Link>
                         </div>
-                        <Link href='/'>Kontakt</Link>
+                        <Link href='/kontakt/'>Kontakt</Link>
                     </div>
                 </div>
                 <div className={'container-fluid align-items-center justify-content-center py-2'}>

@@ -45,6 +45,7 @@ export function Header() {
         straussenfleisch: [],
         feiern: [],
         ferienwohnungen: [],
+        kontakt: [],
     }
     const headerTexts: HeaderTexts = {
         home: {
@@ -132,6 +133,11 @@ export function Header() {
                 'Unsere komfortablen Unterkünfte bieten Euch alles, was Ihr für einen erholsamen Aufenthalt benötigt.',
                 'Entdeckt die Schönheit unserer Umgebung und erlebt unvergessliche Momente inmitten der Natur.'
             ]
+        },
+        kontakt: {
+            title: 'Kontakt',
+            subtitle: 'So kannst du uns erreichen',
+            paragraphs: []
         },
     };
 
