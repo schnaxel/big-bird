@@ -117,7 +117,7 @@ export function Header() {
             ]
         },
         feiern: {
-            title: 'Feiern auf der Straußenfarm',
+            title: 'Feiern auf der Farm',
             subtitle: 'Ein besonderer Ort für besondere Anlässe',
             paragraphs: [
                 'Unsere Farm bietet eine gemütliche und einzigartige Atmosphäre für dein Fest,',
