@@ -44,19 +44,24 @@ export default function Feiern() {
                 </div>
 
                 <div className="row my-5">
-                    <div className="col-6">
-                        <img src="/images/feiern/feiern-06.jpg" alt="Feiern auf der Farm" className="w-100" style={{objectFit: "cover", height: 450}} />
+                    <div className="col-lg-6 col-12">
+                        <img src="/images/feiern/feiern-06.jpg" alt={'Feiern auf der Farm'} className="w-100" style={{objectFit: "cover", height: 450}} />
                     </div>
-                    <div className="col-6 p-5">
-                        <h3>Lorem ipsum</h3>
+                    <div className="col-lg-6 col-12 row justify-content-md-center my-lg-auto mt-5 px-5">
+                        <h2>Lorem ipsum</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
-                    <div className="col-6 p-5">
-                        <h3>Lorem ipsum</h3>
+                </div>
+
+                <hr/>
+
+                <div className="d-flex flex-column flex-lg-row align-items-center my-5">
+                    <div className="col-lg-7 col-12 my-md-auto py-3 order-2 order-lg-1 px-5">
+                        <h2>Lorem ipsum</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
-                    <div className="col-6">
-                        <img src="/images/feiern/feiern-09.jpg" alt="Feiern auf der Farm" className="w-100" style={{objectFit: "cover", height: 450}} />
+                    <div className="col-lg-5 col-12 p-3 order-1 order-lg-2">
+                        <img src="/images/feiern/feiern-09.jpg" alt={'Feiern auf der Farm'} className="w-100" style={{objectFit: "cover", height: 450}} />
                     </div>
                 </div>
             </div>

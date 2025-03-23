@@ -6,7 +6,6 @@ import NavigationOffcanvas from "@/src/components/Navigation/NavigationOffcanvas
 export function Navigation() {
     const pathname = usePathname()
     const navigationItems = [
-        {href: '/', label: 'Home'},
         {href: '/about/', label: 'Über uns'},
         {href: '/farm/', label: 'Die Farm'},
         {href: '/cafe/', label: 'Café'},
