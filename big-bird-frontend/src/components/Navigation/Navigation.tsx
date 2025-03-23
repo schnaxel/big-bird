@@ -6,8 +6,8 @@ import NavigationOffcanvas from "@/src/components/Navigation/NavigationOffcanvas
 export function Navigation() {
     const pathname = usePathname()
     const navigationItems = [
-        {href: '/alter-stall/', label: 'About'},
-        {href: '/events/', label: 'Events'},
+        {href: '/', label: 'Home'},
+        {href: '/about/', label: 'Über uns'},
         {href: '/farm/', label: 'Die Farm'},
         {href: '/cafe/', label: 'Café'},
         {href: '/shop/', label: 'Hofladen'},
@@ -27,34 +27,43 @@ export function Navigation() {
                         <Link href='/kontakt/'>Kontakt</Link>
                     </div>
                 </div>
-                <div className={'container-fluid align-items-center justify-content-center py-2'}>
-                    <ul className="navbar-nav">
-                        {navigationItems.slice(0, 4).map(({href, label}, index) => (
-                            <li key={index} className={'nav-item'}>
-                                <Link href={href}
-                                      scroll={false}
-                                      style={{fontSize: '20px'}}
-                                      className={`nav-link text-nowrap text-primary p-0 m-3 ${pathname === href ? 'text-black fw-medium border-bottom border-3 border-black' : ''}`}>
-                                    {label}
-                                </Link>
-                            </li>
-                        ))}
-                    </ul>
+                <div className={'container align-items-center justify-content-center position-relative py-2'}>
+                    <div className="d-flex justify-content-end" style={{width: '40%'}}>
+                        <ul className="navbar-nav">
+                            {navigationItems.slice(0, 4).map(({href, label}, index) => (
+                                <li key={index} className={'nav-item'}>
+                                    <Link href={href}
+                                        scroll={false}
+                                        style={{fontSize: '20px'}}
+                                        className={`nav-link text-nowrap text-primary p-0 m-3 ${pathname === href ? 'text-black fw-medium border-bottom border-3 border-black' : ''}`}>
+                                        {label}
+                                    </Link>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
                     <Link href={'/'} scroll={false} className={'navbar-brand position-relative px-3 mx-0'} style={{ marginTop: '-50px', marginBottom: '-40px', zIndex: 10 }}>
                         <img src="/images/logo_draft.png" alt="Logo" height={'149px'} draggable={"false"}/>
                     </Link>
-                    <ul className="navbar-nav">
-                        {navigationItems.slice(-3).map(({href, label}, index) => (
-                            <li key={index} className={'nav-item'}>
-                                <Link href={href}
-                                      scroll={false}
-                                      style={{fontSize: '20px'}}
-                                      className={`nav-link text-nowrap text-primary p-0 m-3 ${pathname === href ? 'text-black fw-medium border-bottom border-3 border-black' : ''}`}>
-                                    {label}
-                                </Link>
+                    <div className="d-flex justify-content-start" style={{width: '40%'}}>
+                        <ul className="navbar-nav d-flex flex-row align-items-center">
+                            {navigationItems.slice(-2).map(({href, label}, index) => (
+                                <li key={index} className={'nav-item'}>
+                                    <Link href={href}
+                                        scroll={false}
+                                        style={{fontSize: '20px'}}
+                                        className={`nav-link text-nowrap text-primary p-0 m-3 ${pathname === href ? 'text-black fw-medium border-bottom border-3 border-black' : ''}`}>
+                                        {label}
+                                    </Link>
+                                </li>
+                            ))}
+                            <li className="nav-item">
+                                <Link href="/events/" className="btn btn-custom m-3" style={{fontSize: '19px'}}>
+                                    Events
+                                </Link>   
                             </li>
-                        ))}
-                    </ul>
+                        </ul>   
+                    </div>          
                 </div>
             </nav>
 

@@ -16,7 +16,7 @@ body {
 h1, h2, h3, h4, h5, h6, .navbar-nav {
   font-family: var(--font-bebas-neue);
   font-weight: 400;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
 }
 
 .fs-1 {
@@ -58,6 +58,19 @@ a {
     height: 100%;
     object-fit: cover;
   }
+}
+
+// custom Button
+.btn-custom {
+    background-color: $primary;
+    color: $secondary;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn-custom:hover {
+  border: 1px solid #000;
 }
 
 .splide__arrow {
