@@ -8,15 +8,14 @@ const Footer: React.FC = () => {
         <>        
             <footer className='py-5 bg-beige'>
                 <div className="container mt-5">
-                    <div className="row my-4">
+                    <div className="row my-5">
                         <div className="col-md-3">
-                            <img src="/images/logo_draft.png" alt="Logo" width={150} />
+                            <img src="/images/logo_draft.png" style={{marginTop: -25}} alt="Logo" width={150} />
                         </div>
 
-                        <div className="col-md-4">
+                        <div className="col-md-3">
                             <h3>Kontakt</h3>
                             <p>
-                                Tel. +49<br />
                                 <a href="/">mailXXX</a><br />
                                 Jens & Barnd - B76 Farm<br />
                                 Bundesstr. 7<br />
@@ -24,15 +23,20 @@ const Footer: React.FC = () => {
                             </p>
                         </div>
 
-                        <div className="col-md-3">
+                        <div className="col-md-4">
                             <h3>Links</h3>
-                            <div className="d-flex">
+                            <div className="d-flex gap-5">
                                 <ul className="list-unstyled">
-                                    <li><Link href="/">Farm</Link></li>
-                                    <li><Link href="/">Events</Link></li>
-                                    <li><Link href="/">Cafe</Link></li>
-                                    <li><Link href="/">Shop</Link></li>
-                                    <li><Link href="/">FAQ</Link></li>
+                                    <li><Link href="/events">Events</Link></li>
+                                    <li><Link href="/about">Wer wir sind</Link></li>
+                                    <li><Link href="/farm">Die Farm</Link></li>
+                                    <li><Link href="/kontakt">Kontakt</Link></li>
+                                </ul>
+                                <ul className="list-unstyled">
+                                    <li><Link href="/cafe">Cafe</Link></li>
+                                    <li><Link href="/shop">Hofladen</Link></li>
+                                    <li><Link href="/feiern">Feiern</Link></li>
+                                    <li><Link href="/ferienwohnungen">Ferienwohnungen</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -56,7 +60,7 @@ const Footer: React.FC = () => {
 
                     <hr className={'m-0'}/>
 
-                    <div className="d-flex justify-content-between mt-3 text-center small">
+                    <div className="d-flex justify-content-between mt-4 text-center small">
                         <div>
                             <Link href="/impressum" className="me-3">Impressum</Link>
                             <Link href="/datenschutz" className="me-3">Datenschutz</Link>
