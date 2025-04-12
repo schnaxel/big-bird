@@ -45,17 +45,14 @@ export function Header() {
     }
     const headerTexts: HeaderTexts = {
         home: {
-            title: 'Willkommen auf Big Birds Farm',
+            title: 'Willkommen auf der Farm',
             subtitle: 'Öffnungszeiten: Mittwoch bis Sonntag von 11 bis 17 Uhr</br>Jeden ersten Samstag im Monat Event auf der Farm',
             paragraphs: [
-                '<strong>Führungen auf der Farm finden von Mai bis Oktober am Samstag und Sonntag um 13.30Uhr und 15.30Uhr statt.</strong> ',
-                'Der Spielplatz, Ziegen & Gänse stehen euch gerne zur Verfügung. Größere Gruppen bitte vorher anmelden.',
-                'Bei Regen finden die Führungen nur begrenzt bzw. gar nicht statt.',
             ]
         },
         events: {
             title: 'Events',
-            subtitle: 'Hier findest du alle anstehenden Events und Veranstaltungen auf der Big Birds Farm',
+            subtitle: 'Hier findest du alle anstehenden Events und Veranstaltungen auf der Farm',
             paragraphs: [
                 'Ob ihr nun Tiere streicheln, Neues lernen oder einfach nur lecker essen und eine gute Zeit haben wollt',
                 '- Auf der Farm ist immer was los.',
@@ -74,8 +71,8 @@ export function Header() {
             ]
         },
         cafe: {
-            title: 'Big Birds Café',
-            subtitle: 'Das Big Birds Café hat das Ziel euch den besten Kaffee mit handgemachten Torten & Kuchen zu servieren.',
+            title: 'Das Café',
+            subtitle: 'Das Café hat das Ziel euch den besten Kaffee mit handgemachten Torten & Kuchen zu servieren.',
             paragraphs: [
                 'Fair gehandelter und lokal gerösteter Kaffee bezogen über eine Kieler Manufaktur.',
                 'Kulinarisch verwöhnen wir euch mit selbstgemachten Torten, Kuchen, Muffins und weiteren Leckereien.',
@@ -84,8 +81,8 @@ export function Header() {
             ]
         },
         shop: {
-            title: 'Big Birds Shop',
-            subtitle: 'Integriert in das Big Birds Café ist der Big Birds Shop, unser Hofladen, in dem Ihr Produkte aus eigener Produktion sowie ausgewählte zugekaufte Produkte findet.',
+            title: 'Shop',
+            subtitle: 'Unser Hofladen, in dem Ihr Produkte aus eigener Produktion sowie ausgewählte zugekaufte Produkte findet.',
             paragraphs: [
                 'Vom Fleisch unserer Highland – bzw. Gallowayrinder bis zu pikanten Saucen ist das kulinarische Angebot groß.',
                 'Durch die Nähe zu Skandinavien bekommst Du bei uns ausgewählte Lebensmittel und Geschenkideen aus Dänemark und Schweden, wie zum ',
@@ -111,7 +108,7 @@ export function Header() {
             ]
         },
         feiern: {
-            title: 'Feiern auf der Straußenfarm',
+            title: 'Feiern auf der Farm',
             subtitle: 'Ein besonderer Ort für besondere Anlässe',
             paragraphs: [
                 'Unsere Farm bietet eine gemütliche und einzigartige Atmosphäre für dein Fest,',
