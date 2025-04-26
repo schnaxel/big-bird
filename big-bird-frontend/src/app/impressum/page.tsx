@@ -1,7 +1,7 @@
 import {Metadata} from "next";
 
 export const metadata: Metadata = {
-    title: 'Big Birds Farm - Impressum',
+    title: 'Die Farm - Impressum',
 }
 export default function Impessum() {
   return (

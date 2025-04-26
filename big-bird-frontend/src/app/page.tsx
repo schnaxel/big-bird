@@ -5,8 +5,8 @@ import Link from "next/link";
 import {Metadata} from "next";
 
 export const metadata: Metadata = {
-    title: 'Big Birds Farm - Startsteite',
-    description: 'Willkommen auf Big Birds Farm! Öffnungszeiten: Mittwoch bis Sonntag von 11 bis 17 Uhr. Jeden ersten Samstag im Monat Event auf der Farm. Unsere Strauße könnt ihr nur bei Führungen sehen – Samstag und Sonntag 13.30Uhr und 15.30Uhr',
+    title: 'Barnd & Jens Farm - Startsteite',
+    description: 'Willkommen auf der Farm! Öffnungszeiten: Mittwoch bis Sonntag von 11 bis 17 Uhr. Jeden ersten Samstag im Monat Event auf der Farm.',
 }
 
 export default function Home() {
@@ -82,14 +82,13 @@ export default function Home() {
 
                 <div className="row">
                     <div className="col-12 col-md-4 align-self-center text-center">
-                        <img src="/images/BIg_Birds_Logo_NEU.png" style={{maxHeight: '240px'}} alt={''} className="img-fluid"></img>
+                        <img src="/images/Farmlogo.png" style={{maxHeight: '240px'}} alt={''} className="img-fluid"></img>
                     </div>
                     <div className="col-12 col-md-8 mt-5 mt-md-0 align-self-center">
                         <p>
                             Im <a href="/shop">Hofladen</a> und <a href="/cafe">Café</a> gibt es immer etwas zu
                             entdecken. Bioprodukte, Skandinavische
-                            Deko, Schönes und Praktisches für die Küche, Wohnung und euren Garten, alles Rund um die
-                            Strauße,
+                            Deko, Schönes und Praktisches für die Küche, Wohnung und euren Garten,
                             Weine & Spirituosen. Im <a href="/alter-stall">„Alten Stall“</a> findet ihr handgemachte Möbel und
                             Dekorationsartikel.
                         </p>

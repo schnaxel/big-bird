@@ -11,8 +11,8 @@ const Footer: React.FC = () => {
                 <div className={'row'}>
                     <div className="col-12">
                         <h3 className={'text-center mb-4'} >
-                            <Link href={'https://www.instagram.com/bigbirdsfarm'} rel="noopener" target="_blank">
-                                #BIGBIRDS
+                            <Link href={'https://www.instagram.com/farm_1847/'} rel="noopener" target="_blank">
+                                #FARM_1847
                             </Link>
                         </h3>
                         <ElfsightWidget widgetId={"28c5f280-cfed-4ebf-8486-2cabcf09b089"} lazy className={'pb-5'}/>
@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
                                     </Link>
                                 </div>
                                 <div className="px-3">
-                                    <Link href="https://www.instagram.com/bigbirdsfarm" rel="noopener" target="_blank">
+                                    <Link href="https://www.instagram.com/farm_1847/" rel="noopener" target="_blank">
                                         <i className="bi bi-instagram fs-2 text-primary"></i>
                                     </Link>
                                 </div>

@@ -3,8 +3,8 @@ import React from "react";
 import {Metadata} from "next";
 
 export const metadata: Metadata = {
-    title: 'Big Birds Farm - Shop',
-    description: 'Integriert in das Big Birds Café ist der Big Birds Shop, unser Hofladen, in dem Ihr Produkte aus eigener Produktion sowie ausgewählte zugekaufte Produkte findet.',
+    title: 'Die Farm - Shop',
+    description: 'Integriert in das Café ist der Shop, unser Hofladen, in dem Ihr Produkte aus eigener Produktion sowie ausgewählte zugekaufte Produkte findet.',
 }
 
 export default function Datenschutz() {
@@ -14,11 +14,11 @@ export default function Datenschutz() {
             <div className={'container'}>
                 <div className="text-center">
                     <p>
-                        Erweitert wird das Big Birds Shop Sortiment durch saisonale Geschenkartikeln,
+                        Erweitert wird das Shop Sortiment durch saisonale Geschenkartikeln,
                         Deko- und Wohnaccessoires aus Skandinavien. Im ständigen Angebot sind zudem
                         besondere Küchenaccessoires, die die Herzen von kochbegeisterten Männern und
                         Frauen gleichermaßen höher schlagen lassen. Mit unserem Shop wollen wir Dir
-                        die Möglichkeit geben die Atmosphäre der Big Birds Farm in Dein Zuhause
+                        die Möglichkeit geben die Atmosphäre der Farm in Dein Zuhause
                         mitzunehmen.
                     </p>
                 </div>

@@ -3,7 +3,7 @@ import React from "react";
 import {Metadata} from "next";
 
 export const metadata: Metadata = {
-    title: 'Big Birds Farm - Feiern',
+    title: 'Die Farm - Feiern',
     description: 'Ein besonderer Ort für besondere Anlässe - Unsere Farm bietet eine gemütliche und einzigartige Atmosphäre für dein Fest, ob Hochzeit, Geburtstag, Weihnachtsessen, Konfirmation, Firmenevent, lockere Party oder stilvolle Feier – wir beraten Dich gerne und erstellen dir ein individuelles Angebot.',
 }
 

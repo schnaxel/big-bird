@@ -4,7 +4,7 @@ import React from "react";
 import {Metadata} from "next";
 
 export const metadata: Metadata = {
-    title: 'Big Birds Farm - Alter Stall',
+    title: 'Die Farm - Alter Stall',
     description: 'Besucht unseren alten Stall und entdeckt einzigartige Möbel. Unsere Möbel erhalten durch die Verarbeitung von Altholz ihren einzigartigen, rustikalen Charakter. – für Möbel mit Geschichte.',
 }
 

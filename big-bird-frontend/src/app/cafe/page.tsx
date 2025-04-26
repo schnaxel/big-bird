@@ -4,8 +4,8 @@ import React from "react";
 import {Metadata} from "next";
 
 export const metadata: Metadata = {
-    title: 'Big Birds Farm - Café',
-    description: 'Das Big Birds Café hat das Ziel euch den besten Kaffee mit handgemachten Torten & Kuchen zu servieren.',
+    title: 'Die Farm - Café',
+    description: 'Das Café hat das Ziel euch den besten Kaffee mit handgemachten Torten & Kuchen zu servieren.',
 }
 
 export default function Cafe() {
