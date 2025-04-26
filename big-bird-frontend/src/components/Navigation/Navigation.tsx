@@ -7,7 +7,6 @@ export function Navigation() {
     const pathname = usePathname()
     const navigationItems = [
         {href: '/', label: 'Home'},
-        {href: '/events/', label: 'Events'},
         {href: '/cafe/', label: 'Café'},
         {href: '/shop/', label: 'Shop'},
         {href: '/alter-stall/', label: 'Alter Stall'},
@@ -20,7 +19,7 @@ export function Navigation() {
             <nav className={"navbar navbar-expand user-select-none p-0 d-none d-xxl-flex"} style={{backgroundImage: 'url("/images/bg-repeat.jpg")', backgroundRepeat: 'repeat'}}>
                 <div className={'container py-3 align-items-center justify-content-start'}>
                     <Link href={'/'} scroll={false} className={'navbar-brand'}>
-                        <img src="/images/bigbirds_logo.png" alt="Logo Big Birds" height={'89px'}
+                        <img src="/images/Farmlogo.png" alt="Logo Farm" height={'89px'}
                              className={"d-inline-block align-text-top"} draggable={"false"}/>
                     </Link>
                     <ul className="navbar-nav">
@@ -42,7 +41,7 @@ export function Navigation() {
             <nav className="navbar d-xxl-none user-select-none bg-secondary" style={{backgroundImage: 'url("/images/bg-repeat.jpg")', backgroundRepeat: 'repeat'}}>
                 <div className="container">
                     <Link href={'/'} scroll={false} className={'navbar-brand'}>
-                        <img src="/images/bigbirds_logo.png" alt="Logo Big Birds" height={'89px'}
+                        <img src="/images/Farmlogo.png" alt="Logo Farm" height={'89px'}
                              className={"d-inline-block align-text-top"} draggable={"false"}/>
                     </Link>
                     <NavigationOffcanvas navigationItems={navigationItems} pathname={pathname}/>
