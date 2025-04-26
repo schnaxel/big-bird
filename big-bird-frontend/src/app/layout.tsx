@@ -7,10 +7,8 @@ import {Header} from "@/src/components/Header/Header";
 
 const poppins = Poppins({
     weight: ['400', '500', '700'],
-    style: ['normal', 'italic'],
     subsets: ['latin'],
     variable: '--font-poppins',
-    display: 'swap',
 })
 
 const amatic = Amatic_SC({
@@ -26,7 +24,7 @@ export default function RootLayout({
     children: React.ReactNode
 }) {
     return (
-        <html lang="de" className={`${poppins.variable} ${amatic.variable} $ h-100`}>
+        <html lang="de" className={`${poppins.variable} ${amatic.variable} h-100`}>
             <body className={`h-100 bg-repeat`}>
                 <Navigation />
                 <Header />
