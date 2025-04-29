@@ -10,14 +10,14 @@ const Footer: React.FC = () => {
                 <div className="container mt-5">
                     <div className="row my-5">
                         <div className="col-md-3">
-                            <img src="/images/logo_draft.png" style={{marginTop: -25}} alt="Logo" width={150} />
+                            <img src="/images/Farmlogo.png" style={{marginTop: -25}} alt="Logo" width={150} />
                         </div>
 
                         <div className="col-md-3">
                             <h3>Kontakt</h3>
                             <p>
                                 <a href="/">mailXXX</a><br />
-                                Jens & Barnd - B76 Farm<br />
+                                Jens & Barnd - Farm Fahrdorf<br />
                                 Bundesstr. 7<br />
                                 24857 Fahrdorf
                             </p>
@@ -65,7 +65,7 @@ const Footer: React.FC = () => {
                             <Link href="/impressum" className="me-3">Impressum</Link>
                             <Link href="/datenschutz" className="me-3">Datenschutz</Link>
                         </div>
-                        <p>© 2025 Jens & Barnd B76 Farm</p>
+                        <p>© 2025 Jens & Barnd - Farm Fahrdorf</p>
                     </div>
                 </div>
             </footer>

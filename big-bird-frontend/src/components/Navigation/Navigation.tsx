@@ -42,7 +42,7 @@ export function Navigation() {
                         </ul>
                     </div>
                     <Link href={'/'} scroll={false} className={'navbar-brand position-relative px-3 mx-0'} style={{ marginTop: '-50px', marginBottom: '-40px', zIndex: 10 }}>
-                        <img src="/images/logo_draft.png" alt="Logo" height={'149px'} draggable={"false"}/>
+                        <img src="/images/Farmlogo.png" alt="Logo" height={'149px'} draggable={"false"}/>
                     </Link>
                     <div className="d-flex justify-content-start" style={{width: '40%'}}>
                         <ul className="navbar-nav d-flex flex-row align-items-center">
