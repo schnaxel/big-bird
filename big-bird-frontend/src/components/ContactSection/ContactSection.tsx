@@ -11,14 +11,14 @@ const ContactSection: React.FC<{ pageName: string, subjects: string[], activeFew
                     <div className="col-12 col-lg-6 pe-lg-2">
                         <div className="row">
                             <div className="col-12">
-                                <h2 className={'fw-medium'}>Kontakt</h2>
+                                <h2 className={'fw-medium'}>Kontaktiere uns</h2>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-12">
                                 <p className={'m-0'}>
-                                    <Link href={'https://maps.app.goo.gl/1mV7BoTaTNsbDTu66'} rel="noopener" target="_blank" className={''}>
-                                        Bundesstraße 7, 24857 Fahrdorf
+                                    <Link href={'https://maps.app.goo.gl/1mV7BoTaTNsbDTu66'} rel="noopener" target="_blank" className={'text-muted mb-1'}>
+                                        Bundesstraße 7 · 24857 Fahrdorf
                                     </Link>
                                 </p>
                             </div>
@@ -29,7 +29,7 @@ const ContactSection: React.FC<{ pageName: string, subjects: string[], activeFew
                                     <iframe
                                         className={'bg-secondary mt-3'}
                                         width="100%"
-                                        height="300px"
+                                        height="350px"
                                         loading="lazy"
                                         allowFullScreen={true}
                                         referrerPolicy="no-referrer-when-downgrade"
@@ -41,7 +41,7 @@ const ContactSection: React.FC<{ pageName: string, subjects: string[], activeFew
                                         top: '16px',
                                         left: 0,
                                         width: '100%',
-                                        height: '300px',
+                                        height: '350px',
                                         backgroundColor: 'rgba(0,0,0,0.05)',
                                         backgroundImage: 'url("/images/asfalt-light.png")',
                                         pointerEvents: 'none'
@@ -50,7 +50,7 @@ const ContactSection: React.FC<{ pageName: string, subjects: string[], activeFew
                             </div>
                         </div>
                     </div>
-                    <div className="col-12 col-lg-6 ps-lg-3 align-content-end justify-content-center">
+                    <div className="col-12 col-lg-6 ps-lg-3 mt-4 mt-lg-0 align-content-end justify-content-center">
                         <ContactForm pageName={pageName} subjects={subjects} activeFewo={activeFewo}/>
                     </div>
                 </div>
