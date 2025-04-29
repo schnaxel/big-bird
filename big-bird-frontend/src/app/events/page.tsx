@@ -13,7 +13,7 @@ export default function Events() {
             <div className={'container text-center'}>
                 <div className="row justify-content-center mt-5">
                     <div className="col-11 px-0 border border-muted rounded-end">
-                        <div className="border-start border-caro border-4 py-3 px-3">
+                        <div className="border-start border-green border-4 py-3 px-3">
                             <h4>Frühstück (ab Oktober)</h4>
                             <p className="mb-1">Von 8:30 bis 11 Uhr</p>
                             <p className="mb-0 text-muted">

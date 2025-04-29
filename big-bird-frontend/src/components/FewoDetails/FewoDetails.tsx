@@ -17,7 +17,7 @@ const FewoDetails: React.FC<FewoDetailsProps> = ({ detailsFewo}) => {
         <ul className={'list-group'}>
             <li className={'list-group-item border-0 d-flex mb-3 bg-transparent'}>
                 <div style={{width: '3rem', height: '3rem'}}
-                     className={'d-flex align-items-center justify-content-center border border-primary border-2 rounded-circle me-2'}
+                     className={'d-flex align-items-center justify-content-center border border-primary border-2 rounded-circle me-3'}
                 >
                     <i className="bi bi-person fs-3"></i>
                 </div>
@@ -28,7 +28,7 @@ const FewoDetails: React.FC<FewoDetailsProps> = ({ detailsFewo}) => {
             </li>
             <li className={'list-group-item border-0 d-flex mb-3 bg-transparent'}>
                 <div style={{width: '3rem', height: '3rem'}}
-                     className={'d-flex align-items-center justify-content-center border border-primary border-2 rounded-circle me-2'}
+                     className={'d-flex align-items-center justify-content-center border border-primary border-2 rounded-circle me-3'}
                 >
                     <i className="bi bi-box fs-3"></i>
                 </div>
@@ -39,7 +39,7 @@ const FewoDetails: React.FC<FewoDetailsProps> = ({ detailsFewo}) => {
             </li>
             <li className={'list-group-item border-0 d-flex mb-3 bg-transparent'}>
                 <div style={{width: '3rem', height: '3rem'}}
-                     className={'d-flex align-items-center justify-content-center border border-primary border-2 rounded-circle me-2'}
+                     className={'d-flex align-items-center justify-content-center border border-primary border-2 rounded-circle me-3'}
                 >
                     <i className="bi bi-star fs-3"></i>
                 </div>
@@ -55,7 +55,7 @@ const FewoDetails: React.FC<FewoDetailsProps> = ({ detailsFewo}) => {
             </li>
             <li className={'list-group-item border-0 d-flex mb-3 bg-transparent'}>
                 <div style={{width: '3rem', height: '3rem'}}
-                     className={'d-flex align-items-center justify-content-center border border-primary border-2 rounded-circle me-2'}
+                     className={'d-flex align-items-center justify-content-center border border-primary border-2 rounded-circle me-3'}
                 >
                     <i className="bi bi-door-open fs-3"></i>
                 </div>

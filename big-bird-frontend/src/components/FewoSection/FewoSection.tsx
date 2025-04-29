@@ -119,26 +119,31 @@ const FewoSection: React.FC<FewoSectionProps> = ({ }) => {
             </section>*/}
             <section className={'pt-4 pb-5'}>
                 <div className="container">
-                    <div className="row pb-4">
+                    <div className="row pb-4 text-center">
                         <div className="col-12">
-                            <h2 className={'fw-medium fs-2 text-center mb-0'}>
-                                {activeFewo === 'fewo1' ? detailsFewo1.name : detailsFewo2.name}
-                            </h2>
+                            <h1 className="fw-bold display-5 mb-3">{activeFewo === 'fewo1' ? detailsFewo1.name : detailsFewo2.name}</h1>
+                            <p className="lead text-muted">Komfort & Natur pur – deine Auszeit auf der Big Birds Farm</p>
                         </div>
                     </div>
-                    <div className="row flex-lg-row-reverse py-4">
+
+                    <div className="row align-items-center py-4 g-5">
                         <div className="col-12 col-lg-6">
-                            <FewoDetails detailsFewo={activeFewo === 'fewo1' ? detailsFewo1 : detailsFewo2}/>
+                            <FewoDetails detailsFewo={activeFewo === 'fewo1' ? detailsFewo1 : detailsFewo2} />
                         </div>
                         <div className="col-12 col-lg-6">
-                            <SliderFewo images={activeFewo === 'fewo1' ? imagesFewo1 : imagesFewo2}/>
+                            <SliderFewo images={activeFewo === 'fewo1' ? imagesFewo1 : imagesFewo2} />
                         </div>
                     </div>
-                    <div className="row pt-4">
+
+                    <div className="row pt-5">
                         <div className="col-12 text-center">
-                            <Link href={activeFewo === 'fewo1' ? detailsFewo1.bookingLink : detailsFewo2.bookingLink}
-                                  rel="noopener" target="_blank" className={'btn btn-outline-primary rounded-0'}>
-                                Bei Airbnb reservieren
+                            <Link
+                            href={activeFewo === 'fewo1' ? detailsFewo1.bookingLink : detailsFewo2.bookingLink}
+                            rel="noopener"
+                            target="_blank"
+                            className="btn btn-primary btn-lg rounded-pill shadow-sm px-5"
+                            >
+                            Jetzt bei Airbnb reservieren
                             </Link>
                         </div>
                     </div>
