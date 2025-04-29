@@ -88,8 +88,8 @@ export function Header() {
             ]
         },
         shop: {
-            title: 'Big Birds Shop',
-            subtitle: 'Integriert in das Big Birds Café ist der Big Birds Shop, unser Hofladen, in dem Ihr Produkte aus eigener Produktion sowie ausgewählte zugekaufte Produkte findet.',
+            title: 'Der Hofladen',
+            subtitle: 'Integriert in das Café ist der Shop, unser Hofladen, in dem Ihr Produkte aus eigener Produktion sowie ausgewählte zugekaufte Produkte findet.',
             paragraphs: [
                 'Vom Fleisch unserer Strauße, auf das bereits Hildegard von Bingen schwor, und das Fleisch unserer Highland – bzw. Gallowayrinder, ',
                 'über Straußenei-Nudeln und Straußeneierlikör, bis zu pikanten Saucen ist das kulinarische Angebot groß.',
@@ -179,8 +179,8 @@ export function Header() {
                             }
                         </div>
                     </div>
-                    <div className="row">
-                        <div className="col-12">
+                    <div className="row justify-content-center">
+                        <div className="col-9">
                             <div className="text-center pt-4">
                                 <h1 className={'fw-bold fs-1 mb-3'}>{headerTexts[pageKey]?.title}</h1>
                                 <p className={'fw-normal fs-4'} dangerouslySetInnerHTML={{ __html: headerTexts[pageKey]?.subtitle }}/>

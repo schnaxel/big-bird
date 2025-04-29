@@ -1,6 +1,7 @@
 import ContactSection from "@/src/components/ContactSection/ContactSection";
 import React from "react";
 import {Metadata} from "next";
+import ImageCarousel from "@/src/components/ImageCarousel/ImageCarousel";
 
 export const metadata: Metadata = {
     title: 'Big Birds Farm - Shop',
@@ -86,64 +87,7 @@ export default function Shop() {
                     </p>
                 </div>
 
-                <div className="row">
-                    <div className="col-lg-3 col-12 mb-4 mb-lg-0">
-                        <img
-                            src="/images/geschenke/geschenke_01.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-
-                        <img
-                            src="/images/geschenke/geschenke_15.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-                    </div>
-
-                    <div className="col-lg-3 mb-4 mb-lg-0">
-                        <img
-                            src="/images/geschenke/geschenke_05.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-
-                        <img
-                            src="/images/geschenke/geschenke_06.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-                    </div>
-
-                    <div className="col-lg-3 mb-4 mb-lg-0">
-                        <img
-                            src="/images/geschenke/geschenke_16.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-
-                        <img
-                            src="/images/geschenke/geschenke_09.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-                    </div>
-                    <div className="col-lg-3 mb-4 mb-lg-0">
-                        <img
-                            src="/images/geschenke/geschenke_11.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-
-                        <img
-                            src="/images/geschenke/geschenke_13.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-                    </div>
-                </div>
-
-                <div className="mt-4 row justify-content-center">
+                <div className="my-5 row justify-content-center">
                     <div className="col-10 px-0 border border-muted rounded-end">
                         <div className="d-flex flex-row align-items-center justify-content-center border-start border-caro border-4 py-3 px-3">
                             <div className="px-3">
@@ -157,7 +101,8 @@ export default function Shop() {
                     </div>
                 </div>
             </div>
-            <ContactSection pageName={'Shop'} subjects={['Produktanfrage', 'Bestellung und Lieferung', 'Reklamationen und Rückgaben']}/>
+
+            <ImageCarousel pathname="shop" />
         </>
     )
 }
