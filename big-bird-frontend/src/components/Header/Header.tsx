@@ -59,7 +59,7 @@ export function Header() {
         },
         events: {
             title: 'Events',
-            subtitle: 'Hier findest du alle anstehenden Events und Veranstaltungen auf der Big Birds Farm',
+            subtitle: 'Hier findest du alle anstehenden Events und Veranstaltungen auf der Farm',
             paragraphs: [
                 'Ob ihr nun Tiere streicheln, Neues lernen oder einfach nur lecker essen und eine gute Zeit haben wollt',
                 '- Auf der Farm ist immer was los.',
