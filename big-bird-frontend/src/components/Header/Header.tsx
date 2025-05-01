@@ -105,15 +105,6 @@ export function Header() {
                 '– für Möbel mit Geschichte.'
             ]
         },
-        straussenfleisch: {
-            title: 'Straußenfleisch von der Big Birds Farm',
-            subtitle: 'Wir bieten verschiedene Fleischprodukte vom Strauß, sowie vom Wasserbüffel und Wild an.',
-            paragraphs: [
-                'Bei uns findet ihr Filet, Steak, Braten, Wurst und Burger Patties. Alle Straußenfleischprodukte gibt ',
-                'es bei uns auf der Farm oder können per Kühlpaket an euch versendet werden.',
-                '- probiere die Vielfalt der Straußenküche!'
-            ]
-        },
         feiern: {
             title: 'Feiern auf der Farm',
             subtitle: 'Ein besonderer Ort für besondere Anlässe',
