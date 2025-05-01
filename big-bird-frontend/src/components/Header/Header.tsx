@@ -55,6 +55,11 @@ export function Header() {
                 'Bei Regen finden die Führungen nur begrenzt bzw. gar nicht statt.',
             ]
         },
+        about: {
+            title: 'Unser Team',
+            subtitle: 'Die Menschen hinter der Farm',
+            paragraphs: []
+        },
         events: {
             title: 'Events',
             subtitle: 'Hier findest du alle anstehenden Events und Veranstaltungen auf der Farm',
