@@ -70,7 +70,7 @@ export function Navigation() {
             <nav className="navbar d-xxl-none user-select-none bg-secondary" style={{backgroundImage: 'url("/images/bg-repeat.jpg")', backgroundRepeat: 'repeat'}}>
                 <div className="container">
                     <Link href={'/'} scroll={false} className={'navbar-brand'}>
-                        <img src="/images/logo.JPG" alt="Logo" height={'89px'}
+                        <img src="/images/Farmlogo.png" alt="Logo" height={'89px'}
                              className={"d-inline-block align-text-top"} draggable={"false"}/>
                     </Link>
                     <NavigationOffcanvas navigationItems={navigationItems} pathname={pathname}/>
