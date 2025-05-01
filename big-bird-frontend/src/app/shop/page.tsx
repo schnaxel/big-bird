@@ -1,11 +1,11 @@
-import ContactSection from "@/src/components/ContactSection/ContactSection";
 import React from "react";
 import {Metadata} from "next";
 import ImageCarousel from "@/src/components/ImageCarousel/ImageCarousel";
+import Link from "next/link";
 
 export const metadata: Metadata = {
-    title: 'Big Birds Farm - Shop',
-    description: 'Integriert in das Big Birds Café ist der Big Birds Shop, unser Hofladen, in dem Ihr Produkte aus eigener Produktion sowie ausgewählte zugekaufte Produkte findet.',
+    title: 'Die Farm - Hofladen',
+    description: 'Integriert in das Café ist der Shop, unser Hofladen, in dem Ihr Produkte aus eigener Produktion sowie ausgewählte zugekaufte Produkte findet.',
 }
 
 export default function Shop() {
@@ -23,6 +23,30 @@ export default function Shop() {
                         mitzunehmen.
                     </p>
                 </div>
+
+                <div className="row my-5 text-center order-1 order-lg-2">
+                    <div className="col-lg-6 col-12 row justify-content-md-center my-lg-auto mt-5">
+                        <h2>Frisches vom Hof? Direkt bei uns!</h2>
+                        <div className="mt-4 col-12 col-md-10">
+                            <p>
+                                Ob hausgemachte Produkte, Mitbringsel oder einfach ein gutes Stück Landleben – unser Hofladen hat für dich geöffnet.
+                                Wir freuen uns auf deinen Besuch!
+                            </p>
+                            <p className="lead">
+                                Mittwoch bis Sonntag von 11:00–17:00 Uhr<br />
+                                Montag & Dienstag ist Ruhetag.
+                            </p>
+                            <p className="mb-4">Du erreichst uns telefonisch unter: <b>0XXX</b></p>
+
+                            <Link href={'/cafe'} className="btn btn-outline-primary rounded-pill px-4">Zum Café & den Speisen</Link>
+                        </div>
+                    </div>
+                    <div className="col-lg-6 col-12">
+                        <img src="/images/placeholder/farm-shop.jpg" alt={''} className="img-fluid"></img>
+                    </div>
+                </div>
+
+                <hr/>
 
                 <div className="row my-5 text-center">
                     <div className="col-lg-6 col-12">
@@ -89,7 +113,7 @@ export default function Shop() {
 
                 <div className="my-5 row justify-content-center">
                     <div className="col-10 px-0 border border-muted rounded-end">
-                        <div className="d-flex flex-row align-items-center justify-content-center border-start border-caro border-4 py-3 px-3">
+                        <div className="d-flex flex-row align-items-center justify-content-center border-start border-green border-4 py-3 px-3">
                             <div className="px-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor" className="bi bi-credit-card" viewBox="0 0 16 16">
                                     <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
