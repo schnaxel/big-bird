@@ -25,6 +25,20 @@ const ImageCarousel: React.FC<{ pathname: string }> = ({ pathname }) => {
             {src: '/images/geschenke/geschenke_16.jpg', alt: 'Hofladen 5'},
             {src: '/images/geschenke/geschenke_09.jpg', alt: 'Hofladen 6'}
         ],
+
+        cafe: [
+            {src: '/images/cafe/cafe-27.jpg', alt: 'Cafe 1'},
+            {src: '/images/cafe/cafe-10.jpg', alt: 'Cafe 2'},
+            {src: '/images/cafe/cafe-13.jpg', alt: 'Cafe 3'},
+            {src: '/images/cafe/cafe-14.jpg', alt: 'Cafe 4'},
+            {src: '/images/cafe/cafe-15.jpg', alt: 'Cafe 5'},
+            {src: '/images/cafe/cafe-16.jpg', alt: 'Cafe 6'},
+            {src: '/images/cafe/cafe-17.jpg', alt: 'Cafe 7'},
+            {src: '/images/cafe/cafe-18.jpg', alt: 'Cafe 8'},
+            {src: '/images/cafe/cafe-26.jpg', alt: 'Cafe 9'},
+            {src: '/images/cafe/cafe-21.jpg', alt: 'Cafe 10'},
+            {src: '/images/cafe/cafe-22.jpg', alt: 'Cafe 11'}
+        ],
     }
 
     const images = carouselImages[pathname];

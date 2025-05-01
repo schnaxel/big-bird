@@ -35,8 +35,6 @@ export function Header() {
         ],
         cafe: [
             {src: '/images/cafe/header/cafe-header-2.jpg', alt: 'Cafe 1'},
-            {src: '/images/cafe/header/cafe-18.jpg', alt: 'Cafe 2'},
-            {src: '/images/cafe/header/cafe-22.jpg', alt: 'Cafe 3'},
         ],
         shop: [
             {src: '/images/placeholder/farm-shop.jpg', alt: 'Shop 1'},
@@ -78,8 +76,8 @@ export function Header() {
             ]
         },
         cafe: {
-            title: 'Big Birds Café',
-            subtitle: 'Das Big Birds Café hat das Ziel euch den besten Kaffee mit handgemachten Torten & Kuchen zu servieren.',
+            title: 'Café',
+            subtitle: 'Das Café hat das Ziel euch den besten Kaffee mit handgemachten Torten & Kuchen zu servieren.',
             paragraphs: [
                 'Fair gehandelter und lokal gerösteter Kaffee bezogen über eine Kieler Manufaktur.',
                 'Kulinarisch verwöhnen wir euch mit selbstgemachten Torten, Kuchen, Muffins und weiteren Leckereien.',

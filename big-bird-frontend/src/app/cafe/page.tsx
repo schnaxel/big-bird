@@ -2,6 +2,8 @@ import ContactSection from "@/src/components/ContactSection/ContactSection";
 import Oeffnungszeiten from "@/src/components/Oeffnungszeiten/Oeffnungszeiten";
 import React from "react";
 import {Metadata} from "next";
+import ImageCarousel from "@/src/components/ImageCarousel/ImageCarousel";
+import Link from "next/link";
 
 export const metadata: Metadata = {
     title: 'Big Birds Farm - Café',
@@ -27,13 +29,34 @@ export default function Cafe() {
                     </div>
                 </div>
 
-                <div className="d-flex flex-column flex-lg-row mt-5 text-center align-items-center">
-                    <div className="col-lg-6 col-12 p-3">
-                        <img src="/images/cafe/header/cafe-header.jpg" alt={''} className="img-fluid" />
+                <div className="row my-5">
+                    <div className="col-lg-6 col-12">
+                        <img src="/images/cafe/header/cafe-header.jpg" alt={'Cafe'} className="w-100" style={{objectFit: "cover", height: 450}} />
                     </div>
-                    <div className="col-lg-6 col-12 row justify-content-md-center my-md-auto pt-4">
+                    <div className="col-lg-6 col-12 text-center row justify-content-md-center my-lg-auto mt-5 px-5">
+                    <h2>Kaffee? Kuchen? Kleine Pause?</h2>
+                        <div className="mt-4 col-12 col-md-10">
+                            <p>
+                                In unserem Café erwarten dich hausgemachte Kuchen, herzhafte Snacks und ausgewählte Heiß- und Kaltgetränke – alles serviert in entspannter Farm-Atmosphäre.
+                                Wir freuen uns auf deinen Besuch!
+                            </p>
+                            <p className="lead">
+                                Mittwoch bis Sonntag von 11:00–17:00 Uhr<br />
+                                Montag & Dienstag ist Ruhetag.
+                            </p>
+                            <p className="mb-4">Du erreichst uns telefonisch unter: <b>0XXX</b></p>
+
+                            <Link href={'/shop'} className="btn btn-outline-primary rounded-pill px-4">Zum Hofladen</Link>
+                        </div>                    
+                    </div>
+                </div>
+
+                <hr/>
+
+                <div className="d-flex flex-column flex-lg-row align-items-center my-5">
+                    <div className="col-lg-7 col-12 my-md-auto py-3 order-2 order-lg-1 px-5">
                         <h2>Unser Angebot</h2>
-                        <div className="mt-4 text-center col-12">
+                        <div className="mt-4">
                             <p>Ob eine gute Tasse Kaffee Crema, eine cremige Café Latte oder einen 
                                 kräftigen Espresso. Natürlich bieten wir auch ausgesuchte Tees und 
                                 feinste Schokoladengetränke. Besonders unsere Hot Chocolate Delux in 
@@ -50,96 +73,19 @@ export default function Cafe() {
                             <p>
                                 Als Milchalternative haben wir laktosefreie Hafermilch. 
                             </p>
-                        </div>
+                        </div>                          
+                    </div>
+                    <div className="col-lg-5 col-12 p-3 order-1 order-lg-2">
+                        <img src="/images/cafe/cafe-01.jpg" alt={'Feiern auf der Farm'} className="w-100" style={{objectFit: "cover", height: 450}} />
                     </div>
                 </div>
                 
                 <div className="text-center my-lg-5">
                     <p>Eine Reservierung ist bei uns nicht möglich.</p>
                 </div>
-
-                <div className="row mt-5">
-                    <div className="col-lg-3 col-md-6 col-sm-12 mb-4 mb-lg-0">
-                        <img
-                            src="/images/cafe/cafe-01.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-
-                        <img
-                            src="/images/cafe/cafe-27.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-                        <img
-                            src="/images/cafe/cafe-10.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-                    </div>
-
-                    <div className="col-lg-3 col-md-6 col-sm-12 mb-4 mb-lg-0">
-                        <img
-                            src="/images/cafe/cafe-13.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-
-                        <img
-                            src="/images/cafe/cafe-14.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-                        <img
-                            src="/images/cafe/cafe-15.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-                    </div>
-
-                    <div className="col-lg-3 col-md-6 col-sm-12 mb-4 mb-lg-0">
-                        <img
-                            src="/images/cafe/cafe-16.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-
-                        <img
-                            src="/images/cafe/cafe-17.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-                        <img
-                            src="/images/cafe/cafe-18.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-                    </div>
-
-                    <div className="col-lg-3 col-md-6 col-sm-12 mb-4 mb-lg-0">
-                        <img
-                            src="/images/cafe/cafe-26.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-
-                        <img
-                            src="/images/cafe/cafe-21.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-
-                        <img
-                            src="/images/cafe/cafe-22.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-                    </div>
-                </div>
-
-                <Oeffnungszeiten />
             </div>
-            <ContactSection pageName={'Café'} subjects={['Reservierung im Café', 'Menüanfrage']}/>
+
+            <ImageCarousel pathname="cafe" />
         </>
     )
 }
