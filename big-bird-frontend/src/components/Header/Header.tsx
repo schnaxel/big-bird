@@ -66,8 +66,8 @@ export function Header() {
             ]
         },
         farm: {
-            title: 'Die Big Birds Farm',
-            subtitle: 'Strauße hautnah erleben',
+            title: 'Die Farm',
+            subtitle: 'Tiere hautnah erleben',
             paragraphs: [
                 'Der ehemalige Kastanienhof aus dem Jahr 1847, in Fahrdorf an der Schlei, wurde in den letzten Jahren in die Big Birds Farm verwandelt.',
                 'Die Big Birds Farm umfasst Gehege, Weiden und Wiesen zwischen Haithabu und Fahrdorf, entlang der Schlei,',

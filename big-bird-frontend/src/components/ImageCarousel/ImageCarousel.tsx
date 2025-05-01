@@ -12,6 +12,14 @@ interface CarouselImages {
 
 const ImageCarousel: React.FC<{ pathname: string }> = ({ pathname }) => {
     const carouselImages: CarouselImages = {
+        farm: [
+            {src: '/images/farm/farm-30.jpg', alt: 'Farm 1'},
+            {src: '/images/farm/farm-09.jpg', alt: 'Farm 2'},
+            {src: '/images/farm/farm-08.jpg', alt: 'Farm 3'},
+            {src: '/images/farm/hund_2.jpg', alt: 'Farm 3'},
+            {src: '/images/farm/farm-25.jpg', alt: 'Farm 3'},
+            {src: '/images/farm/hund_3.jpg', alt: 'Farm 3'}
+        ],
         feiern: [
             {src: '/images/feiern/feiern-06.jpg', alt: 'Feiern 1'},
             {src: '/images/feiern/feiern-09.jpg', alt: 'Feiern 2'},
@@ -25,7 +33,6 @@ const ImageCarousel: React.FC<{ pathname: string }> = ({ pathname }) => {
             {src: '/images/geschenke/geschenke_16.jpg', alt: 'Hofladen 5'},
             {src: '/images/geschenke/geschenke_09.jpg', alt: 'Hofladen 6'}
         ],
-
         cafe: [
             {src: '/images/cafe/cafe-27.jpg', alt: 'Cafe 1'},
             {src: '/images/cafe/cafe-10.jpg', alt: 'Cafe 2'},

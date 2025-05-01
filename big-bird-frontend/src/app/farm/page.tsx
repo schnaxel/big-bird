@@ -2,21 +2,22 @@ import ContactSection from "@/src/components/ContactSection/ContactSection";
 import Oeffnungszeiten from "@/src/components/Oeffnungszeiten/Oeffnungszeiten";
 import React from "react";
 import {Metadata} from "next";
+import ImageCarousel from "@/src/components/ImageCarousel/ImageCarousel";
 
 export const metadata: Metadata = {
-    title: 'Big Birds Farm - Farm',
-    description: 'Strauße hautnah erleben! Die Big Birds Farm umfasst Gehege, Weiden und Wiesen zwischen Haithabu und Fahrdorf, entlang der Schlei, auf denen unsere Tiere draußen weiden. Direkt auf dem Hof an der B76 findet Ihr unsere Straußengehege, in denen ihr unsere Tiere während unserer Führungen beobachten und fotografieren könnt.',
+    title: 'Jens & Barnd Farm',
+    description: 'Tiere hautnah erleben! Die Farm umfasst Gehege, Weiden und Wiesen zwischen Haithabu und Fahrdorf, entlang der Schlei, auf denen unsere Tiere draußen weiden. Direkt auf dem Hof an der B76 findet Ihr unsere Farm.',
 }
 
 export default function Feiern() {
     return (
         <>
             <div className={'container'}>
-                <div className="row mb-md-5 mt-5">
-                    <div className="col-md-4 col-12">
-                        <img src="/images/farm/fuehrung_1.jpg" alt={''} className="img-fluid"></img>
+                <div className="row mb-md-5 mt-5 bg-beige rounded shadow-sm">
+                    <div className="col-md-5 col-12 ps-0">
+                        <img src="/images/farm/fuehrung_1.jpg" alt={''} className="img-fluid rounded shadow-sm"></img>
                     </div>
-                    <div className="col-md-8 col-12 my-md-auto my-5">
+                    <div className="col-md-7 col-12 my-md-auto my-5">
                         <h2>Führungen</h2>
                         <div className="mt-4">
                             <p>Die kostenlosen Führungen finden am Wochenende von Mai bis Oktober 13.30 Uhr und 15.30 Uhr statt.</p>
@@ -25,11 +26,12 @@ export default function Feiern() {
                         </div>
                     </div>
                 </div>
-                <div className="row my-md-5">
-                    <div className="col-md-4 col-12">
-                        <img src="/images/farm/farm-20.jpg" alt={''} className="img-fluid"></img>
+
+                <section className="row my-md-5 bg-beige rounded shadow-sm">
+                    <div className="col-md-5 col-12">
+                        <img src="/images/farm/fuehrung_1.jpg" alt={''} className="img-fluid rounded shadow-sm"></img>
                     </div>
-                    <div className="col-md-8 col-12 my-md-auto my-5">
+                    <div className="col-md-7 col-12 my-md-auto my-5">
                         <h2>Die Farm</h2>
                         <div className="mt-4">
                             <p>Das Küken-Gehege direkt neben dem Eingang ist die Aufzuchtstube, in denen unsere „little
@@ -39,6 +41,17 @@ export default function Feiern() {
                                 besonders wichtig, damit die Tiere später bei der täglichen Pflege und Fütterung so
                                 wenig Stress wie möglich verspüren.
                             </p>
+                        </div>
+                    </div>
+                </section>
+
+                <section className="row my-md-5 bg-beige rounded shadow-sm">
+                    <div className="col-md-5 col-12">
+                        <img src="/images/farm/fuehrung_1.jpg" alt={''} className="img-fluid rounded shadow-sm"></img>
+                    </div>
+                    <div className="col-md-7 col-12 my-md-auto my-5">
+                        <h2>Die Farm</h2>
+                        <div className="mt-4">
                             <p className="d-none d-lg-block">Danach ziehen die Jungstrauße in eines der Jungtiergehege um, die ihr auf eurem Rundgang durch
                                 die Farm besuchen könnt. Hier bleiben die Strauße, die sehr Standorttreu sind, bis sie groß
                                 genug für die Vermarktung sind. Durch alle drei Stationen führen wir euch, so dass ihr jede
@@ -48,121 +61,10 @@ export default function Feiern() {
                             </p>
                         </div>
                     </div>
-                </div>
-                <div className="d-block d-lg-none">
-                    <div className="row my-md-5">
-                        <div className="col-md-4 col-12">
-                            <img src="/images/farm/farm-19.jpg" alt={''} className="img-fluid"></img>
-                        </div>
-                        <div className="col-md-8 col-12 my-md-auto my-5">
-                            <p>Danach ziehen die Jungstrauße in eines der Jungtiergehege um, die ihr auf eurem Rundgang durch
-                                die Farm besuchen könnt. Hier bleiben die Strauße, die sehr Standorttreu sind, bis sie groß
-                                genug für die Vermarktung sind. Durch alle drei Stationen führen wir euch, so dass ihr jede
-                                Entwicklung von wenigen Wochen bis zu ihrer vollen Größe nach 14 Monaten erleben und vor allem
-                                streicheln könnt. Das Brutgehege wird von unserem stattlichen Straußenhahn Hektor und seinen
-                                Damen beherbergt, die die wertvollen Straußeneier liefern.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="row mt-5">
-                    <div className="col-lg-3 col-md-6 col-sm-12 mb-4 mb-lg-0">
-                        <img
-                            src="/images/farm/farm-04.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-                        <img
-                            src="/images/farm/farm-09.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-                        <img
-                            src="/images/farm/farm-05.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-                        <img
-                            src="/images/farm/farm-06.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-                    </div>
-
-                    <div className="col-lg-3 col-md-6 col-sm-12 mb-4 mb-lg-0">
-                        <img
-                            src="/images/farm/farm-07.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-                        <img
-                            src="/images/farm/farm-30.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-                        <img
-                            src="/images/farm/farm-08.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-                        <img
-                            src="/images/farm/straußküken_1.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-                    </div>
-
-                    <div className="col-lg-3 col-md-6 col-sm-12 mb-4 mb-lg-0">
-                        <img
-                            src="/images/farm/strauß_5.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-                        <img
-                            src="/images/farm/farm-31.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-                        <img
-                            src="/images/farm/strauß_9.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-                        <img
-                            src="/images/farm/farm-25.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-                    </div>
-
-                    <div className="col-lg-3 col-md-6 col-sm-12 mb-4 mb-lg-0">
-                        <img
-                            src="/images/farm/hund_3.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-                        <img
-                            src="/images/farm/hund_4.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-                        <img
-                            src="/images/farm/fuehrung_3.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-                        <img
-                            src="/images/farm/hund_2.jpg"
-                            className="w-100 shadow-1-strong mb-4"
-                            alt=""
-                        />
-                    </div>
-                </div>
-
-                <Oeffnungszeiten />
+                </section>
             </div>
 
-            <ContactSection pageName={'Farm'} subjects={['Fragen zur Farm', 'Führungen und Besichtigungen']}/>
+            <ImageCarousel pathname="farm" />
         </>
     )
 }
