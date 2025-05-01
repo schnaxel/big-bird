@@ -1,6 +1,4 @@
 import React from "react";
-import ContactSection from "@/src/components/ContactSection/ContactSection";
-import Oeffnungszeiten from "@/src/components/Oeffnungszeiten/Oeffnungszeiten";
 import Link from "next/link";
 import {Metadata} from "next";
 import InstagramFeed from "../components/InstagramFeed/InstagramFeed";
@@ -14,16 +12,16 @@ export default function Home() {
     return (
         <>
             <div className={'container'}>
-                <div className="row justify-content-center">
+                <section className="row justify-content-center">
                     <div className="col-md-10 col-12 mb-4 text-center">
-                        <Link href="/farm/" className="btn btn-outline-primary">
+                        <Link href="/farm/" className="btn btn-green rounded-pill px-4">
                             mehr zur Farm
                         </Link>
                     </div>
 
                     <div className="mt-4 row justify-content-center">
                         <div className="col-11 px-0 border border-muted rounded-end">
-                            <div className="border-start border-caro border-4 py-3 px-3">
+                            <div className="border-start border-green border-4 py-3 px-3">
                                 <h4>Wichtiger Hinweis!</h4>
                                 <p className="mb-0">
                                     Leider ist das Mitführen von Hunden nicht mehr erlaubt und denkt bitte an die
@@ -33,73 +31,90 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
+                </section>
+
+                <div className="row my-5">
+                    <div className="col-lg-6 col-12">
+                        <img src="/images/feiern/feiern-15.jpg" alt={'Feiern auf der Farm'} className="w-100" style={{objectFit: "cover", height: 450}} />
+                    </div>
+                    <div className="col-lg-6 col-12 row justify-content-md-center my-lg-auto px-5">
+                        <h2>Wer steckt hinter der Farm?</h2>
+                        <p>Lerne das Team kennen, das die Farm lebendig macht.</p>
+                        <p>Lorem ipsum.</p>
+                        <div>
+                            <Link href="/about/" className="btn btn-outline-primary rounded-pill px-4">
+                                Zum Team
+                            </Link>
+                        </div>
+                    </div>
                 </div>
 
-                <div className="row text-center mt-5">
-                    <div className="col-lg-4 col-md-6 col-12 my-2">
-                        <Link href="/events/">
-                            <div className="d-grid gap-3 mx-4 bg-white">
-
-                                <img src="/images/feiern/feiern-15.jpg" alt={''} className="img-fluid"></img>
-                                <h2>Events</h2>
-                            </div>
-                        </Link>
-                    </div>
-                    <div className="col-lg-4 col-md-6 col-12 my-2">
-                        <Link href="/shop/">
-                            <div className="d-grid gap-3 mx-4 bg-white">
-                                <img src="/images/placeholder/farm-shop.jpg" alt={''} className="img-fluid"></img>
-                                <h2>Shop</h2>
-                            </div>
-                        </Link>
-                    </div>
-
-                    <div className="col-lg-4 col-md-6 col-12 my-2">
-                        <Link href="/cafe/">
-                            <div className="d-grid gap-3 mx-4 bg-white">
-                                <img src="/images/cafe/header/cafe-header.jpg" alt={''} className="img-fluid"></img>
-                                <h2>Café</h2>
-                            </div>
-                        </Link>
-                    </div>
-
-                    <div className="col-lg-4 col-md-6 col-12 my-2">
-                        <Link href="/straussenfleisch/">
-                            <div className="d-grid gap-3 mx-4 bg-white">
-                                <img src="/images/placeholder/straußenfleisch-filet.jpg" alt={''} className="img-fluid"></img>
-                                <h2>Straußenfleisch</h2>
-                            </div>
-                        </Link>
-                    </div>
-                
-                    <div className="col-lg-4 col-md-6 col-12 my-2">
-                        <Link href="/alter-stall/">
-                            <div className="d-grid gap-3 mx-4 bg-white">
-                                <img src="/images/alterStall/alterStall-04.jpg" alt={''} className="img-fluid"></img>
-                                <h2>Alter Stall</h2>
-                            </div>
-                        </Link>
-                    </div>
-
-                    <div className="col-lg-4 col-md-6 col-12 my-2">
-                        <Link href="/feiern/">
-                            <div className="d-grid gap-3 mx-4 bg-white">
-                                <img src="/images/placeholder/feiern1.jpg" alt={''} className="img-fluid"></img>
-                                <h2>Feiern</h2>
-                            </div>
-                        </Link>
-                    </div>
-                </div>
+                <section className="row g-4 my-5">
+                    {[
+                        { title: 'Events', href: '/events/', img: '/images/feiern/feiern-15.jpg' },
+                        { title: 'Farm', href: '/farm/', img: '/images/feiern/feiern-15.jpg' },
+                        { title: 'Shop', href: '/shop/', img: '/images/placeholder/farm-shop.jpg' },
+                        { title: 'Ferienwohnungen', href: '/ferienwohnungen/', img: '/images/feiern/feiern-15.jpg' },
+                        { title: 'Café', href: '/cafe/', img: '/images/cafe/header/cafe-header.jpg' },
+                        { title: 'Feiern', href: '/feiern/', img: '/images/placeholder/feiern1.jpg' },
+                    ].map((item, i) => (
+                        <div key={i} className="col-md-4 col-sm-6 col-12">
+                            <Link href={item.href}>
+                                <div className="card border-0 shadow-sm h-100">
+                                    <img src={item.img} alt={item.title} />
+                                    <div className="card-body text-center">
+                                        <h2>{item.title}</h2>
+                                    </div>
+                                </div>
+                            </Link>
+                        </div>
+                    ))}
+                </section>
 
                 <div className="my-5">
                     <hr />
                 </div>
 
-                <div className="row">
+                <section className="py-5">
+                    <div className="text-center mb-4">
+                        <h2>Was unsere Besucher sagen</h2>
+                        <p className="text-muted">Eindrücke direkt von der Farm</p>
+                    </div>
+                    <div className="row g-4 justify-content-center">
+                        {[
+                        {
+                            name: 'Lisa K.',
+                            text: 'Lorem ipsum Text',
+                        },
+                        {
+                            name: 'Tim & Nora',
+                            text: 'Lorem ipsum Text.',
+                        },
+                        {
+                            name: 'Sebastian R.',
+                            text: 'Lorem ipsum Text',
+                        },
+                        ].map((t, i) => (
+                        <div className="col-md-4" key={i}>
+                            <div className="bg-white p-4 h-100 rounded shadow-sm">
+                                <p className="fst-italic">“{t.text}”</p>
+                                <p className="fw-semibold text-end mb-0">– {t.name}</p>
+                            </div>
+                        </div>
+                        ))}
+                    </div>
+                </section>
+
+                <div className="my-5">
+                    <hr />
+                </div>
+
+                <section className="row">
                     <div className="col-12 col-md-4 align-self-center text-center">
-                        <img src="/images/BIg_Birds_Logo_NEU.png" style={{maxHeight: '240px'}} alt={''} className="img-fluid"></img>
+                        <img src="/images/Farmlogo.png" style={{maxHeight: '240px'}} alt={''} className="img-fluid"></img>
                     </div>
                     <div className="col-12 col-md-8 mt-5 mt-md-0">
+                        <h2 className="mb-3">Mehr als nur ein Hof</h2>
                         <p>
                             Ihr möchtet <a href="/straussenfleisch">Straußenfleisch</a> kaufen? Bei uns findet ihr
                             Filet, Steak, Braten, Wurst und Burger Patties. Alle Straußenfleischprodukte gibt es bei
@@ -118,12 +133,9 @@ export default function Home() {
                             Leckereien und bestem Kaffee.
                         </p>
                     </div>
-                </div>
-
-                <Oeffnungszeiten />
-
+                </section>
             </div>
-            <ContactSection pageName={'Home'} subjects={['Allgemeine Anfrage', 'Besuchsanfrage', 'Feedback']}/>
+
             <InstagramFeed />
         </>
     )
