@@ -27,9 +27,6 @@ export function Header() {
         home: [
         ],
         events: [],
-        farm: [
-            {src: '/images/farm/strauß_7.jpg', alt: 'Farm 1'},
-        ],
         cafe: [
             {src: '/images/cafe/header/cafe-header-2.jpg', alt: 'Cafe 1'},
             {src: '/images/cafe/header/cafe-18.jpg', alt: 'Cafe 2'},
@@ -39,7 +36,6 @@ export function Header() {
             {src: '/images/placeholder/farm-shop.jpg', alt: 'Shop 1'},
         ],
         alterStall: [],
-        straussenfleisch: [],
         feiern: [],
         ferienwohnungen: [],
     }
@@ -58,16 +54,6 @@ export function Header() {
                 '- Auf der Farm ist immer was los.',
                 'Informiere dich hier über unsere aktuellen Veranstaltungen und plane deinen nächsten Besuch.',
                 'Wir freuen uns auf dich!',
-            ]
-        },
-        farm: {
-            title: 'Die Big Birds Farm',
-            subtitle: 'Strauße hautnah erleben',
-            paragraphs: [
-                'Der ehemalige Kastanienhof aus dem Jahr 1847, in Fahrdorf an der Schlei, wurde in den letzten Jahren in die Big Birds Farm verwandelt.',
-                'Die Big Birds Farm umfasst Gehege, Weiden und Wiesen zwischen Haithabu und Fahrdorf, entlang der Schlei,',
-                'auf denen unsere Tiere draußen weiden. Direkt auf dem Hof an der B76 findet Ihr unsere',
-                'Straußengehege, in denen ihr unsere Tiere während unserer Führungen beobachten und fotografieren könnt.',
             ]
         },
         cafe: {
@@ -96,15 +82,6 @@ export function Header() {
                 'Besucht unseren alten Stall und entdeckt einzigartige Möbel.',
                 'Unsere Möbel erhalten durch die Verarbeitung von Altholz ihren einzigartigen, rustikalen Charakter.',
                 '– für Möbel mit Geschichte.'
-            ]
-        },
-        straussenfleisch: {
-            title: 'Straußenfleisch von der Big Birds Farm',
-            subtitle: 'Wir bieten verschiedene Fleischprodukte vom Strauß, sowie vom Wasserbüffel und Wild an.',
-            paragraphs: [
-                'Bei uns findet ihr Filet, Steak, Braten, Wurst und Burger Patties. Alle Straußenfleischprodukte gibt ',
-                'es bei uns auf der Farm oder können per Kühlpaket an euch versendet werden.',
-                '- probiere die Vielfalt der Straußenküche!'
             ]
         },
         feiern: {
