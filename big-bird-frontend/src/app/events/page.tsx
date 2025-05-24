@@ -3,8 +3,8 @@ import React from "react";
 import {Metadata} from "next";
 
 export const metadata: Metadata = {
-    title: 'Big Birds Farm - Events',
-    description: 'Hier findest du alle anstehenden Events und Veranstaltungen auf der Big Birds Farm',
+    title: 'Farm - Events',
+    description: 'Hier findest du alle anstehenden Events und Veranstaltungen auf der Farm',
 }
 
 export default function Events() {
@@ -59,7 +59,6 @@ export default function Events() {
                                 <div className="mt-2">
                                     <h4>02.11.2024 - Farm-Day Erntedankfest</h4>
                                     <ul>
-                                        <li>Straußengulasch (wenn möglich)</li>
                                         <li>Laternebasteln für Kinder</li>
                                     </ul>
                                     <h4>16.11.2024 – Chili con Carne Event</h4>
@@ -102,7 +101,7 @@ export default function Events() {
                     </div>
                 </div>
             </div>
-            <ContactSection pageName={'Straußenfleisch'} subjects={['Verfügbarkeit von Straußenfleisch', 'Bestellung von Straußenfleisch', 'Informationen zu Straußenfleisch']}/>
+            <ContactSection pageName={'Events'} subjects={['Events']}/>
         </>
     )
 }
